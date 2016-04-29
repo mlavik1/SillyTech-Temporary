@@ -1,0 +1,26 @@
+1. Start i shader-fila som skal brukast, og les linje for linje
+2. #define
+	-> Legg til i definition-map
+3. #region <INCLUDES>
+	-> Les inn header, og start på punkt 1 (rekursivt)
+	-> Assert: definition-map does not already contain header (LOG_ERROR("Circular dependency found in..."))
+4. #region <STRUCTURES>
+	->
+5. #region <ATTRIBUTES>
+	-> Les inn i attribute-map
+	-> Assert: no duplicates
+6. #region <UNIFORMS>
+	-> Les inn i uniform-map
+7. #recion <FUNCTIONS>
+	-> Les inn i function-map
+8. #region <MAIN>
+	-> Lagre som main-streng
+	-> assert: kun ein main-metode (ikkje allereie definert)
+9. Bygge endeleg shader:
+	1. Version number
+	2. Definitions
+	3. Attributes
+	4. Uniforms
+	5. Functions
+	6. Main
+Viss den feiler: Lagre shader i log

@@ -1,0 +1,55 @@
+#version 330 core
+layout(location=0) in vec3 in_position;
+layout(location=1) in vec3 in_normal;
+layout(location=2) in vec2 in_texcoord;
+// Variables passed to geometry shader
+smooth out vec4 v2f_positionW; // Position in world space.
+smooth out vec4 v2f_normalW; // Surface normal in world space.
+smooth out vec2 v2f_texcoord;
+// Model, View, Projection matrix.
+uniform mat4 ModelView;
+uniform mat4 ProjectionView;
+uniform mat4 CameraView;
+
+
+vec4 CalculateMVP()
+{
+	return ProjectionView*CameraView*ModelView * vec4(in_position, 1);
+}
+
+vec4 CalculatePosition()
+{
+	return ModelView * vec4(in_position, 1);
+}
+
+vec4 CalculateNormal()
+{
+	return transpose(inverse(ModelView)) * vec4(in_normal, 0);
+}
+
+vec2 CalculateTextureCoordinate()
+{
+	return in_texcoord;
+}
+
+
+
+
+int main()
+{
+	gl_Position = CalculateMVP();
+	v2f_positionW = GetPosition();
+	v2f_normalW = CalculateNormal();
+    v2f_texcoord = CalculateTextureCoordinate();
+
+}
+
+
+
+**********
+ERROR: 0:12: 'int' :  main function cannot return a value
+ERROR: 0:41: 'GetPosition' : undeclared identifier 
+ERROR: 0:41: 'GetPosition' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:41: 'assign' :  cannot convert from 'const float' to 'varying 4-component vector of float'
+ERROR: 0:12: '' : function does not return a value: main
+

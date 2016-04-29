@@ -1,0 +1,52 @@
+ERROR: Error compling shader: ERROR: 0:12: 'int' :  main function cannot return a value
+ERROR: 0:41: 'GetPosition' : undeclared identifier 
+ERROR: 0:41: 'GetPosition' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:41: 'assign' :  cannot convert from 'const float' to 'varying 4-component vector of float'
+ERROR: 0:12: '' : function does not return a value: main
+
+
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 
+ERROR: Error linking shader program: Geometry shader object: no attached vertex shader object.
+
+ERROR: Error validating shader program: 

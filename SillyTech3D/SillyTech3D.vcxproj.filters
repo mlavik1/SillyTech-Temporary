@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c1340327-2c86-4d9d-93d6-4cfd4b2d36a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{bc9cbb2a-b5d3-408e-8093-aa384b4a4046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common\Interfaces">
+      <UniqueIdentifier>{746652ef-96d6-4226-b884-45053819e2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2efe9f84-a81c-4cf4-8620-cc74883b2f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Features">
+      <UniqueIdentifier>{0909700e-904d-44df-a192-41caa1f72491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{d1d9c40c-9df9-49d1-b126-6ebd35e3353b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common\Debugging">
+      <UniqueIdentifier>{c51432db-ed42-4740-8350-579d9a5ff4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common\Macro &amp; Declarations">
+      <UniqueIdentifier>{0b968d56-3f19-494c-9dba-1bf5f41774ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Actor">
+      <UniqueIdentifier>{189fc6bd-8902-41c5-a4d7-861daa61140b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry">
+      <UniqueIdentifier>{f2f4ea33-f419-434a-b663-e2f217a6e47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Components">
+      <UniqueIdentifier>{a4882bb0-1674-41d5-8362-9ff660529818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources">
+      <UniqueIdentifier>{6e205a95-c38e-4287-aa9a-b3303de118ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\FileIO">
+      <UniqueIdentifier>{b74ef737-3d2c-4b18-aed2-c16658147176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scripting">
+      <UniqueIdentifier>{51f4ba69-f47f-4850-92dc-12dd0674fcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Model">
+      <UniqueIdentifier>{32023f36-7e0c-4476-ba25-fe32295ab0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Factories">
+      <UniqueIdentifier>{19fab63c-9528-4a31-9eb2-1d8fc82dde51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphics">
+      <UniqueIdentifier>{d60275f9-60ec-41ca-a3ba-43b30c4d8b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Editor">
+      <UniqueIdentifier>{abea845b-31a9-4be2-89ec-18ea79ccd6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Tools">
+      <UniqueIdentifier>{3bff6cac-3220-4b51-81f1-b1e1bfe47ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics">
+      <UniqueIdentifier>{bc7864a0-731b-4f2d-b0c7-38b717dfca96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GUI">
+      <UniqueIdentifier>{4c5fe2f4-b29b-474d-956c-4695a1723c3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.h">
+      <Filter>Core\Common\Macro &amp; Declarations</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Core\Common\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="st_assert.h">
+      <Filter>Core\Common\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_server.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="game_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="core_events.h">
+      <Filter>Core\Common\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_fwd_decl.h">
+      <Filter>Core\Common\Macro &amp; Declarations</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="actor_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="actor.h">
+      <Filter>Core\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="script_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_script_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="script_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_script_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_script_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="text_file_reader.h">
+      <Filter>Core\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_glue.h">
+      <Filter>Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="script_helper.h">
+      <Filter>Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_data.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="input_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="actor_factory.h">
+      <Filter>Core\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_render_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="material_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_factory.h">
+      <Filter>Core\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_render_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_display.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics_system.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_graphics_system.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorFunctions.h">
+      <Filter>Core\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="viewport.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="time_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="light_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_garbage.h">
+      <Filter>Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="unsafe_singleton.h">
+      <Filter>Core\Common\Macro &amp; Declarations</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_res.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_feature.h">
+      <Filter>Core\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Core\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box_factory.h">
+      <Filter>Core\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_gui.h">
+      <Filter>Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_manager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_reader.h">
+      <Filter>Core\FileIO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Core\Common\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game_server.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="game_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="core_events.cpp">
+      <Filter>Core\Common\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="actor_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="actor.cpp">
+      <Filter>Core\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Core\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="script_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_script_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="script_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_script_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_script_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="text_file_reader.cpp">
+      <Filter>Core\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_glue.cpp">
+      <Filter>Core\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="script_helper.cpp">
+      <Filter>Core\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_data.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="input_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="actor_factory.cpp">
+      <Filter>Core\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_render_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="material_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_factory.cpp">
+      <Filter>Core\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_render_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_display.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_graphics_system.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_program.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="time_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="light_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_res.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_feature.cpp">
+      <Filter>Core\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>Core\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Core\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="bounding_box_factory.cpp">
+      <Filter>Core\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="bounding_box.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_gui.cpp">
+      <Filter>Core\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_manager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_reader.cpp">
+      <Filter>Core\FileIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DDECA1A-D06C-4E4C-AC44-5CEA4FD41646}</ProjectGuid>
+    <RootNamespace>SillyTech3D</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\Libraries\glew-1.13.0\include;..\Libraries\glm;..\Libraries\Assimp\include;..\Libraries\SDL2_mixer-2.0.0\include;..\Libraries\SDL2_image-2.0.0\include;..\Libraries\SDL2-2.0.3\include;..\Libraries\boost-1.47.0;..\Libraries\lua\src;..\Libraries\luabind\src;..\Libraries\OpenAL\include;..\Libraries\AntTweakBar\include;..\Libraries\PhysX\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Libraries\glew-1.13.0\lib\Release\Win32;..\Libraries\Assimp\lib\x86;..\Libraries\SDL2_mixer-2.0.0\lib\x86;..\Libraries\SDL2_image-2.0.0\lib\x86;..\Libraries\SDL2-2.0.3\lib\x86;..\Libraries\lua\x86\Debug;..\Libraries\luabind\x86\Debug;..\Libraries\OpenAL\libs\Win32;..\Libraries\AntTweakBar\lib;..\Libraries\PhysX\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;lua.debug.lib;luabind.debug.lib;assimp.lib;opengl32.lib;glu32.lib;glew32.lib;OpenAL32.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <ShowProgress>LinkVerbose</ShowProgress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="actor.h" />
+    <ClInclude Include="actor_manager.h" />
+    <ClInclude Include="audio_res.h" />
+    <ClInclude Include="audio_feature.h" />
+    <ClInclude Include="audio_manager.h" />
+    <ClInclude Include="audio_component.h" />
+    <ClInclude Include="bounding_box.h" />
+    <ClInclude Include="bounding_box_factory.h" />
+    <ClInclude Include="camera_component.h" />
+    <ClInclude Include="camera_manager.h" />
+    <ClInclude Include="collider.h" />
+    <ClInclude Include="component.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="EditorFunctions.h" />
+    <ClInclude Include="editor_gui.h" />
+    <ClInclude Include="feature_fwd_decl.h" />
+    <ClInclude Include="gl_display.h" />
+    <ClInclude Include="gl_graphics_system.h" />
+    <ClInclude Include="graphics_system.h" />
+    <ClInclude Include="graphics_feature.h" />
+    <ClInclude Include="gui_manager.h" />
+    <ClInclude Include="input_feature.h" />
+    <ClInclude Include="input_manager.h" />
+    <ClInclude Include="light_component.h" />
+    <ClInclude Include="lua_garbage.h" />
+    <ClInclude Include="lua_glue.h" />
+    <ClInclude Include="lua_script_component.h" />
+    <ClInclude Include="lua_script_manager.h" />
+    <ClInclude Include="lua_script_res.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="material_res.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="mesh_data.h" />
+    <ClInclude Include="mesh_render_manager.h" />
+    <ClInclude Include="mesh_res.h" />
+    <ClInclude Include="actor_factory.h" />
+    <ClInclude Include="mesh_render_component.h" />
+    <ClInclude Include="physics_component.h" />
+    <ClInclude Include="physics_feature.h" />
+    <ClInclude Include="physics_manager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource_manager.h" />
+    <ClInclude Include="script_component.h" />
+    <ClInclude Include="script_feature.h" />
+    <ClInclude Include="script_helper.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="shader_reader.h" />
+    <ClInclude Include="shader_res.h" />
+    <ClInclude Include="shader_program.h" />
+    <ClInclude Include="st_assert.h" />
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="feature.h" />
+    <ClInclude Include="game_engine.h" />
+    <ClInclude Include="game_feature.h" />
+    <ClInclude Include="game_server.h" />
+    <ClInclude Include="core_events.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="texture_factory.h" />
+    <ClInclude Include="texture_res.h" />
+    <ClInclude Include="text_file_reader.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="time_manager.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="unsafe_singleton.h" />
+    <ClInclude Include="viewport.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="actor.cpp" />
+    <ClCompile Include="actor_manager.cpp" />
+    <ClCompile Include="audio_res.cpp" />
+    <ClCompile Include="audio_component.cpp" />
+    <ClCompile Include="audio_feature.cpp" />
+    <ClCompile Include="audio_manager.cpp" />
+    <ClCompile Include="bounding_box.cpp" />
+    <ClCompile Include="bounding_box_factory.cpp" />
+    <ClCompile Include="camera_component.cpp" />
+    <ClCompile Include="camera_manager.cpp" />
+    <ClCompile Include="collider.cpp" />
+    <ClCompile Include="component.cpp" />
+    <ClCompile Include="debug.cpp" />
+    <ClCompile Include="editor_gui.cpp" />
+    <ClCompile Include="feature.cpp" />
+    <ClCompile Include="game_engine.cpp" />
+    <ClCompile Include="game_feature.cpp" />
+    <ClCompile Include="game_server.cpp" />
+    <ClCompile Include="core_events.cpp" />
+    <ClCompile Include="gl_display.cpp" />
+    <ClCompile Include="gl_graphics_system.cpp" />
+    <ClCompile Include="graphics_feature.cpp" />
+    <ClCompile Include="gui_manager.cpp" />
+    <ClCompile Include="input_feature.cpp" />
+    <ClCompile Include="input_manager.cpp" />
+    <ClCompile Include="light_component.cpp" />
+    <ClCompile Include="lua_glue.cpp" />
+    <ClCompile Include="lua_script_component.cpp" />
+    <ClCompile Include="lua_script_manager.cpp" />
+    <ClCompile Include="lua_script_res.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="material_res.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="mesh_data.cpp" />
+    <ClCompile Include="mesh_render_manager.cpp" />
+    <ClCompile Include="mesh_res.cpp" />
+    <ClCompile Include="actor_factory.cpp" />
+    <ClCompile Include="mesh_render_component.cpp" />
+    <ClCompile Include="physics_component.cpp" />
+    <ClCompile Include="physics_feature.cpp" />
+    <ClCompile Include="physics_manager.cpp" />
+    <ClCompile Include="resource.cpp" />
+    <ClCompile Include="resource_manager.cpp" />
+    <ClCompile Include="script_component.cpp" />
+    <ClCompile Include="script_feature.cpp" />
+    <ClCompile Include="script_helper.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="shader_program.cpp" />
+    <ClCompile Include="shader_reader.cpp" />
+    <ClCompile Include="shader_res.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="texture_factory.cpp" />
+    <ClCompile Include="texture_res.cpp" />
+    <ClCompile Include="text_file_reader.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="time_manager.cpp" />
+    <ClCompile Include="transform.cpp" />
+    <ClCompile Include="viewport.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
