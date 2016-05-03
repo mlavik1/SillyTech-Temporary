@@ -45,20 +45,30 @@ TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/PhysX3CommonDEBUG_x86.lib)
 TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/PhysX3ExtensionsDEBUG.lib)
 
 
-# Gather all other important files to be copied over to the output folder
-file(GLOB_RECURSE AddonFiles *.png *.mtl *.obj *.bin *.dat *.jpg *.tfps *.ini)
+# Resources
+file(GLOB_RECURSE AddonFiles Resources/*.*)
 foreach(AddonFile ${AddonFiles})
 	get_filename_component(OUT_DIR ${AddonFile} DIRECTORY)
-	string(REGEX REPLACE "${CMAKE_CURRENT_LIST_DIR}"
-			"" OUT_DIR ${OUT_DIR})
-
-	file(MAKE_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}${OUT_DIR})
+	#message(${OUT_DIR})
+	string(REGEX REPLACE "${CMAKE_CURRENT_LIST_DIR}" "" OUT_DIR ${OUT_DIR})
+	
+	file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}${OUT_DIR})
 	add_custom_command(TARGET GET SillyTech3D PRE_BUILD
 			COMMAND ${CMAKE_COMMAND} -E
-			copy ${AddonFile} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}${OUT_DIR}/)
+			copy ${AddonFile} ${CMAKE_CURRENT_BINARY_DIR}${OUT_DIR}/)
+			#message(${CMAKE_CURRENT_BINARY_DIR}${OUT_DIR})
 endforeach(AddonFile)
 
 IF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+
+	if (${CMAKE_GENERATOR} MATCHES "Visual Studio 14")
+		 set (DLL_TO_DBG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Debug)
+		 set (DLL_TO_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Release)
+	else()
+		 set (DLL_TO_DBG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+		 set (DLL_TO_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+	endif()
+
 	file(GLOB_RECURSE nativeLibs ../Libraries/Windows/x86/*.dll)
 	foreach(AddonFile ${nativeLibs})
 		get_filename_component(OUT_DIR ${AddonFile} DIRECTORY)
@@ -68,7 +78,7 @@ IF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 		file(MAKE_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}${OUT_DIR})
 		add_custom_command(TARGET GET SillyTech3D PRE_BUILD
 				COMMAND ${CMAKE_COMMAND} -E
-				copy ${AddonFile} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}${OUT_DIR}/)
+				copy ${AddonFile} ${DLL_TO_DBG}/)
 	endforeach(AddonFile)
 ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 
