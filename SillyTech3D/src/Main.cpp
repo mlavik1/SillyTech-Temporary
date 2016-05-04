@@ -3,7 +3,7 @@
 #include <GL\glew.h>
 #undef main // prevent LNK2019
 
-#include "game_engine.h"
+#include "Engine/game_engine.h"
 #include "debug.h"
 #include "st_assert.h"
 #include "actor_manager.h"

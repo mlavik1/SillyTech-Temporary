@@ -9,6 +9,7 @@
 #include <string>
 #include "transform.h"
 #include "lua_garbage.h"
+
 //#include "boost/enable_shared_from_this.hpp"
 
 typedef std::shared_ptr<Component> component_ptr;
