@@ -19,6 +19,17 @@ void GLDisplay::InitWindow(const char* arg_title, int x, int y, int width, int h
 	win_width = width;
 	win_height = height;
 
+	if (SDL_Init(SDL_INIT_VIDEO) != 0)
+		LOG_ERROR() << "Failed to initialise SDL";
+	else
+	{
+		SDL_version linkedver; SDL_version compiledver;
+		SDL_GetVersion(&linkedver);
+		SDL_VERSION(&compiledver);
+		LOG_INFO() << "SDL compiled version: " << (int)compiledver.major << "." << (int)compiledver.minor << ", pathch: " << (int)compiledver.patch;
+		LOG_INFO() << "SDL linked version: " << (int)linkedver.major << "." << (int)linkedver.minor << ", pathch: " << (int)linkedver.patch;
+	}
+
 	mMainWindow = SDL_CreateWindow(arg_title, x, y, width, height, SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
 	mMainGLContext = SDL_GL_CreateContext(mMainWindow);
 

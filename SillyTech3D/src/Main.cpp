@@ -17,6 +17,7 @@
 #include <AntTweakBar.h>
 #include <PxPhysicsAPI.h>
 #include "shader_reader.h"
+#include "exception_handler.h"
 
 /*
 //#define _MSC_VER 1700
@@ -94,6 +95,8 @@ int main(int argc, char **argv)
 
 	Debug::SetFileLogMode(DEBUG_MODE_ERROR);
 	Debug::SetTerminalLogMode(DEBUG_MODE_ALL);
+
+	ExceptionHandler::initialiseHandlers();
 
 	LOG_INFO() << "starting from Main.cpp";
 	
