@@ -19,6 +19,12 @@ EditorGUI *EditorGUI::editorGUI = 0;
 EditorGUI::EditorGUI()
 {
 	editorGUI = this;
+
+	mSelectedActor = 0;
+	mEditorBar = 0;
+	mActorInspectorBar = 0;
+	mSceneHierarchyBar = 0;
+	mScriptTerminalyBar = 0;
 }
 EditorGUI::~EditorGUI()
 {

@@ -23,7 +23,7 @@ public:
 private:
 	static EditorGUI *editorGUI;
 
-	Actor *mSelectedActor; // BURK DENNE til å endre på actor / components!
+	Actor *mSelectedActor; // BURK DENNE til ?endre p?actor / components!
 	TwBar *mEditorBar;
 	TwBar *mActorInspectorBar;
 	TwBar *mSceneHierarchyBar;

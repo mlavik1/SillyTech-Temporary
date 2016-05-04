@@ -2,10 +2,13 @@ cmake_minimum_required(VERSION 3.3)
 project(SillyTech3D)
 
 # Gather c++ files
-file(GLOB_RECURSE SRC_FILES src/*.cpp)
+file(GLOB_RECURSE SRC_FILES 
+	src/*.cpp
+	src/*.h
+)
 
 # Set include
-include_directories(src)
+#include_directories(src)
 #include_directories(src/ui)
 
 # External

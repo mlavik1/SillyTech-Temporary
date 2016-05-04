@@ -7,6 +7,7 @@
 LuaScriptComponent::LuaScriptComponent()
 {
 	ScriptComponent::ScriptComponent();
+	this->mLuaState = 0;
 }
 
 LuaScriptComponent::~LuaScriptComponent()
