@@ -19,7 +19,7 @@ typedef unsigned int OUTPUT_MODE;
 class Debug
 {
 public:
-	Debug(DEBUG_MODE mode = DEBUG_MODE_INFO)
+	Debug(DEBUG_MODE mode, const char* arg_file, int arg_line)
 	{
 		outputMode = mode;
 
@@ -27,6 +27,7 @@ public:
 			return;
 
 		std::string prefix;
+		bool printFileLineInfo = false;
 
 		DEBUG_MODE bitmask = outputMode;
 		DEBUG_MODE bit = DEBUG_MODE_ERROR;
@@ -39,12 +40,15 @@ public:
 				break;
 			case DEBUG_MODE_WARNING:
 				prefix = "Warning: ";
+				printFileLineInfo = true;
 				break;
 			case DEBUG_MODE_ERROR:
 				prefix = "ERROR: ";
+				printFileLineInfo = true;
 				break;
 			case DEBUG_MODE_EXCEPTION:
 				prefix = "Exception: ";
+				printFileLineInfo = true;
 				break;
 			}
 			bitmask &= ~bit;
@@ -52,6 +56,8 @@ public:
 		}
 
 		_buffer << prefix;
+		if(printFileLineInfo)
+            _buffer << ", in " << arg_file << ", line " << arg_line;
 	}
 
 	template <typename T>
@@ -67,22 +73,17 @@ public:
 		_buffer << std::endl;
 		std::cout << _buffer.str();
 
-		
+
 		if (fileLogMode & outputMode)
 		{
-			std::ofstream myFile;
+            std::ofstream myFile("DebugLog.txt", firstTime ? std::ios::trunc : std::ios::app);
 			if (firstTime)
-			{
 				firstTime = false;
-				myFile = std::ofstream("DebugLog.txt", std::ios::trunc);
-			}
-			else
-				myFile = std::ofstream("DebugLog.txt", std::ios::app);
 
 			myFile << _buffer.str();
 			myFile.close();
 		}
-		
+
 	}
 
 
@@ -105,15 +106,15 @@ private:
 };
 
 #define LOG(level) \
-	Debug(level)
+	Debug(level, __FILE__,__LINE__)
 #define LOG_INFO() \
-	Debug(DEBUG_MODE_INFO)
+	Debug(DEBUG_MODE_INFO, __FILE__,__LINE__)
 #define LOG_WARNING() \
-	Debug(DEBUG_MODE_WARNING)
+	Debug(DEBUG_MODE_WARNING, __FILE__,__LINE__)
 #define LOG_ERROR() \
-	Debug(DEBUG_MODE_ERROR)
+	Debug(DEBUG_MODE_ERROR, __FILE__,__LINE__)
 #define LOG_EXCEPTION() \
-	Debug(DEBUG_MODE_EXCEPTION)
+	Debug(DEBUG_MODE_EXCEPTION, __FILE__,__LINE__)
 
 
 #endif

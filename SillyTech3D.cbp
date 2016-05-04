@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SillyTech3D" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\SillyTech3D\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/matias/Prosjekt/SillyTech3D/SillyTech3D" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/matias/Prosjekt/SillyTech3D/SillyTech3D" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/matias/Prosjekt/SillyTech3D/SillyTech3D" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SillyTech3D">
+         <Option output="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/build/SillyTech3D" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/SDL2" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/assimp" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/boost" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/glew" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/glm" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/lua" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/luabind" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/openal" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/physx" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 SillyTech3D" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SillyTech3D/fast">
+         <Option output="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/build/SillyTech3D" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/SDL2" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/assimp" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/boost" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/glew" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/glm" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/lua" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/luabind" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/openal" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Include/physx" />
+            <Add directory="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 SillyTech3D/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Main.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_factory.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_factory.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box_factory.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box_factory.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/collider.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/collider.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/core_events.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/core_events.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/debug.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/debug.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/editor_gui.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/editor_gui.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_engine.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_engine.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_server.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_server.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_display.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_display.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_graphics_system.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_graphics_system.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/graphics_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/graphics_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gui_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gui_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/light_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/light_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_glue.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_glue.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_data.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_data.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/post_process_settings.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/post_process_settings.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_component.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_component.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_feature.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_feature.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_helper.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_helper.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_program.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_program.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_reader.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_reader.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/text_file_reader.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/text_file_reader.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_factory.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_factory.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_res.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_res.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/time_manager.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/time_manager.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/timer.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/timer.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/transform.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/transform.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/viewport.cpp">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/viewport.h">
+         <Option target="SillyTech3D"/>
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\SillyTech3D\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
