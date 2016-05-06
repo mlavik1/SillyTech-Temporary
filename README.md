@@ -16,6 +16,9 @@ Featuring:
 
 # Building the project
 You will need Visual Studio 2015 and CMake in order to build this project.
+
 1. Configure and generate project with CMake - make sure the directory can be written to (to prevent MSB3073 error)
+
 2. Open the SillyTech3D solution file.
+
 3. Build and run!
