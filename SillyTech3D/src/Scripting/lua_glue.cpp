@@ -1,5 +1,5 @@
 #include "lua_glue.h"
-#include <luabind\iterator_policy.hpp>
+#include <luabind/iterator_policy.hpp>
 #include "actor.h"
 #include "transform.h"
 #include "script_helper.h"

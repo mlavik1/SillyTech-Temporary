@@ -8,8 +8,8 @@ extern "C"
 #include "lauxlib.h"
 }
 
-#include "luabind\luabind.hpp"
-#include "luabind\operator.hpp"
+#include "luabind/luabind.hpp"
+#include "luabind/operator.hpp"
 
 #include <stdlib.h>
 #include "actor.h"
