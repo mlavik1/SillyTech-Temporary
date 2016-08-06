@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <SDL.h>
-#include <GL\glew.h>
+#include <GL/glew.h>
 #undef main // prevent LNK2019
 
 #include "Engine/game_engine.h"

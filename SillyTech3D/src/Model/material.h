@@ -6,7 +6,7 @@
 #include <vector>
 #include "debug.h"
 #include "shader.h"
-#include <GL\glew.h>
+#include <GL/glew.h>
 #include "glm.hpp"
 #include "shader_program.h"
 
