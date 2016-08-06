@@ -3,7 +3,7 @@
 
 #include "graphics_system.h"
 #include <vector>
-#include "GL\glew.h"
+#include "GL/glew.h"
 
 #include "glm.hpp"
 #include "shader_program.h"

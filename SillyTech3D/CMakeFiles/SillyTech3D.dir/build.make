@@ -57,465 +57,681 @@ include SillyTech3D/CMakeFiles/SillyTech3D.dir/progress.make
 # Include the compile flags for this target's objects.
 include SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o: SillyTech3D/src/script_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_feature.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o: SillyTech3D/src/Scripting/script_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/script_helper.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_feature.cpp > CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/script_helper.cpp > CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/script_helper.cpp -o CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o: SillyTech3D/src/actor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/actor.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o: SillyTech3D/src/Scripting/lua_glue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/lua_glue.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/actor.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor.cpp > CMakeFiles/SillyTech3D.dir/src/actor.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/lua_glue.cpp > CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/actor.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor.cpp -o CMakeFiles/SillyTech3D.dir/src/actor.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Scripting/lua_glue.cpp -o CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o: SillyTech3D/src/core_events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/core_events.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o: SillyTech3D/src/Geometry/transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Geometry/transform.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/core_events.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/core_events.cpp > CMakeFiles/SillyTech3D.dir/src/core_events.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Geometry/transform.cpp > CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/core_events.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/core_events.cpp -o CMakeFiles/SillyTech3D.dir/src/core_events.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Geometry/transform.cpp -o CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o: SillyTech3D/src/camera_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o: SillyTech3D/src/Resources/audio_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/audio_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_component.cpp > CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/audio_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_component.cpp -o CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/audio_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o: SillyTech3D/src/audio_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o: SillyTech3D/src/Resources/texture_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/texture_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_res.cpp > CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/texture_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_res.cpp -o CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/texture_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o: SillyTech3D/src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/timer.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/timer.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o: SillyTech3D/src/Resources/shader_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/shader_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/timer.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/timer.cpp > CMakeFiles/SillyTech3D.dir/src/timer.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/shader_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/timer.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/timer.cpp -o CMakeFiles/SillyTech3D.dir/src/timer.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/shader_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o: SillyTech3D/src/bounding_box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o: SillyTech3D/src/Resources/lua_script_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/lua_script_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box.cpp > CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/lua_script_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box.cpp -o CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/lua_script_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o: SillyTech3D/src/post_process_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/post_process_settings.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o: SillyTech3D/src/Resources/mesh_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/mesh_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/post_process_settings.cpp > CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/mesh_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/post_process_settings.cpp -o CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/mesh_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o: SillyTech3D/src/debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/debug.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/debug.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o: SillyTech3D/src/Resources/resource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/resource.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/debug.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/debug.cpp > CMakeFiles/SillyTech3D.dir/src/debug.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/resource.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/debug.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/debug.cpp -o CMakeFiles/SillyTech3D.dir/src/debug.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/resource.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o: SillyTech3D/src/collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/collider.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/collider.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o: SillyTech3D/src/Resources/material_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/material_res.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/collider.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/collider.cpp > CMakeFiles/SillyTech3D.dir/src/collider.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/material_res.cpp > CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/collider.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/collider.cpp -o CMakeFiles/SillyTech3D.dir/src/collider.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Resources/material_res.cpp -o CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o: SillyTech3D/src/script_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_helper.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o: SillyTech3D/src/Common/Interfaces/core_events.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Interfaces/core_events.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_helper.cpp > CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Interfaces/core_events.cpp > CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_helper.cpp -o CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Interfaces/core_events.cpp -o CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o: SillyTech3D/src/actor_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_factory.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o: SillyTech3D/src/Common/Debugging/memory_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/memory_manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_factory.cpp > CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/memory_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/memory_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o: SillyTech3D/src/shader_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_reader.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o: SillyTech3D/src/Common/Debugging/exception_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/exception_handler.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_reader.cpp > CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/exception_handler.cpp > CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_reader.cpp -o CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/exception_handler.cpp -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o: SillyTech3D/src/lua_glue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_glue.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o: SillyTech3D/src/Common/Debugging/debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/debug.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_glue.cpp > CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/debug.cpp > CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_glue.cpp -o CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Common/Debugging/debug.cpp -o CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o: SillyTech3D/src/manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o: SillyTech3D/src/Managers/manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/manager.cpp > CMakeFiles/SillyTech3D.dir/src/manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/manager.cpp -o CMakeFiles/SillyTech3D.dir/src/manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o: SillyTech3D/src/camera_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o: SillyTech3D/src/Managers/camera_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/camera_manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_manager.cpp > CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/camera_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/camera_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/camera_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o: SillyTech3D/src/texture_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o: SillyTech3D/src/Managers/audio_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/audio_manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_res.cpp > CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/audio_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_res.cpp -o CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/audio_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o: SillyTech3D/src/texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/texture.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o: SillyTech3D/src/Managers/gui_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/gui_manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/texture.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture.cpp > CMakeFiles/SillyTech3D.dir/src/texture.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/gui_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/texture.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture.cpp -o CMakeFiles/SillyTech3D.dir/src/texture.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/gui_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o: SillyTech3D/src/transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/transform.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/transform.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o: SillyTech3D/src/Managers/physics_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/physics_manager.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/transform.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/transform.cpp > CMakeFiles/SillyTech3D.dir/src/transform.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/physics_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/transform.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/transform.cpp -o CMakeFiles/SillyTech3D.dir/src/transform.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/physics_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o: SillyTech3D/src/Managers/resource_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/resource_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/resource_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/resource_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o: SillyTech3D/src/Managers/mesh_render_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/mesh_render_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/mesh_render_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/mesh_render_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o: SillyTech3D/src/Managers/lua_script_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/lua_script_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/lua_script_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/lua_script_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o: SillyTech3D/src/Managers/input_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/input_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/input_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/input_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o: SillyTech3D/src/Managers/actor_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/actor_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/actor_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/actor_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o: SillyTech3D/src/Managers/time_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/time_manager.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/time_manager.cpp > CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Managers/time_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o: SillyTech3D/src/FileIO/shader_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/shader_reader.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/shader_reader.cpp > CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/shader_reader.cpp -o CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o: SillyTech3D/src/FileIO/text_file_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/text_file_reader.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/text_file_reader.cpp > CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/FileIO/text_file_reader.cpp -o CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o
+
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o: SillyTech3D/src/Actor/actor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Actor/actor.cpp
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Actor/actor.cpp > CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.i
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Actor/actor.cpp -o CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.s
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.requires:
+
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.requires
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.provides
+
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o
 
 
 SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
 SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o: SillyTech3D/src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o"
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Main.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Main.cpp
 
 SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.i: cmake_force
@@ -537,1118 +753,928 @@ SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o.provides: SillyTech3D/CMak
 SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o: SillyTech3D/src/text_file_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/text_file_reader.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o: SillyTech3D/src/Model/bounding_box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/bounding_box.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/text_file_reader.cpp > CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/bounding_box.cpp > CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/text_file_reader.cpp -o CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/bounding_box.cpp -o CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o: SillyTech3D/src/mesh_render_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o: SillyTech3D/src/Model/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/texture.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_component.cpp > CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/texture.cpp > CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_component.cpp -o CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/texture.cpp -o CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o: SillyTech3D/src/shader_program.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_program.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o: SillyTech3D/src/Model/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_program.cpp > CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh.cpp > CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_program.cpp -o CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh.cpp -o CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o: SillyTech3D/src/shader_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o: SillyTech3D/src/Model/mesh_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh_data.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_res.cpp > CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh_data.cpp > CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader_res.cpp -o CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/mesh_data.cpp -o CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o: SillyTech3D/src/lua_script_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o: SillyTech3D/src/Model/material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/material.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_res.cpp > CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/material.cpp > CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_res.cpp -o CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Model/material.cpp -o CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o: SillyTech3D/src/audio_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_feature.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o: SillyTech3D/src/Graphics/shader_program.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader_program.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_feature.cpp > CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader_program.cpp > CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader_program.cpp -o CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o: SillyTech3D/src/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o: SillyTech3D/src/Graphics/gl_graphics_system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_graphics_system.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/mesh.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh.cpp > CMakeFiles/SillyTech3D.dir/src/mesh.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_graphics_system.cpp > CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/mesh.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh.cpp -o CMakeFiles/SillyTech3D.dir/src/mesh.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_graphics_system.cpp -o CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o: SillyTech3D/src/audio_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o: SillyTech3D/src/Graphics/viewport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/viewport.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_manager.cpp > CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/viewport.cpp > CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/viewport.cpp -o CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o: SillyTech3D/src/mesh_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o: SillyTech3D/src/Graphics/gl_display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_display.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_res.cpp > CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_display.cpp > CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_res.cpp -o CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/gl_display.cpp -o CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o: SillyTech3D/src/bounding_box_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box_factory.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o: SillyTech3D/src/Graphics/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box_factory.cpp > CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader.cpp > CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/bounding_box_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Graphics/shader.cpp -o CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o: SillyTech3D/src/physics_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_feature.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o: SillyTech3D/src/GUI/editor_gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/GUI/editor_gui.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_feature.cpp > CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/GUI/editor_gui.cpp > CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/GUI/editor_gui.cpp -o CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o: SillyTech3D/src/resource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/resource.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o: SillyTech3D/src/Tools/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Tools/timer.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/resource.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource.cpp > CMakeFiles/SillyTech3D.dir/src/resource.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Tools/timer.cpp > CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/resource.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource.cpp -o CMakeFiles/SillyTech3D.dir/src/resource.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Tools/timer.cpp -o CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o: SillyTech3D/src/gl_graphics_system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_graphics_system.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o: SillyTech3D/src/Features/script_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/script_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_graphics_system.cpp > CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/script_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_graphics_system.cpp -o CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/script_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o: SillyTech3D/src/component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o: SillyTech3D/src/Features/audio_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/audio_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/component.cpp > CMakeFiles/SillyTech3D.dir/src/component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/audio_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/component.cpp -o CMakeFiles/SillyTech3D.dir/src/component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/audio_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o: SillyTech3D/src/gui_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gui_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o: SillyTech3D/src/Features/physics_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/physics_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gui_manager.cpp > CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/physics_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gui_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/physics_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o: SillyTech3D/src/physics_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o: SillyTech3D/src/Features/graphics_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/graphics_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_manager.cpp > CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/graphics_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/graphics_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o: SillyTech3D/src/mesh_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_data.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o: SillyTech3D/src/Features/feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_data.cpp > CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_data.cpp -o CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o: SillyTech3D/src/lua_script_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o: SillyTech3D/src/Features/input_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/input_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_component.cpp > CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/input_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_component.cpp -o CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/input_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o: SillyTech3D/src/resource_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o: SillyTech3D/src/Features/game_feature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/game_feature.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource_manager.cpp > CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/game_feature.cpp > CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/resource_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Features/game_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o: SillyTech3D/src/material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/material.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o: SillyTech3D/src/Physics/collider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Physics/collider.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/material.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material.cpp > CMakeFiles/SillyTech3D.dir/src/material.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Physics/collider.cpp > CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/material.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material.cpp -o CMakeFiles/SillyTech3D.dir/src/material.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Physics/collider.cpp -o CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o: SillyTech3D/src/game_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_server.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o: SillyTech3D/src/Factories/actor_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/actor_factory.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/game_server.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_server.cpp > CMakeFiles/SillyTech3D.dir/src/game_server.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/actor_factory.cpp > CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/game_server.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_server.cpp -o CMakeFiles/SillyTech3D.dir/src/game_server.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/actor_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o: SillyTech3D/src/graphics_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/graphics_feature.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o: SillyTech3D/src/Factories/bounding_box_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/bounding_box_factory.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/graphics_feature.cpp > CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/bounding_box_factory.cpp > CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/graphics_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/bounding_box_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o: SillyTech3D/src/physics_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o: SillyTech3D/src/Factories/texture_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/texture_factory.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_component.cpp > CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/texture_factory.cpp > CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/physics_component.cpp -o CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Factories/texture_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o: SillyTech3D/src/viewport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/viewport.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o: SillyTech3D/src/Engine/game_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_server.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/viewport.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/viewport.cpp > CMakeFiles/SillyTech3D.dir/src/viewport.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_server.cpp > CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/viewport.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/viewport.cpp -o CMakeFiles/SillyTech3D.dir/src/viewport.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_server.cpp -o CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o: SillyTech3D/src/material_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material_res.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o: SillyTech3D/src/Engine/game_engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_engine.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/material_res.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material_res.cpp > CMakeFiles/SillyTech3D.dir/src/material_res.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_engine.cpp > CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/material_res.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/material_res.cpp -o CMakeFiles/SillyTech3D.dir/src/material_res.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Engine/game_engine.cpp -o CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o: SillyTech3D/src/light_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/light_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o: SillyTech3D/src/Components/camera_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/camera_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/light_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/light_component.cpp > CMakeFiles/SillyTech3D.dir/src/light_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/camera_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/light_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/light_component.cpp -o CMakeFiles/SillyTech3D.dir/src/light_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/camera_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o: SillyTech3D/src/audio_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_component.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o: SillyTech3D/src/Components/mesh_render_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/mesh_render_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_component.cpp > CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/mesh_render_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/audio_component.cpp -o CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/mesh_render_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o: SillyTech3D/src/mesh_render_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o: SillyTech3D/src/Components/component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_manager.cpp > CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/mesh_render_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o: SillyTech3D/src/lua_script_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o: SillyTech3D/src/Components/lua_script_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/lua_script_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_manager.cpp > CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/lua_script_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/lua_script_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/lua_script_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o: SillyTech3D/src/feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/feature.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o: SillyTech3D/src/Components/physics_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/physics_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/feature.cpp > CMakeFiles/SillyTech3D.dir/src/feature.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/physics_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/feature.cpp -o CMakeFiles/SillyTech3D.dir/src/feature.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/physics_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o: SillyTech3D/src/input_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o: SillyTech3D/src/Components/light_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/light_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_manager.cpp > CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/light_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/light_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o: SillyTech3D/src/gl_display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_display.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o: SillyTech3D/src/Components/audio_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/audio_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_display.cpp > CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/audio_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/gl_display.cpp -o CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/audio_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o
 
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o: SillyTech3D/src/actor_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_manager.cpp
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o: SillyTech3D/src/Components/script_component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/script_component.cpp
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_manager.cpp > CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.i
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.i"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/script_component.cpp > CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.i
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/actor_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.s
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.s"
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/Components/script_component.cpp -o CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.s
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.requires:
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.requires:
 
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.requires
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.requires
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.provides
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.requires
+	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.provides.build
+.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.provides
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o: SillyTech3D/src/script_component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_component.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/script_component.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_component.cpp > CMakeFiles/SillyTech3D.dir/src/script_component.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/script_component.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/script_component.cpp -o CMakeFiles/SillyTech3D.dir/src/script_component.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o: SillyTech3D/src/texture_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_factory.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_factory.cpp > CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/texture_factory.cpp -o CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o: SillyTech3D/src/input_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_feature.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_feature.cpp > CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/input_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o: SillyTech3D/src/game_feature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_feature.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_feature.cpp > CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_feature.cpp -o CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o: SillyTech3D/src/editor_gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/editor_gui.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/editor_gui.cpp > CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/editor_gui.cpp -o CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o: SillyTech3D/src/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/shader.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/shader.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader.cpp > CMakeFiles/SillyTech3D.dir/src/shader.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/shader.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/shader.cpp -o CMakeFiles/SillyTech3D.dir/src/shader.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o: SillyTech3D/src/game_engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_engine.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_engine.cpp > CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/game_engine.cpp -o CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o
-
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o: SillyTech3D/CMakeFiles/SillyTech3D.dir/flags.make
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o: SillyTech3D/src/time_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o -c /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/time_manager.cpp
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.i"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/time_manager.cpp > CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.i
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.s"
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/src/time_manager.cpp -o CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.s
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.requires:
-
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.requires
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.provides: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.requires
-	$(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.provides.build
-.PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.provides
-
-SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o
+SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.provides.build: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o
 
 
 # Object files for target SillyTech3D
 SillyTech3D_OBJECTS = \
-"CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/actor.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/timer.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/debug.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/collider.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/texture.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/transform.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o" \
 "CMakeFiles/SillyTech3D.dir/src/Main.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/resource.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/material.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/shader.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o" \
-"CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o"
+"CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o" \
+"CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o"
 
 # External object files for target SillyTech3D
 SillyTech3D_EXTERNAL_OBJECTS =
 
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o
 build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o
-build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o
+build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o
 build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make
 build/SillyTech3D: Libraries/Windows/x86/AntTweakBar.lib
 build/SillyTech3D: Libraries/Windows/x86/alut.lib
@@ -1676,7 +1702,7 @@ build/SillyTech3D: Libraries/Windows/x86/PhysX3DEBUG_x86.lib
 build/SillyTech3D: Libraries/Windows/x86/PhysX3CommonDEBUG_x86.lib
 build/SillyTech3D: Libraries/Windows/x86/PhysX3ExtensionsDEBUG.lib
 build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable ../build/SillyTech3D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matias/Prosjekt/SillyTech3D/SillyTech3D/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable ../build/SillyTech3D"
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/7.tga /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/model.mtl /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/2.tga /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/tidus/
@@ -2012,7 +2038,6 @@ build/SillyTech3D: SillyTech3D/CMakeFiles/SillyTech3D.dir/link.txt
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/junction.3DS /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/junction.mtl /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/junction.max /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/work/0905/怀宁/map/Road_sl_044.JPG /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Junction/work/0905/怀宁/map/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/Paris2010_0.obj /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/texture/tuile.png /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/texture/
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D && /usr/local/bin/cmake -E copy /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/texture/Asphalt_rue.png /home/matias/Prosjekt/SillyTech3D/SillyTech3D/SillyTech3D/Resources/Model/Paris/texture/
@@ -2156,67 +2181,68 @@ SillyTech3D/CMakeFiles/SillyTech3D.dir/build: build/SillyTech3D
 
 .PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/build
 
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o.requires
 SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o.requires
-SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o.requires
+SillyTech3D/CMakeFiles/SillyTech3D.dir/requires: SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o.requires
 
 .PHONY : SillyTech3D/CMakeFiles/SillyTech3D.dir/requires
 

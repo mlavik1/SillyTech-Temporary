@@ -125,6 +125,924 @@ SillyTech3D/fast:
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/build
 .PHONY : SillyTech3D/fast
 
+src/Actor/actor.o: src/Actor/actor.cpp.o
+
+.PHONY : src/Actor/actor.o
+
+# target to build an object file
+src/Actor/actor.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.o
+.PHONY : src/Actor/actor.cpp.o
+
+src/Actor/actor.i: src/Actor/actor.cpp.i
+
+.PHONY : src/Actor/actor.i
+
+# target to preprocess a source file
+src/Actor/actor.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.i
+.PHONY : src/Actor/actor.cpp.i
+
+src/Actor/actor.s: src/Actor/actor.cpp.s
+
+.PHONY : src/Actor/actor.s
+
+# target to generate assembly for a file
+src/Actor/actor.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Actor/actor.cpp.s
+.PHONY : src/Actor/actor.cpp.s
+
+src/Common/Debugging/debug.o: src/Common/Debugging/debug.cpp.o
+
+.PHONY : src/Common/Debugging/debug.o
+
+# target to build an object file
+src/Common/Debugging/debug.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.o
+.PHONY : src/Common/Debugging/debug.cpp.o
+
+src/Common/Debugging/debug.i: src/Common/Debugging/debug.cpp.i
+
+.PHONY : src/Common/Debugging/debug.i
+
+# target to preprocess a source file
+src/Common/Debugging/debug.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.i
+.PHONY : src/Common/Debugging/debug.cpp.i
+
+src/Common/Debugging/debug.s: src/Common/Debugging/debug.cpp.s
+
+.PHONY : src/Common/Debugging/debug.s
+
+# target to generate assembly for a file
+src/Common/Debugging/debug.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/debug.cpp.s
+.PHONY : src/Common/Debugging/debug.cpp.s
+
+src/Common/Debugging/exception_handler.o: src/Common/Debugging/exception_handler.cpp.o
+
+.PHONY : src/Common/Debugging/exception_handler.o
+
+# target to build an object file
+src/Common/Debugging/exception_handler.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.o
+.PHONY : src/Common/Debugging/exception_handler.cpp.o
+
+src/Common/Debugging/exception_handler.i: src/Common/Debugging/exception_handler.cpp.i
+
+.PHONY : src/Common/Debugging/exception_handler.i
+
+# target to preprocess a source file
+src/Common/Debugging/exception_handler.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.i
+.PHONY : src/Common/Debugging/exception_handler.cpp.i
+
+src/Common/Debugging/exception_handler.s: src/Common/Debugging/exception_handler.cpp.s
+
+.PHONY : src/Common/Debugging/exception_handler.s
+
+# target to generate assembly for a file
+src/Common/Debugging/exception_handler.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/exception_handler.cpp.s
+.PHONY : src/Common/Debugging/exception_handler.cpp.s
+
+src/Common/Debugging/memory_manager.o: src/Common/Debugging/memory_manager.cpp.o
+
+.PHONY : src/Common/Debugging/memory_manager.o
+
+# target to build an object file
+src/Common/Debugging/memory_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.o
+.PHONY : src/Common/Debugging/memory_manager.cpp.o
+
+src/Common/Debugging/memory_manager.i: src/Common/Debugging/memory_manager.cpp.i
+
+.PHONY : src/Common/Debugging/memory_manager.i
+
+# target to preprocess a source file
+src/Common/Debugging/memory_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.i
+.PHONY : src/Common/Debugging/memory_manager.cpp.i
+
+src/Common/Debugging/memory_manager.s: src/Common/Debugging/memory_manager.cpp.s
+
+.PHONY : src/Common/Debugging/memory_manager.s
+
+# target to generate assembly for a file
+src/Common/Debugging/memory_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Debugging/memory_manager.cpp.s
+.PHONY : src/Common/Debugging/memory_manager.cpp.s
+
+src/Common/Interfaces/core_events.o: src/Common/Interfaces/core_events.cpp.o
+
+.PHONY : src/Common/Interfaces/core_events.o
+
+# target to build an object file
+src/Common/Interfaces/core_events.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.o
+.PHONY : src/Common/Interfaces/core_events.cpp.o
+
+src/Common/Interfaces/core_events.i: src/Common/Interfaces/core_events.cpp.i
+
+.PHONY : src/Common/Interfaces/core_events.i
+
+# target to preprocess a source file
+src/Common/Interfaces/core_events.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.i
+.PHONY : src/Common/Interfaces/core_events.cpp.i
+
+src/Common/Interfaces/core_events.s: src/Common/Interfaces/core_events.cpp.s
+
+.PHONY : src/Common/Interfaces/core_events.s
+
+# target to generate assembly for a file
+src/Common/Interfaces/core_events.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Common/Interfaces/core_events.cpp.s
+.PHONY : src/Common/Interfaces/core_events.cpp.s
+
+src/Components/audio_component.o: src/Components/audio_component.cpp.o
+
+.PHONY : src/Components/audio_component.o
+
+# target to build an object file
+src/Components/audio_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.o
+.PHONY : src/Components/audio_component.cpp.o
+
+src/Components/audio_component.i: src/Components/audio_component.cpp.i
+
+.PHONY : src/Components/audio_component.i
+
+# target to preprocess a source file
+src/Components/audio_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.i
+.PHONY : src/Components/audio_component.cpp.i
+
+src/Components/audio_component.s: src/Components/audio_component.cpp.s
+
+.PHONY : src/Components/audio_component.s
+
+# target to generate assembly for a file
+src/Components/audio_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/audio_component.cpp.s
+.PHONY : src/Components/audio_component.cpp.s
+
+src/Components/camera_component.o: src/Components/camera_component.cpp.o
+
+.PHONY : src/Components/camera_component.o
+
+# target to build an object file
+src/Components/camera_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.o
+.PHONY : src/Components/camera_component.cpp.o
+
+src/Components/camera_component.i: src/Components/camera_component.cpp.i
+
+.PHONY : src/Components/camera_component.i
+
+# target to preprocess a source file
+src/Components/camera_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.i
+.PHONY : src/Components/camera_component.cpp.i
+
+src/Components/camera_component.s: src/Components/camera_component.cpp.s
+
+.PHONY : src/Components/camera_component.s
+
+# target to generate assembly for a file
+src/Components/camera_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/camera_component.cpp.s
+.PHONY : src/Components/camera_component.cpp.s
+
+src/Components/component.o: src/Components/component.cpp.o
+
+.PHONY : src/Components/component.o
+
+# target to build an object file
+src/Components/component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.o
+.PHONY : src/Components/component.cpp.o
+
+src/Components/component.i: src/Components/component.cpp.i
+
+.PHONY : src/Components/component.i
+
+# target to preprocess a source file
+src/Components/component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.i
+.PHONY : src/Components/component.cpp.i
+
+src/Components/component.s: src/Components/component.cpp.s
+
+.PHONY : src/Components/component.s
+
+# target to generate assembly for a file
+src/Components/component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/component.cpp.s
+.PHONY : src/Components/component.cpp.s
+
+src/Components/light_component.o: src/Components/light_component.cpp.o
+
+.PHONY : src/Components/light_component.o
+
+# target to build an object file
+src/Components/light_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.o
+.PHONY : src/Components/light_component.cpp.o
+
+src/Components/light_component.i: src/Components/light_component.cpp.i
+
+.PHONY : src/Components/light_component.i
+
+# target to preprocess a source file
+src/Components/light_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.i
+.PHONY : src/Components/light_component.cpp.i
+
+src/Components/light_component.s: src/Components/light_component.cpp.s
+
+.PHONY : src/Components/light_component.s
+
+# target to generate assembly for a file
+src/Components/light_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/light_component.cpp.s
+.PHONY : src/Components/light_component.cpp.s
+
+src/Components/lua_script_component.o: src/Components/lua_script_component.cpp.o
+
+.PHONY : src/Components/lua_script_component.o
+
+# target to build an object file
+src/Components/lua_script_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.o
+.PHONY : src/Components/lua_script_component.cpp.o
+
+src/Components/lua_script_component.i: src/Components/lua_script_component.cpp.i
+
+.PHONY : src/Components/lua_script_component.i
+
+# target to preprocess a source file
+src/Components/lua_script_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.i
+.PHONY : src/Components/lua_script_component.cpp.i
+
+src/Components/lua_script_component.s: src/Components/lua_script_component.cpp.s
+
+.PHONY : src/Components/lua_script_component.s
+
+# target to generate assembly for a file
+src/Components/lua_script_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/lua_script_component.cpp.s
+.PHONY : src/Components/lua_script_component.cpp.s
+
+src/Components/mesh_render_component.o: src/Components/mesh_render_component.cpp.o
+
+.PHONY : src/Components/mesh_render_component.o
+
+# target to build an object file
+src/Components/mesh_render_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.o
+.PHONY : src/Components/mesh_render_component.cpp.o
+
+src/Components/mesh_render_component.i: src/Components/mesh_render_component.cpp.i
+
+.PHONY : src/Components/mesh_render_component.i
+
+# target to preprocess a source file
+src/Components/mesh_render_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.i
+.PHONY : src/Components/mesh_render_component.cpp.i
+
+src/Components/mesh_render_component.s: src/Components/mesh_render_component.cpp.s
+
+.PHONY : src/Components/mesh_render_component.s
+
+# target to generate assembly for a file
+src/Components/mesh_render_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/mesh_render_component.cpp.s
+.PHONY : src/Components/mesh_render_component.cpp.s
+
+src/Components/physics_component.o: src/Components/physics_component.cpp.o
+
+.PHONY : src/Components/physics_component.o
+
+# target to build an object file
+src/Components/physics_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.o
+.PHONY : src/Components/physics_component.cpp.o
+
+src/Components/physics_component.i: src/Components/physics_component.cpp.i
+
+.PHONY : src/Components/physics_component.i
+
+# target to preprocess a source file
+src/Components/physics_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.i
+.PHONY : src/Components/physics_component.cpp.i
+
+src/Components/physics_component.s: src/Components/physics_component.cpp.s
+
+.PHONY : src/Components/physics_component.s
+
+# target to generate assembly for a file
+src/Components/physics_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/physics_component.cpp.s
+.PHONY : src/Components/physics_component.cpp.s
+
+src/Components/script_component.o: src/Components/script_component.cpp.o
+
+.PHONY : src/Components/script_component.o
+
+# target to build an object file
+src/Components/script_component.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.o
+.PHONY : src/Components/script_component.cpp.o
+
+src/Components/script_component.i: src/Components/script_component.cpp.i
+
+.PHONY : src/Components/script_component.i
+
+# target to preprocess a source file
+src/Components/script_component.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.i
+.PHONY : src/Components/script_component.cpp.i
+
+src/Components/script_component.s: src/Components/script_component.cpp.s
+
+.PHONY : src/Components/script_component.s
+
+# target to generate assembly for a file
+src/Components/script_component.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Components/script_component.cpp.s
+.PHONY : src/Components/script_component.cpp.s
+
+src/Engine/game_engine.o: src/Engine/game_engine.cpp.o
+
+.PHONY : src/Engine/game_engine.o
+
+# target to build an object file
+src/Engine/game_engine.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.o
+.PHONY : src/Engine/game_engine.cpp.o
+
+src/Engine/game_engine.i: src/Engine/game_engine.cpp.i
+
+.PHONY : src/Engine/game_engine.i
+
+# target to preprocess a source file
+src/Engine/game_engine.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.i
+.PHONY : src/Engine/game_engine.cpp.i
+
+src/Engine/game_engine.s: src/Engine/game_engine.cpp.s
+
+.PHONY : src/Engine/game_engine.s
+
+# target to generate assembly for a file
+src/Engine/game_engine.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_engine.cpp.s
+.PHONY : src/Engine/game_engine.cpp.s
+
+src/Engine/game_server.o: src/Engine/game_server.cpp.o
+
+.PHONY : src/Engine/game_server.o
+
+# target to build an object file
+src/Engine/game_server.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.o
+.PHONY : src/Engine/game_server.cpp.o
+
+src/Engine/game_server.i: src/Engine/game_server.cpp.i
+
+.PHONY : src/Engine/game_server.i
+
+# target to preprocess a source file
+src/Engine/game_server.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.i
+.PHONY : src/Engine/game_server.cpp.i
+
+src/Engine/game_server.s: src/Engine/game_server.cpp.s
+
+.PHONY : src/Engine/game_server.s
+
+# target to generate assembly for a file
+src/Engine/game_server.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Engine/game_server.cpp.s
+.PHONY : src/Engine/game_server.cpp.s
+
+src/Factories/actor_factory.o: src/Factories/actor_factory.cpp.o
+
+.PHONY : src/Factories/actor_factory.o
+
+# target to build an object file
+src/Factories/actor_factory.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.o
+.PHONY : src/Factories/actor_factory.cpp.o
+
+src/Factories/actor_factory.i: src/Factories/actor_factory.cpp.i
+
+.PHONY : src/Factories/actor_factory.i
+
+# target to preprocess a source file
+src/Factories/actor_factory.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.i
+.PHONY : src/Factories/actor_factory.cpp.i
+
+src/Factories/actor_factory.s: src/Factories/actor_factory.cpp.s
+
+.PHONY : src/Factories/actor_factory.s
+
+# target to generate assembly for a file
+src/Factories/actor_factory.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/actor_factory.cpp.s
+.PHONY : src/Factories/actor_factory.cpp.s
+
+src/Factories/bounding_box_factory.o: src/Factories/bounding_box_factory.cpp.o
+
+.PHONY : src/Factories/bounding_box_factory.o
+
+# target to build an object file
+src/Factories/bounding_box_factory.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.o
+.PHONY : src/Factories/bounding_box_factory.cpp.o
+
+src/Factories/bounding_box_factory.i: src/Factories/bounding_box_factory.cpp.i
+
+.PHONY : src/Factories/bounding_box_factory.i
+
+# target to preprocess a source file
+src/Factories/bounding_box_factory.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.i
+.PHONY : src/Factories/bounding_box_factory.cpp.i
+
+src/Factories/bounding_box_factory.s: src/Factories/bounding_box_factory.cpp.s
+
+.PHONY : src/Factories/bounding_box_factory.s
+
+# target to generate assembly for a file
+src/Factories/bounding_box_factory.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/bounding_box_factory.cpp.s
+.PHONY : src/Factories/bounding_box_factory.cpp.s
+
+src/Factories/texture_factory.o: src/Factories/texture_factory.cpp.o
+
+.PHONY : src/Factories/texture_factory.o
+
+# target to build an object file
+src/Factories/texture_factory.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.o
+.PHONY : src/Factories/texture_factory.cpp.o
+
+src/Factories/texture_factory.i: src/Factories/texture_factory.cpp.i
+
+.PHONY : src/Factories/texture_factory.i
+
+# target to preprocess a source file
+src/Factories/texture_factory.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.i
+.PHONY : src/Factories/texture_factory.cpp.i
+
+src/Factories/texture_factory.s: src/Factories/texture_factory.cpp.s
+
+.PHONY : src/Factories/texture_factory.s
+
+# target to generate assembly for a file
+src/Factories/texture_factory.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Factories/texture_factory.cpp.s
+.PHONY : src/Factories/texture_factory.cpp.s
+
+src/Features/audio_feature.o: src/Features/audio_feature.cpp.o
+
+.PHONY : src/Features/audio_feature.o
+
+# target to build an object file
+src/Features/audio_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.o
+.PHONY : src/Features/audio_feature.cpp.o
+
+src/Features/audio_feature.i: src/Features/audio_feature.cpp.i
+
+.PHONY : src/Features/audio_feature.i
+
+# target to preprocess a source file
+src/Features/audio_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.i
+.PHONY : src/Features/audio_feature.cpp.i
+
+src/Features/audio_feature.s: src/Features/audio_feature.cpp.s
+
+.PHONY : src/Features/audio_feature.s
+
+# target to generate assembly for a file
+src/Features/audio_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/audio_feature.cpp.s
+.PHONY : src/Features/audio_feature.cpp.s
+
+src/Features/feature.o: src/Features/feature.cpp.o
+
+.PHONY : src/Features/feature.o
+
+# target to build an object file
+src/Features/feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.o
+.PHONY : src/Features/feature.cpp.o
+
+src/Features/feature.i: src/Features/feature.cpp.i
+
+.PHONY : src/Features/feature.i
+
+# target to preprocess a source file
+src/Features/feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.i
+.PHONY : src/Features/feature.cpp.i
+
+src/Features/feature.s: src/Features/feature.cpp.s
+
+.PHONY : src/Features/feature.s
+
+# target to generate assembly for a file
+src/Features/feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/feature.cpp.s
+.PHONY : src/Features/feature.cpp.s
+
+src/Features/game_feature.o: src/Features/game_feature.cpp.o
+
+.PHONY : src/Features/game_feature.o
+
+# target to build an object file
+src/Features/game_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.o
+.PHONY : src/Features/game_feature.cpp.o
+
+src/Features/game_feature.i: src/Features/game_feature.cpp.i
+
+.PHONY : src/Features/game_feature.i
+
+# target to preprocess a source file
+src/Features/game_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.i
+.PHONY : src/Features/game_feature.cpp.i
+
+src/Features/game_feature.s: src/Features/game_feature.cpp.s
+
+.PHONY : src/Features/game_feature.s
+
+# target to generate assembly for a file
+src/Features/game_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/game_feature.cpp.s
+.PHONY : src/Features/game_feature.cpp.s
+
+src/Features/graphics_feature.o: src/Features/graphics_feature.cpp.o
+
+.PHONY : src/Features/graphics_feature.o
+
+# target to build an object file
+src/Features/graphics_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.o
+.PHONY : src/Features/graphics_feature.cpp.o
+
+src/Features/graphics_feature.i: src/Features/graphics_feature.cpp.i
+
+.PHONY : src/Features/graphics_feature.i
+
+# target to preprocess a source file
+src/Features/graphics_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.i
+.PHONY : src/Features/graphics_feature.cpp.i
+
+src/Features/graphics_feature.s: src/Features/graphics_feature.cpp.s
+
+.PHONY : src/Features/graphics_feature.s
+
+# target to generate assembly for a file
+src/Features/graphics_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/graphics_feature.cpp.s
+.PHONY : src/Features/graphics_feature.cpp.s
+
+src/Features/input_feature.o: src/Features/input_feature.cpp.o
+
+.PHONY : src/Features/input_feature.o
+
+# target to build an object file
+src/Features/input_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.o
+.PHONY : src/Features/input_feature.cpp.o
+
+src/Features/input_feature.i: src/Features/input_feature.cpp.i
+
+.PHONY : src/Features/input_feature.i
+
+# target to preprocess a source file
+src/Features/input_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.i
+.PHONY : src/Features/input_feature.cpp.i
+
+src/Features/input_feature.s: src/Features/input_feature.cpp.s
+
+.PHONY : src/Features/input_feature.s
+
+# target to generate assembly for a file
+src/Features/input_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/input_feature.cpp.s
+.PHONY : src/Features/input_feature.cpp.s
+
+src/Features/physics_feature.o: src/Features/physics_feature.cpp.o
+
+.PHONY : src/Features/physics_feature.o
+
+# target to build an object file
+src/Features/physics_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.o
+.PHONY : src/Features/physics_feature.cpp.o
+
+src/Features/physics_feature.i: src/Features/physics_feature.cpp.i
+
+.PHONY : src/Features/physics_feature.i
+
+# target to preprocess a source file
+src/Features/physics_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.i
+.PHONY : src/Features/physics_feature.cpp.i
+
+src/Features/physics_feature.s: src/Features/physics_feature.cpp.s
+
+.PHONY : src/Features/physics_feature.s
+
+# target to generate assembly for a file
+src/Features/physics_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/physics_feature.cpp.s
+.PHONY : src/Features/physics_feature.cpp.s
+
+src/Features/script_feature.o: src/Features/script_feature.cpp.o
+
+.PHONY : src/Features/script_feature.o
+
+# target to build an object file
+src/Features/script_feature.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.o
+.PHONY : src/Features/script_feature.cpp.o
+
+src/Features/script_feature.i: src/Features/script_feature.cpp.i
+
+.PHONY : src/Features/script_feature.i
+
+# target to preprocess a source file
+src/Features/script_feature.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.i
+.PHONY : src/Features/script_feature.cpp.i
+
+src/Features/script_feature.s: src/Features/script_feature.cpp.s
+
+.PHONY : src/Features/script_feature.s
+
+# target to generate assembly for a file
+src/Features/script_feature.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Features/script_feature.cpp.s
+.PHONY : src/Features/script_feature.cpp.s
+
+src/FileIO/shader_reader.o: src/FileIO/shader_reader.cpp.o
+
+.PHONY : src/FileIO/shader_reader.o
+
+# target to build an object file
+src/FileIO/shader_reader.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.o
+.PHONY : src/FileIO/shader_reader.cpp.o
+
+src/FileIO/shader_reader.i: src/FileIO/shader_reader.cpp.i
+
+.PHONY : src/FileIO/shader_reader.i
+
+# target to preprocess a source file
+src/FileIO/shader_reader.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.i
+.PHONY : src/FileIO/shader_reader.cpp.i
+
+src/FileIO/shader_reader.s: src/FileIO/shader_reader.cpp.s
+
+.PHONY : src/FileIO/shader_reader.s
+
+# target to generate assembly for a file
+src/FileIO/shader_reader.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/shader_reader.cpp.s
+.PHONY : src/FileIO/shader_reader.cpp.s
+
+src/FileIO/text_file_reader.o: src/FileIO/text_file_reader.cpp.o
+
+.PHONY : src/FileIO/text_file_reader.o
+
+# target to build an object file
+src/FileIO/text_file_reader.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.o
+.PHONY : src/FileIO/text_file_reader.cpp.o
+
+src/FileIO/text_file_reader.i: src/FileIO/text_file_reader.cpp.i
+
+.PHONY : src/FileIO/text_file_reader.i
+
+# target to preprocess a source file
+src/FileIO/text_file_reader.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.i
+.PHONY : src/FileIO/text_file_reader.cpp.i
+
+src/FileIO/text_file_reader.s: src/FileIO/text_file_reader.cpp.s
+
+.PHONY : src/FileIO/text_file_reader.s
+
+# target to generate assembly for a file
+src/FileIO/text_file_reader.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/FileIO/text_file_reader.cpp.s
+.PHONY : src/FileIO/text_file_reader.cpp.s
+
+src/GUI/editor_gui.o: src/GUI/editor_gui.cpp.o
+
+.PHONY : src/GUI/editor_gui.o
+
+# target to build an object file
+src/GUI/editor_gui.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.o
+.PHONY : src/GUI/editor_gui.cpp.o
+
+src/GUI/editor_gui.i: src/GUI/editor_gui.cpp.i
+
+.PHONY : src/GUI/editor_gui.i
+
+# target to preprocess a source file
+src/GUI/editor_gui.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.i
+.PHONY : src/GUI/editor_gui.cpp.i
+
+src/GUI/editor_gui.s: src/GUI/editor_gui.cpp.s
+
+.PHONY : src/GUI/editor_gui.s
+
+# target to generate assembly for a file
+src/GUI/editor_gui.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/GUI/editor_gui.cpp.s
+.PHONY : src/GUI/editor_gui.cpp.s
+
+src/Geometry/transform.o: src/Geometry/transform.cpp.o
+
+.PHONY : src/Geometry/transform.o
+
+# target to build an object file
+src/Geometry/transform.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.o
+.PHONY : src/Geometry/transform.cpp.o
+
+src/Geometry/transform.i: src/Geometry/transform.cpp.i
+
+.PHONY : src/Geometry/transform.i
+
+# target to preprocess a source file
+src/Geometry/transform.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.i
+.PHONY : src/Geometry/transform.cpp.i
+
+src/Geometry/transform.s: src/Geometry/transform.cpp.s
+
+.PHONY : src/Geometry/transform.s
+
+# target to generate assembly for a file
+src/Geometry/transform.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Geometry/transform.cpp.s
+.PHONY : src/Geometry/transform.cpp.s
+
+src/Graphics/gl_display.o: src/Graphics/gl_display.cpp.o
+
+.PHONY : src/Graphics/gl_display.o
+
+# target to build an object file
+src/Graphics/gl_display.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.o
+.PHONY : src/Graphics/gl_display.cpp.o
+
+src/Graphics/gl_display.i: src/Graphics/gl_display.cpp.i
+
+.PHONY : src/Graphics/gl_display.i
+
+# target to preprocess a source file
+src/Graphics/gl_display.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.i
+.PHONY : src/Graphics/gl_display.cpp.i
+
+src/Graphics/gl_display.s: src/Graphics/gl_display.cpp.s
+
+.PHONY : src/Graphics/gl_display.s
+
+# target to generate assembly for a file
+src/Graphics/gl_display.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_display.cpp.s
+.PHONY : src/Graphics/gl_display.cpp.s
+
+src/Graphics/gl_graphics_system.o: src/Graphics/gl_graphics_system.cpp.o
+
+.PHONY : src/Graphics/gl_graphics_system.o
+
+# target to build an object file
+src/Graphics/gl_graphics_system.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.o
+.PHONY : src/Graphics/gl_graphics_system.cpp.o
+
+src/Graphics/gl_graphics_system.i: src/Graphics/gl_graphics_system.cpp.i
+
+.PHONY : src/Graphics/gl_graphics_system.i
+
+# target to preprocess a source file
+src/Graphics/gl_graphics_system.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.i
+.PHONY : src/Graphics/gl_graphics_system.cpp.i
+
+src/Graphics/gl_graphics_system.s: src/Graphics/gl_graphics_system.cpp.s
+
+.PHONY : src/Graphics/gl_graphics_system.s
+
+# target to generate assembly for a file
+src/Graphics/gl_graphics_system.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/gl_graphics_system.cpp.s
+.PHONY : src/Graphics/gl_graphics_system.cpp.s
+
+src/Graphics/shader.o: src/Graphics/shader.cpp.o
+
+.PHONY : src/Graphics/shader.o
+
+# target to build an object file
+src/Graphics/shader.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.o
+.PHONY : src/Graphics/shader.cpp.o
+
+src/Graphics/shader.i: src/Graphics/shader.cpp.i
+
+.PHONY : src/Graphics/shader.i
+
+# target to preprocess a source file
+src/Graphics/shader.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.i
+.PHONY : src/Graphics/shader.cpp.i
+
+src/Graphics/shader.s: src/Graphics/shader.cpp.s
+
+.PHONY : src/Graphics/shader.s
+
+# target to generate assembly for a file
+src/Graphics/shader.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader.cpp.s
+.PHONY : src/Graphics/shader.cpp.s
+
+src/Graphics/shader_program.o: src/Graphics/shader_program.cpp.o
+
+.PHONY : src/Graphics/shader_program.o
+
+# target to build an object file
+src/Graphics/shader_program.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.o
+.PHONY : src/Graphics/shader_program.cpp.o
+
+src/Graphics/shader_program.i: src/Graphics/shader_program.cpp.i
+
+.PHONY : src/Graphics/shader_program.i
+
+# target to preprocess a source file
+src/Graphics/shader_program.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.i
+.PHONY : src/Graphics/shader_program.cpp.i
+
+src/Graphics/shader_program.s: src/Graphics/shader_program.cpp.s
+
+.PHONY : src/Graphics/shader_program.s
+
+# target to generate assembly for a file
+src/Graphics/shader_program.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/shader_program.cpp.s
+.PHONY : src/Graphics/shader_program.cpp.s
+
+src/Graphics/viewport.o: src/Graphics/viewport.cpp.o
+
+.PHONY : src/Graphics/viewport.o
+
+# target to build an object file
+src/Graphics/viewport.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.o
+.PHONY : src/Graphics/viewport.cpp.o
+
+src/Graphics/viewport.i: src/Graphics/viewport.cpp.i
+
+.PHONY : src/Graphics/viewport.i
+
+# target to preprocess a source file
+src/Graphics/viewport.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.i
+.PHONY : src/Graphics/viewport.cpp.i
+
+src/Graphics/viewport.s: src/Graphics/viewport.cpp.s
+
+.PHONY : src/Graphics/viewport.s
+
+# target to generate assembly for a file
+src/Graphics/viewport.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Graphics/viewport.cpp.s
+.PHONY : src/Graphics/viewport.cpp.s
+
 src/Main.o: src/Main.cpp.o
 
 .PHONY : src/Main.o
@@ -152,1625 +1070,734 @@ src/Main.cpp.s:
 	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
-src/actor.o: src/actor.cpp.o
+src/Managers/actor_manager.o: src/Managers/actor_manager.cpp.o
 
-.PHONY : src/actor.o
-
-# target to build an object file
-src/actor.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.o
-.PHONY : src/actor.cpp.o
-
-src/actor.i: src/actor.cpp.i
-
-.PHONY : src/actor.i
-
-# target to preprocess a source file
-src/actor.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.i
-.PHONY : src/actor.cpp.i
-
-src/actor.s: src/actor.cpp.s
-
-.PHONY : src/actor.s
-
-# target to generate assembly for a file
-src/actor.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor.cpp.s
-.PHONY : src/actor.cpp.s
-
-src/actor_factory.o: src/actor_factory.cpp.o
-
-.PHONY : src/actor_factory.o
+.PHONY : src/Managers/actor_manager.o
 
 # target to build an object file
-src/actor_factory.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.o
-.PHONY : src/actor_factory.cpp.o
+src/Managers/actor_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.o
+.PHONY : src/Managers/actor_manager.cpp.o
 
-src/actor_factory.i: src/actor_factory.cpp.i
+src/Managers/actor_manager.i: src/Managers/actor_manager.cpp.i
 
-.PHONY : src/actor_factory.i
+.PHONY : src/Managers/actor_manager.i
 
 # target to preprocess a source file
-src/actor_factory.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.i
-.PHONY : src/actor_factory.cpp.i
+src/Managers/actor_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.i
+.PHONY : src/Managers/actor_manager.cpp.i
 
-src/actor_factory.s: src/actor_factory.cpp.s
+src/Managers/actor_manager.s: src/Managers/actor_manager.cpp.s
 
-.PHONY : src/actor_factory.s
+.PHONY : src/Managers/actor_manager.s
 
 # target to generate assembly for a file
-src/actor_factory.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_factory.cpp.s
-.PHONY : src/actor_factory.cpp.s
+src/Managers/actor_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/actor_manager.cpp.s
+.PHONY : src/Managers/actor_manager.cpp.s
 
-src/actor_manager.o: src/actor_manager.cpp.o
+src/Managers/audio_manager.o: src/Managers/audio_manager.cpp.o
 
-.PHONY : src/actor_manager.o
+.PHONY : src/Managers/audio_manager.o
 
 # target to build an object file
-src/actor_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.o
-.PHONY : src/actor_manager.cpp.o
+src/Managers/audio_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.o
+.PHONY : src/Managers/audio_manager.cpp.o
 
-src/actor_manager.i: src/actor_manager.cpp.i
+src/Managers/audio_manager.i: src/Managers/audio_manager.cpp.i
 
-.PHONY : src/actor_manager.i
+.PHONY : src/Managers/audio_manager.i
 
 # target to preprocess a source file
-src/actor_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.i
-.PHONY : src/actor_manager.cpp.i
+src/Managers/audio_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.i
+.PHONY : src/Managers/audio_manager.cpp.i
 
-src/actor_manager.s: src/actor_manager.cpp.s
+src/Managers/audio_manager.s: src/Managers/audio_manager.cpp.s
 
-.PHONY : src/actor_manager.s
+.PHONY : src/Managers/audio_manager.s
 
 # target to generate assembly for a file
-src/actor_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/actor_manager.cpp.s
-.PHONY : src/actor_manager.cpp.s
+src/Managers/audio_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/audio_manager.cpp.s
+.PHONY : src/Managers/audio_manager.cpp.s
 
-src/audio_component.o: src/audio_component.cpp.o
+src/Managers/camera_manager.o: src/Managers/camera_manager.cpp.o
 
-.PHONY : src/audio_component.o
+.PHONY : src/Managers/camera_manager.o
 
 # target to build an object file
-src/audio_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.o
-.PHONY : src/audio_component.cpp.o
+src/Managers/camera_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.o
+.PHONY : src/Managers/camera_manager.cpp.o
 
-src/audio_component.i: src/audio_component.cpp.i
+src/Managers/camera_manager.i: src/Managers/camera_manager.cpp.i
 
-.PHONY : src/audio_component.i
+.PHONY : src/Managers/camera_manager.i
 
 # target to preprocess a source file
-src/audio_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.i
-.PHONY : src/audio_component.cpp.i
+src/Managers/camera_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.i
+.PHONY : src/Managers/camera_manager.cpp.i
 
-src/audio_component.s: src/audio_component.cpp.s
+src/Managers/camera_manager.s: src/Managers/camera_manager.cpp.s
 
-.PHONY : src/audio_component.s
+.PHONY : src/Managers/camera_manager.s
 
 # target to generate assembly for a file
-src/audio_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_component.cpp.s
-.PHONY : src/audio_component.cpp.s
+src/Managers/camera_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/camera_manager.cpp.s
+.PHONY : src/Managers/camera_manager.cpp.s
 
-src/audio_feature.o: src/audio_feature.cpp.o
+src/Managers/gui_manager.o: src/Managers/gui_manager.cpp.o
 
-.PHONY : src/audio_feature.o
+.PHONY : src/Managers/gui_manager.o
 
 # target to build an object file
-src/audio_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.o
-.PHONY : src/audio_feature.cpp.o
+src/Managers/gui_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.o
+.PHONY : src/Managers/gui_manager.cpp.o
 
-src/audio_feature.i: src/audio_feature.cpp.i
+src/Managers/gui_manager.i: src/Managers/gui_manager.cpp.i
 
-.PHONY : src/audio_feature.i
+.PHONY : src/Managers/gui_manager.i
 
 # target to preprocess a source file
-src/audio_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.i
-.PHONY : src/audio_feature.cpp.i
+src/Managers/gui_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.i
+.PHONY : src/Managers/gui_manager.cpp.i
 
-src/audio_feature.s: src/audio_feature.cpp.s
+src/Managers/gui_manager.s: src/Managers/gui_manager.cpp.s
 
-.PHONY : src/audio_feature.s
+.PHONY : src/Managers/gui_manager.s
 
 # target to generate assembly for a file
-src/audio_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_feature.cpp.s
-.PHONY : src/audio_feature.cpp.s
+src/Managers/gui_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/gui_manager.cpp.s
+.PHONY : src/Managers/gui_manager.cpp.s
 
-src/audio_manager.o: src/audio_manager.cpp.o
+src/Managers/input_manager.o: src/Managers/input_manager.cpp.o
 
-.PHONY : src/audio_manager.o
+.PHONY : src/Managers/input_manager.o
 
 # target to build an object file
-src/audio_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.o
-.PHONY : src/audio_manager.cpp.o
+src/Managers/input_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.o
+.PHONY : src/Managers/input_manager.cpp.o
 
-src/audio_manager.i: src/audio_manager.cpp.i
+src/Managers/input_manager.i: src/Managers/input_manager.cpp.i
 
-.PHONY : src/audio_manager.i
+.PHONY : src/Managers/input_manager.i
 
 # target to preprocess a source file
-src/audio_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.i
-.PHONY : src/audio_manager.cpp.i
+src/Managers/input_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.i
+.PHONY : src/Managers/input_manager.cpp.i
 
-src/audio_manager.s: src/audio_manager.cpp.s
+src/Managers/input_manager.s: src/Managers/input_manager.cpp.s
 
-.PHONY : src/audio_manager.s
+.PHONY : src/Managers/input_manager.s
 
 # target to generate assembly for a file
-src/audio_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_manager.cpp.s
-.PHONY : src/audio_manager.cpp.s
+src/Managers/input_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/input_manager.cpp.s
+.PHONY : src/Managers/input_manager.cpp.s
 
-src/audio_res.o: src/audio_res.cpp.o
+src/Managers/lua_script_manager.o: src/Managers/lua_script_manager.cpp.o
 
-.PHONY : src/audio_res.o
+.PHONY : src/Managers/lua_script_manager.o
 
 # target to build an object file
-src/audio_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.o
-.PHONY : src/audio_res.cpp.o
+src/Managers/lua_script_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.o
+.PHONY : src/Managers/lua_script_manager.cpp.o
 
-src/audio_res.i: src/audio_res.cpp.i
+src/Managers/lua_script_manager.i: src/Managers/lua_script_manager.cpp.i
 
-.PHONY : src/audio_res.i
+.PHONY : src/Managers/lua_script_manager.i
 
 # target to preprocess a source file
-src/audio_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.i
-.PHONY : src/audio_res.cpp.i
+src/Managers/lua_script_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.i
+.PHONY : src/Managers/lua_script_manager.cpp.i
 
-src/audio_res.s: src/audio_res.cpp.s
+src/Managers/lua_script_manager.s: src/Managers/lua_script_manager.cpp.s
 
-.PHONY : src/audio_res.s
+.PHONY : src/Managers/lua_script_manager.s
 
 # target to generate assembly for a file
-src/audio_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/audio_res.cpp.s
-.PHONY : src/audio_res.cpp.s
+src/Managers/lua_script_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/lua_script_manager.cpp.s
+.PHONY : src/Managers/lua_script_manager.cpp.s
 
-src/bounding_box.o: src/bounding_box.cpp.o
+src/Managers/manager.o: src/Managers/manager.cpp.o
 
-.PHONY : src/bounding_box.o
+.PHONY : src/Managers/manager.o
 
 # target to build an object file
-src/bounding_box.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.o
-.PHONY : src/bounding_box.cpp.o
+src/Managers/manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.o
+.PHONY : src/Managers/manager.cpp.o
 
-src/bounding_box.i: src/bounding_box.cpp.i
+src/Managers/manager.i: src/Managers/manager.cpp.i
 
-.PHONY : src/bounding_box.i
+.PHONY : src/Managers/manager.i
 
 # target to preprocess a source file
-src/bounding_box.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.i
-.PHONY : src/bounding_box.cpp.i
+src/Managers/manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.i
+.PHONY : src/Managers/manager.cpp.i
 
-src/bounding_box.s: src/bounding_box.cpp.s
+src/Managers/manager.s: src/Managers/manager.cpp.s
 
-.PHONY : src/bounding_box.s
+.PHONY : src/Managers/manager.s
 
 # target to generate assembly for a file
-src/bounding_box.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box.cpp.s
-.PHONY : src/bounding_box.cpp.s
+src/Managers/manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/manager.cpp.s
+.PHONY : src/Managers/manager.cpp.s
 
-src/bounding_box_factory.o: src/bounding_box_factory.cpp.o
+src/Managers/mesh_render_manager.o: src/Managers/mesh_render_manager.cpp.o
 
-.PHONY : src/bounding_box_factory.o
+.PHONY : src/Managers/mesh_render_manager.o
 
 # target to build an object file
-src/bounding_box_factory.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.o
-.PHONY : src/bounding_box_factory.cpp.o
+src/Managers/mesh_render_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.o
+.PHONY : src/Managers/mesh_render_manager.cpp.o
 
-src/bounding_box_factory.i: src/bounding_box_factory.cpp.i
+src/Managers/mesh_render_manager.i: src/Managers/mesh_render_manager.cpp.i
 
-.PHONY : src/bounding_box_factory.i
+.PHONY : src/Managers/mesh_render_manager.i
 
 # target to preprocess a source file
-src/bounding_box_factory.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.i
-.PHONY : src/bounding_box_factory.cpp.i
+src/Managers/mesh_render_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.i
+.PHONY : src/Managers/mesh_render_manager.cpp.i
 
-src/bounding_box_factory.s: src/bounding_box_factory.cpp.s
+src/Managers/mesh_render_manager.s: src/Managers/mesh_render_manager.cpp.s
 
-.PHONY : src/bounding_box_factory.s
+.PHONY : src/Managers/mesh_render_manager.s
 
 # target to generate assembly for a file
-src/bounding_box_factory.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/bounding_box_factory.cpp.s
-.PHONY : src/bounding_box_factory.cpp.s
+src/Managers/mesh_render_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/mesh_render_manager.cpp.s
+.PHONY : src/Managers/mesh_render_manager.cpp.s
 
-src/camera_component.o: src/camera_component.cpp.o
+src/Managers/physics_manager.o: src/Managers/physics_manager.cpp.o
 
-.PHONY : src/camera_component.o
+.PHONY : src/Managers/physics_manager.o
 
 # target to build an object file
-src/camera_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.o
-.PHONY : src/camera_component.cpp.o
+src/Managers/physics_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.o
+.PHONY : src/Managers/physics_manager.cpp.o
 
-src/camera_component.i: src/camera_component.cpp.i
+src/Managers/physics_manager.i: src/Managers/physics_manager.cpp.i
 
-.PHONY : src/camera_component.i
+.PHONY : src/Managers/physics_manager.i
 
 # target to preprocess a source file
-src/camera_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.i
-.PHONY : src/camera_component.cpp.i
+src/Managers/physics_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.i
+.PHONY : src/Managers/physics_manager.cpp.i
 
-src/camera_component.s: src/camera_component.cpp.s
+src/Managers/physics_manager.s: src/Managers/physics_manager.cpp.s
 
-.PHONY : src/camera_component.s
+.PHONY : src/Managers/physics_manager.s
 
 # target to generate assembly for a file
-src/camera_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_component.cpp.s
-.PHONY : src/camera_component.cpp.s
+src/Managers/physics_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/physics_manager.cpp.s
+.PHONY : src/Managers/physics_manager.cpp.s
 
-src/camera_manager.o: src/camera_manager.cpp.o
+src/Managers/resource_manager.o: src/Managers/resource_manager.cpp.o
 
-.PHONY : src/camera_manager.o
+.PHONY : src/Managers/resource_manager.o
 
 # target to build an object file
-src/camera_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.o
-.PHONY : src/camera_manager.cpp.o
+src/Managers/resource_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.o
+.PHONY : src/Managers/resource_manager.cpp.o
 
-src/camera_manager.i: src/camera_manager.cpp.i
+src/Managers/resource_manager.i: src/Managers/resource_manager.cpp.i
 
-.PHONY : src/camera_manager.i
+.PHONY : src/Managers/resource_manager.i
 
 # target to preprocess a source file
-src/camera_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.i
-.PHONY : src/camera_manager.cpp.i
+src/Managers/resource_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.i
+.PHONY : src/Managers/resource_manager.cpp.i
 
-src/camera_manager.s: src/camera_manager.cpp.s
+src/Managers/resource_manager.s: src/Managers/resource_manager.cpp.s
 
-.PHONY : src/camera_manager.s
+.PHONY : src/Managers/resource_manager.s
 
 # target to generate assembly for a file
-src/camera_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/camera_manager.cpp.s
-.PHONY : src/camera_manager.cpp.s
+src/Managers/resource_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/resource_manager.cpp.s
+.PHONY : src/Managers/resource_manager.cpp.s
 
-src/collider.o: src/collider.cpp.o
+src/Managers/time_manager.o: src/Managers/time_manager.cpp.o
 
-.PHONY : src/collider.o
+.PHONY : src/Managers/time_manager.o
 
 # target to build an object file
-src/collider.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.o
-.PHONY : src/collider.cpp.o
+src/Managers/time_manager.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.o
+.PHONY : src/Managers/time_manager.cpp.o
 
-src/collider.i: src/collider.cpp.i
+src/Managers/time_manager.i: src/Managers/time_manager.cpp.i
 
-.PHONY : src/collider.i
+.PHONY : src/Managers/time_manager.i
 
 # target to preprocess a source file
-src/collider.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.i
-.PHONY : src/collider.cpp.i
+src/Managers/time_manager.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.i
+.PHONY : src/Managers/time_manager.cpp.i
 
-src/collider.s: src/collider.cpp.s
+src/Managers/time_manager.s: src/Managers/time_manager.cpp.s
 
-.PHONY : src/collider.s
+.PHONY : src/Managers/time_manager.s
 
 # target to generate assembly for a file
-src/collider.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/collider.cpp.s
-.PHONY : src/collider.cpp.s
+src/Managers/time_manager.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Managers/time_manager.cpp.s
+.PHONY : src/Managers/time_manager.cpp.s
 
-src/component.o: src/component.cpp.o
+src/Model/bounding_box.o: src/Model/bounding_box.cpp.o
 
-.PHONY : src/component.o
+.PHONY : src/Model/bounding_box.o
 
 # target to build an object file
-src/component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.o
-.PHONY : src/component.cpp.o
+src/Model/bounding_box.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.o
+.PHONY : src/Model/bounding_box.cpp.o
 
-src/component.i: src/component.cpp.i
+src/Model/bounding_box.i: src/Model/bounding_box.cpp.i
 
-.PHONY : src/component.i
+.PHONY : src/Model/bounding_box.i
 
 # target to preprocess a source file
-src/component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.i
-.PHONY : src/component.cpp.i
+src/Model/bounding_box.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.i
+.PHONY : src/Model/bounding_box.cpp.i
 
-src/component.s: src/component.cpp.s
+src/Model/bounding_box.s: src/Model/bounding_box.cpp.s
 
-.PHONY : src/component.s
+.PHONY : src/Model/bounding_box.s
 
 # target to generate assembly for a file
-src/component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/component.cpp.s
-.PHONY : src/component.cpp.s
+src/Model/bounding_box.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/bounding_box.cpp.s
+.PHONY : src/Model/bounding_box.cpp.s
 
-src/core_events.o: src/core_events.cpp.o
+src/Model/material.o: src/Model/material.cpp.o
 
-.PHONY : src/core_events.o
+.PHONY : src/Model/material.o
 
 # target to build an object file
-src/core_events.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.o
-.PHONY : src/core_events.cpp.o
+src/Model/material.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.o
+.PHONY : src/Model/material.cpp.o
 
-src/core_events.i: src/core_events.cpp.i
+src/Model/material.i: src/Model/material.cpp.i
 
-.PHONY : src/core_events.i
+.PHONY : src/Model/material.i
 
 # target to preprocess a source file
-src/core_events.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.i
-.PHONY : src/core_events.cpp.i
+src/Model/material.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.i
+.PHONY : src/Model/material.cpp.i
 
-src/core_events.s: src/core_events.cpp.s
+src/Model/material.s: src/Model/material.cpp.s
 
-.PHONY : src/core_events.s
+.PHONY : src/Model/material.s
 
 # target to generate assembly for a file
-src/core_events.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/core_events.cpp.s
-.PHONY : src/core_events.cpp.s
+src/Model/material.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/material.cpp.s
+.PHONY : src/Model/material.cpp.s
 
-src/debug.o: src/debug.cpp.o
+src/Model/mesh.o: src/Model/mesh.cpp.o
 
-.PHONY : src/debug.o
+.PHONY : src/Model/mesh.o
 
 # target to build an object file
-src/debug.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.o
-.PHONY : src/debug.cpp.o
+src/Model/mesh.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.o
+.PHONY : src/Model/mesh.cpp.o
 
-src/debug.i: src/debug.cpp.i
+src/Model/mesh.i: src/Model/mesh.cpp.i
 
-.PHONY : src/debug.i
+.PHONY : src/Model/mesh.i
 
 # target to preprocess a source file
-src/debug.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.i
-.PHONY : src/debug.cpp.i
+src/Model/mesh.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.i
+.PHONY : src/Model/mesh.cpp.i
 
-src/debug.s: src/debug.cpp.s
+src/Model/mesh.s: src/Model/mesh.cpp.s
 
-.PHONY : src/debug.s
+.PHONY : src/Model/mesh.s
 
 # target to generate assembly for a file
-src/debug.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/debug.cpp.s
-.PHONY : src/debug.cpp.s
+src/Model/mesh.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh.cpp.s
+.PHONY : src/Model/mesh.cpp.s
 
-src/editor_gui.o: src/editor_gui.cpp.o
+src/Model/mesh_data.o: src/Model/mesh_data.cpp.o
 
-.PHONY : src/editor_gui.o
+.PHONY : src/Model/mesh_data.o
 
 # target to build an object file
-src/editor_gui.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.o
-.PHONY : src/editor_gui.cpp.o
+src/Model/mesh_data.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.o
+.PHONY : src/Model/mesh_data.cpp.o
 
-src/editor_gui.i: src/editor_gui.cpp.i
+src/Model/mesh_data.i: src/Model/mesh_data.cpp.i
 
-.PHONY : src/editor_gui.i
+.PHONY : src/Model/mesh_data.i
 
 # target to preprocess a source file
-src/editor_gui.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.i
-.PHONY : src/editor_gui.cpp.i
+src/Model/mesh_data.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.i
+.PHONY : src/Model/mesh_data.cpp.i
 
-src/editor_gui.s: src/editor_gui.cpp.s
+src/Model/mesh_data.s: src/Model/mesh_data.cpp.s
 
-.PHONY : src/editor_gui.s
+.PHONY : src/Model/mesh_data.s
 
 # target to generate assembly for a file
-src/editor_gui.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/editor_gui.cpp.s
-.PHONY : src/editor_gui.cpp.s
+src/Model/mesh_data.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/mesh_data.cpp.s
+.PHONY : src/Model/mesh_data.cpp.s
 
-src/feature.o: src/feature.cpp.o
+src/Model/texture.o: src/Model/texture.cpp.o
 
-.PHONY : src/feature.o
+.PHONY : src/Model/texture.o
 
 # target to build an object file
-src/feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.o
-.PHONY : src/feature.cpp.o
+src/Model/texture.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.o
+.PHONY : src/Model/texture.cpp.o
 
-src/feature.i: src/feature.cpp.i
+src/Model/texture.i: src/Model/texture.cpp.i
 
-.PHONY : src/feature.i
+.PHONY : src/Model/texture.i
 
 # target to preprocess a source file
-src/feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.i
-.PHONY : src/feature.cpp.i
+src/Model/texture.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.i
+.PHONY : src/Model/texture.cpp.i
 
-src/feature.s: src/feature.cpp.s
+src/Model/texture.s: src/Model/texture.cpp.s
 
-.PHONY : src/feature.s
+.PHONY : src/Model/texture.s
 
 # target to generate assembly for a file
-src/feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/feature.cpp.s
-.PHONY : src/feature.cpp.s
+src/Model/texture.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Model/texture.cpp.s
+.PHONY : src/Model/texture.cpp.s
 
-src/game_engine.o: src/game_engine.cpp.o
+src/Physics/collider.o: src/Physics/collider.cpp.o
 
-.PHONY : src/game_engine.o
+.PHONY : src/Physics/collider.o
 
 # target to build an object file
-src/game_engine.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.o
-.PHONY : src/game_engine.cpp.o
+src/Physics/collider.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.o
+.PHONY : src/Physics/collider.cpp.o
 
-src/game_engine.i: src/game_engine.cpp.i
+src/Physics/collider.i: src/Physics/collider.cpp.i
 
-.PHONY : src/game_engine.i
+.PHONY : src/Physics/collider.i
 
 # target to preprocess a source file
-src/game_engine.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.i
-.PHONY : src/game_engine.cpp.i
+src/Physics/collider.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.i
+.PHONY : src/Physics/collider.cpp.i
 
-src/game_engine.s: src/game_engine.cpp.s
+src/Physics/collider.s: src/Physics/collider.cpp.s
 
-.PHONY : src/game_engine.s
+.PHONY : src/Physics/collider.s
 
 # target to generate assembly for a file
-src/game_engine.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_engine.cpp.s
-.PHONY : src/game_engine.cpp.s
+src/Physics/collider.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Physics/collider.cpp.s
+.PHONY : src/Physics/collider.cpp.s
 
-src/game_feature.o: src/game_feature.cpp.o
+src/Resources/audio_res.o: src/Resources/audio_res.cpp.o
 
-.PHONY : src/game_feature.o
+.PHONY : src/Resources/audio_res.o
 
 # target to build an object file
-src/game_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.o
-.PHONY : src/game_feature.cpp.o
+src/Resources/audio_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.o
+.PHONY : src/Resources/audio_res.cpp.o
 
-src/game_feature.i: src/game_feature.cpp.i
+src/Resources/audio_res.i: src/Resources/audio_res.cpp.i
 
-.PHONY : src/game_feature.i
+.PHONY : src/Resources/audio_res.i
 
 # target to preprocess a source file
-src/game_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.i
-.PHONY : src/game_feature.cpp.i
+src/Resources/audio_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.i
+.PHONY : src/Resources/audio_res.cpp.i
 
-src/game_feature.s: src/game_feature.cpp.s
+src/Resources/audio_res.s: src/Resources/audio_res.cpp.s
 
-.PHONY : src/game_feature.s
+.PHONY : src/Resources/audio_res.s
 
 # target to generate assembly for a file
-src/game_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_feature.cpp.s
-.PHONY : src/game_feature.cpp.s
+src/Resources/audio_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/audio_res.cpp.s
+.PHONY : src/Resources/audio_res.cpp.s
 
-src/game_server.o: src/game_server.cpp.o
+src/Resources/lua_script_res.o: src/Resources/lua_script_res.cpp.o
 
-.PHONY : src/game_server.o
+.PHONY : src/Resources/lua_script_res.o
 
 # target to build an object file
-src/game_server.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.o
-.PHONY : src/game_server.cpp.o
+src/Resources/lua_script_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.o
+.PHONY : src/Resources/lua_script_res.cpp.o
 
-src/game_server.i: src/game_server.cpp.i
+src/Resources/lua_script_res.i: src/Resources/lua_script_res.cpp.i
 
-.PHONY : src/game_server.i
+.PHONY : src/Resources/lua_script_res.i
 
 # target to preprocess a source file
-src/game_server.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.i
-.PHONY : src/game_server.cpp.i
+src/Resources/lua_script_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.i
+.PHONY : src/Resources/lua_script_res.cpp.i
 
-src/game_server.s: src/game_server.cpp.s
+src/Resources/lua_script_res.s: src/Resources/lua_script_res.cpp.s
 
-.PHONY : src/game_server.s
+.PHONY : src/Resources/lua_script_res.s
 
 # target to generate assembly for a file
-src/game_server.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/game_server.cpp.s
-.PHONY : src/game_server.cpp.s
+src/Resources/lua_script_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/lua_script_res.cpp.s
+.PHONY : src/Resources/lua_script_res.cpp.s
 
-src/gl_display.o: src/gl_display.cpp.o
+src/Resources/material_res.o: src/Resources/material_res.cpp.o
 
-.PHONY : src/gl_display.o
+.PHONY : src/Resources/material_res.o
 
 # target to build an object file
-src/gl_display.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.o
-.PHONY : src/gl_display.cpp.o
+src/Resources/material_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.o
+.PHONY : src/Resources/material_res.cpp.o
 
-src/gl_display.i: src/gl_display.cpp.i
+src/Resources/material_res.i: src/Resources/material_res.cpp.i
 
-.PHONY : src/gl_display.i
+.PHONY : src/Resources/material_res.i
 
 # target to preprocess a source file
-src/gl_display.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.i
-.PHONY : src/gl_display.cpp.i
+src/Resources/material_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.i
+.PHONY : src/Resources/material_res.cpp.i
 
-src/gl_display.s: src/gl_display.cpp.s
+src/Resources/material_res.s: src/Resources/material_res.cpp.s
 
-.PHONY : src/gl_display.s
+.PHONY : src/Resources/material_res.s
 
 # target to generate assembly for a file
-src/gl_display.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_display.cpp.s
-.PHONY : src/gl_display.cpp.s
+src/Resources/material_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/material_res.cpp.s
+.PHONY : src/Resources/material_res.cpp.s
 
-src/gl_graphics_system.o: src/gl_graphics_system.cpp.o
+src/Resources/mesh_res.o: src/Resources/mesh_res.cpp.o
 
-.PHONY : src/gl_graphics_system.o
+.PHONY : src/Resources/mesh_res.o
 
 # target to build an object file
-src/gl_graphics_system.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.o
-.PHONY : src/gl_graphics_system.cpp.o
+src/Resources/mesh_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.o
+.PHONY : src/Resources/mesh_res.cpp.o
 
-src/gl_graphics_system.i: src/gl_graphics_system.cpp.i
+src/Resources/mesh_res.i: src/Resources/mesh_res.cpp.i
 
-.PHONY : src/gl_graphics_system.i
+.PHONY : src/Resources/mesh_res.i
 
 # target to preprocess a source file
-src/gl_graphics_system.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.i
-.PHONY : src/gl_graphics_system.cpp.i
+src/Resources/mesh_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.i
+.PHONY : src/Resources/mesh_res.cpp.i
 
-src/gl_graphics_system.s: src/gl_graphics_system.cpp.s
+src/Resources/mesh_res.s: src/Resources/mesh_res.cpp.s
 
-.PHONY : src/gl_graphics_system.s
+.PHONY : src/Resources/mesh_res.s
 
 # target to generate assembly for a file
-src/gl_graphics_system.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gl_graphics_system.cpp.s
-.PHONY : src/gl_graphics_system.cpp.s
+src/Resources/mesh_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/mesh_res.cpp.s
+.PHONY : src/Resources/mesh_res.cpp.s
 
-src/graphics_feature.o: src/graphics_feature.cpp.o
+src/Resources/resource.o: src/Resources/resource.cpp.o
 
-.PHONY : src/graphics_feature.o
+.PHONY : src/Resources/resource.o
 
 # target to build an object file
-src/graphics_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.o
-.PHONY : src/graphics_feature.cpp.o
+src/Resources/resource.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.o
+.PHONY : src/Resources/resource.cpp.o
 
-src/graphics_feature.i: src/graphics_feature.cpp.i
+src/Resources/resource.i: src/Resources/resource.cpp.i
 
-.PHONY : src/graphics_feature.i
+.PHONY : src/Resources/resource.i
 
 # target to preprocess a source file
-src/graphics_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.i
-.PHONY : src/graphics_feature.cpp.i
+src/Resources/resource.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.i
+.PHONY : src/Resources/resource.cpp.i
 
-src/graphics_feature.s: src/graphics_feature.cpp.s
+src/Resources/resource.s: src/Resources/resource.cpp.s
 
-.PHONY : src/graphics_feature.s
+.PHONY : src/Resources/resource.s
 
 # target to generate assembly for a file
-src/graphics_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/graphics_feature.cpp.s
-.PHONY : src/graphics_feature.cpp.s
+src/Resources/resource.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/resource.cpp.s
+.PHONY : src/Resources/resource.cpp.s
 
-src/gui_manager.o: src/gui_manager.cpp.o
+src/Resources/shader_res.o: src/Resources/shader_res.cpp.o
 
-.PHONY : src/gui_manager.o
+.PHONY : src/Resources/shader_res.o
 
 # target to build an object file
-src/gui_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.o
-.PHONY : src/gui_manager.cpp.o
+src/Resources/shader_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.o
+.PHONY : src/Resources/shader_res.cpp.o
 
-src/gui_manager.i: src/gui_manager.cpp.i
+src/Resources/shader_res.i: src/Resources/shader_res.cpp.i
 
-.PHONY : src/gui_manager.i
+.PHONY : src/Resources/shader_res.i
 
 # target to preprocess a source file
-src/gui_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.i
-.PHONY : src/gui_manager.cpp.i
+src/Resources/shader_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.i
+.PHONY : src/Resources/shader_res.cpp.i
 
-src/gui_manager.s: src/gui_manager.cpp.s
+src/Resources/shader_res.s: src/Resources/shader_res.cpp.s
 
-.PHONY : src/gui_manager.s
+.PHONY : src/Resources/shader_res.s
 
 # target to generate assembly for a file
-src/gui_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/gui_manager.cpp.s
-.PHONY : src/gui_manager.cpp.s
+src/Resources/shader_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/shader_res.cpp.s
+.PHONY : src/Resources/shader_res.cpp.s
 
-src/input_feature.o: src/input_feature.cpp.o
+src/Resources/texture_res.o: src/Resources/texture_res.cpp.o
 
-.PHONY : src/input_feature.o
+.PHONY : src/Resources/texture_res.o
 
 # target to build an object file
-src/input_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.o
-.PHONY : src/input_feature.cpp.o
+src/Resources/texture_res.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.o
+.PHONY : src/Resources/texture_res.cpp.o
 
-src/input_feature.i: src/input_feature.cpp.i
+src/Resources/texture_res.i: src/Resources/texture_res.cpp.i
 
-.PHONY : src/input_feature.i
+.PHONY : src/Resources/texture_res.i
 
 # target to preprocess a source file
-src/input_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.i
-.PHONY : src/input_feature.cpp.i
+src/Resources/texture_res.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.i
+.PHONY : src/Resources/texture_res.cpp.i
 
-src/input_feature.s: src/input_feature.cpp.s
+src/Resources/texture_res.s: src/Resources/texture_res.cpp.s
 
-.PHONY : src/input_feature.s
+.PHONY : src/Resources/texture_res.s
 
 # target to generate assembly for a file
-src/input_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_feature.cpp.s
-.PHONY : src/input_feature.cpp.s
+src/Resources/texture_res.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Resources/texture_res.cpp.s
+.PHONY : src/Resources/texture_res.cpp.s
 
-src/input_manager.o: src/input_manager.cpp.o
+src/Scripting/lua_glue.o: src/Scripting/lua_glue.cpp.o
 
-.PHONY : src/input_manager.o
+.PHONY : src/Scripting/lua_glue.o
 
 # target to build an object file
-src/input_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.o
-.PHONY : src/input_manager.cpp.o
+src/Scripting/lua_glue.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.o
+.PHONY : src/Scripting/lua_glue.cpp.o
 
-src/input_manager.i: src/input_manager.cpp.i
+src/Scripting/lua_glue.i: src/Scripting/lua_glue.cpp.i
 
-.PHONY : src/input_manager.i
+.PHONY : src/Scripting/lua_glue.i
 
 # target to preprocess a source file
-src/input_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.i
-.PHONY : src/input_manager.cpp.i
+src/Scripting/lua_glue.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.i
+.PHONY : src/Scripting/lua_glue.cpp.i
 
-src/input_manager.s: src/input_manager.cpp.s
+src/Scripting/lua_glue.s: src/Scripting/lua_glue.cpp.s
 
-.PHONY : src/input_manager.s
+.PHONY : src/Scripting/lua_glue.s
 
 # target to generate assembly for a file
-src/input_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/input_manager.cpp.s
-.PHONY : src/input_manager.cpp.s
+src/Scripting/lua_glue.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/lua_glue.cpp.s
+.PHONY : src/Scripting/lua_glue.cpp.s
 
-src/light_component.o: src/light_component.cpp.o
+src/Scripting/script_helper.o: src/Scripting/script_helper.cpp.o
 
-.PHONY : src/light_component.o
+.PHONY : src/Scripting/script_helper.o
 
 # target to build an object file
-src/light_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.o
-.PHONY : src/light_component.cpp.o
+src/Scripting/script_helper.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.o
+.PHONY : src/Scripting/script_helper.cpp.o
 
-src/light_component.i: src/light_component.cpp.i
+src/Scripting/script_helper.i: src/Scripting/script_helper.cpp.i
 
-.PHONY : src/light_component.i
+.PHONY : src/Scripting/script_helper.i
 
 # target to preprocess a source file
-src/light_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.i
-.PHONY : src/light_component.cpp.i
+src/Scripting/script_helper.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.i
+.PHONY : src/Scripting/script_helper.cpp.i
 
-src/light_component.s: src/light_component.cpp.s
+src/Scripting/script_helper.s: src/Scripting/script_helper.cpp.s
 
-.PHONY : src/light_component.s
+.PHONY : src/Scripting/script_helper.s
 
 # target to generate assembly for a file
-src/light_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/light_component.cpp.s
-.PHONY : src/light_component.cpp.s
+src/Scripting/script_helper.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Scripting/script_helper.cpp.s
+.PHONY : src/Scripting/script_helper.cpp.s
 
-src/lua_glue.o: src/lua_glue.cpp.o
+src/Tools/timer.o: src/Tools/timer.cpp.o
 
-.PHONY : src/lua_glue.o
+.PHONY : src/Tools/timer.o
 
 # target to build an object file
-src/lua_glue.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.o
-.PHONY : src/lua_glue.cpp.o
+src/Tools/timer.cpp.o:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.o
+.PHONY : src/Tools/timer.cpp.o
 
-src/lua_glue.i: src/lua_glue.cpp.i
+src/Tools/timer.i: src/Tools/timer.cpp.i
 
-.PHONY : src/lua_glue.i
-
-# target to preprocess a source file
-src/lua_glue.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.i
-.PHONY : src/lua_glue.cpp.i
-
-src/lua_glue.s: src/lua_glue.cpp.s
-
-.PHONY : src/lua_glue.s
-
-# target to generate assembly for a file
-src/lua_glue.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_glue.cpp.s
-.PHONY : src/lua_glue.cpp.s
-
-src/lua_script_component.o: src/lua_script_component.cpp.o
-
-.PHONY : src/lua_script_component.o
-
-# target to build an object file
-src/lua_script_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.o
-.PHONY : src/lua_script_component.cpp.o
-
-src/lua_script_component.i: src/lua_script_component.cpp.i
-
-.PHONY : src/lua_script_component.i
+.PHONY : src/Tools/timer.i
 
 # target to preprocess a source file
-src/lua_script_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.i
-.PHONY : src/lua_script_component.cpp.i
+src/Tools/timer.cpp.i:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.i
+.PHONY : src/Tools/timer.cpp.i
 
-src/lua_script_component.s: src/lua_script_component.cpp.s
+src/Tools/timer.s: src/Tools/timer.cpp.s
 
-.PHONY : src/lua_script_component.s
-
-# target to generate assembly for a file
-src/lua_script_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_component.cpp.s
-.PHONY : src/lua_script_component.cpp.s
-
-src/lua_script_manager.o: src/lua_script_manager.cpp.o
-
-.PHONY : src/lua_script_manager.o
-
-# target to build an object file
-src/lua_script_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.o
-.PHONY : src/lua_script_manager.cpp.o
-
-src/lua_script_manager.i: src/lua_script_manager.cpp.i
-
-.PHONY : src/lua_script_manager.i
-
-# target to preprocess a source file
-src/lua_script_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.i
-.PHONY : src/lua_script_manager.cpp.i
-
-src/lua_script_manager.s: src/lua_script_manager.cpp.s
-
-.PHONY : src/lua_script_manager.s
+.PHONY : src/Tools/timer.s
 
 # target to generate assembly for a file
-src/lua_script_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_manager.cpp.s
-.PHONY : src/lua_script_manager.cpp.s
-
-src/lua_script_res.o: src/lua_script_res.cpp.o
-
-.PHONY : src/lua_script_res.o
-
-# target to build an object file
-src/lua_script_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.o
-.PHONY : src/lua_script_res.cpp.o
-
-src/lua_script_res.i: src/lua_script_res.cpp.i
-
-.PHONY : src/lua_script_res.i
-
-# target to preprocess a source file
-src/lua_script_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.i
-.PHONY : src/lua_script_res.cpp.i
-
-src/lua_script_res.s: src/lua_script_res.cpp.s
-
-.PHONY : src/lua_script_res.s
-
-# target to generate assembly for a file
-src/lua_script_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/lua_script_res.cpp.s
-.PHONY : src/lua_script_res.cpp.s
-
-src/manager.o: src/manager.cpp.o
-
-.PHONY : src/manager.o
-
-# target to build an object file
-src/manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.o
-.PHONY : src/manager.cpp.o
-
-src/manager.i: src/manager.cpp.i
-
-.PHONY : src/manager.i
-
-# target to preprocess a source file
-src/manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.i
-.PHONY : src/manager.cpp.i
-
-src/manager.s: src/manager.cpp.s
-
-.PHONY : src/manager.s
-
-# target to generate assembly for a file
-src/manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/manager.cpp.s
-.PHONY : src/manager.cpp.s
-
-src/material.o: src/material.cpp.o
-
-.PHONY : src/material.o
-
-# target to build an object file
-src/material.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.o
-.PHONY : src/material.cpp.o
-
-src/material.i: src/material.cpp.i
-
-.PHONY : src/material.i
-
-# target to preprocess a source file
-src/material.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.i
-.PHONY : src/material.cpp.i
-
-src/material.s: src/material.cpp.s
-
-.PHONY : src/material.s
-
-# target to generate assembly for a file
-src/material.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material.cpp.s
-.PHONY : src/material.cpp.s
-
-src/material_res.o: src/material_res.cpp.o
-
-.PHONY : src/material_res.o
-
-# target to build an object file
-src/material_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.o
-.PHONY : src/material_res.cpp.o
-
-src/material_res.i: src/material_res.cpp.i
-
-.PHONY : src/material_res.i
-
-# target to preprocess a source file
-src/material_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.i
-.PHONY : src/material_res.cpp.i
-
-src/material_res.s: src/material_res.cpp.s
-
-.PHONY : src/material_res.s
-
-# target to generate assembly for a file
-src/material_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/material_res.cpp.s
-.PHONY : src/material_res.cpp.s
-
-src/mesh.o: src/mesh.cpp.o
-
-.PHONY : src/mesh.o
-
-# target to build an object file
-src/mesh.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.o
-.PHONY : src/mesh.cpp.o
-
-src/mesh.i: src/mesh.cpp.i
-
-.PHONY : src/mesh.i
-
-# target to preprocess a source file
-src/mesh.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.i
-.PHONY : src/mesh.cpp.i
-
-src/mesh.s: src/mesh.cpp.s
-
-.PHONY : src/mesh.s
-
-# target to generate assembly for a file
-src/mesh.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh.cpp.s
-.PHONY : src/mesh.cpp.s
-
-src/mesh_data.o: src/mesh_data.cpp.o
-
-.PHONY : src/mesh_data.o
-
-# target to build an object file
-src/mesh_data.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.o
-.PHONY : src/mesh_data.cpp.o
-
-src/mesh_data.i: src/mesh_data.cpp.i
-
-.PHONY : src/mesh_data.i
-
-# target to preprocess a source file
-src/mesh_data.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.i
-.PHONY : src/mesh_data.cpp.i
-
-src/mesh_data.s: src/mesh_data.cpp.s
-
-.PHONY : src/mesh_data.s
-
-# target to generate assembly for a file
-src/mesh_data.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_data.cpp.s
-.PHONY : src/mesh_data.cpp.s
-
-src/mesh_render_component.o: src/mesh_render_component.cpp.o
-
-.PHONY : src/mesh_render_component.o
-
-# target to build an object file
-src/mesh_render_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.o
-.PHONY : src/mesh_render_component.cpp.o
-
-src/mesh_render_component.i: src/mesh_render_component.cpp.i
-
-.PHONY : src/mesh_render_component.i
-
-# target to preprocess a source file
-src/mesh_render_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.i
-.PHONY : src/mesh_render_component.cpp.i
-
-src/mesh_render_component.s: src/mesh_render_component.cpp.s
-
-.PHONY : src/mesh_render_component.s
-
-# target to generate assembly for a file
-src/mesh_render_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_component.cpp.s
-.PHONY : src/mesh_render_component.cpp.s
-
-src/mesh_render_manager.o: src/mesh_render_manager.cpp.o
-
-.PHONY : src/mesh_render_manager.o
-
-# target to build an object file
-src/mesh_render_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.o
-.PHONY : src/mesh_render_manager.cpp.o
-
-src/mesh_render_manager.i: src/mesh_render_manager.cpp.i
-
-.PHONY : src/mesh_render_manager.i
-
-# target to preprocess a source file
-src/mesh_render_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.i
-.PHONY : src/mesh_render_manager.cpp.i
-
-src/mesh_render_manager.s: src/mesh_render_manager.cpp.s
-
-.PHONY : src/mesh_render_manager.s
-
-# target to generate assembly for a file
-src/mesh_render_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_render_manager.cpp.s
-.PHONY : src/mesh_render_manager.cpp.s
-
-src/mesh_res.o: src/mesh_res.cpp.o
-
-.PHONY : src/mesh_res.o
-
-# target to build an object file
-src/mesh_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.o
-.PHONY : src/mesh_res.cpp.o
-
-src/mesh_res.i: src/mesh_res.cpp.i
-
-.PHONY : src/mesh_res.i
-
-# target to preprocess a source file
-src/mesh_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.i
-.PHONY : src/mesh_res.cpp.i
-
-src/mesh_res.s: src/mesh_res.cpp.s
-
-.PHONY : src/mesh_res.s
-
-# target to generate assembly for a file
-src/mesh_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/mesh_res.cpp.s
-.PHONY : src/mesh_res.cpp.s
-
-src/physics_component.o: src/physics_component.cpp.o
-
-.PHONY : src/physics_component.o
-
-# target to build an object file
-src/physics_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.o
-.PHONY : src/physics_component.cpp.o
-
-src/physics_component.i: src/physics_component.cpp.i
-
-.PHONY : src/physics_component.i
-
-# target to preprocess a source file
-src/physics_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.i
-.PHONY : src/physics_component.cpp.i
-
-src/physics_component.s: src/physics_component.cpp.s
-
-.PHONY : src/physics_component.s
-
-# target to generate assembly for a file
-src/physics_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_component.cpp.s
-.PHONY : src/physics_component.cpp.s
-
-src/physics_feature.o: src/physics_feature.cpp.o
-
-.PHONY : src/physics_feature.o
-
-# target to build an object file
-src/physics_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.o
-.PHONY : src/physics_feature.cpp.o
-
-src/physics_feature.i: src/physics_feature.cpp.i
-
-.PHONY : src/physics_feature.i
-
-# target to preprocess a source file
-src/physics_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.i
-.PHONY : src/physics_feature.cpp.i
-
-src/physics_feature.s: src/physics_feature.cpp.s
-
-.PHONY : src/physics_feature.s
-
-# target to generate assembly for a file
-src/physics_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_feature.cpp.s
-.PHONY : src/physics_feature.cpp.s
-
-src/physics_manager.o: src/physics_manager.cpp.o
-
-.PHONY : src/physics_manager.o
-
-# target to build an object file
-src/physics_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.o
-.PHONY : src/physics_manager.cpp.o
-
-src/physics_manager.i: src/physics_manager.cpp.i
-
-.PHONY : src/physics_manager.i
-
-# target to preprocess a source file
-src/physics_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.i
-.PHONY : src/physics_manager.cpp.i
-
-src/physics_manager.s: src/physics_manager.cpp.s
-
-.PHONY : src/physics_manager.s
-
-# target to generate assembly for a file
-src/physics_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/physics_manager.cpp.s
-.PHONY : src/physics_manager.cpp.s
-
-src/post_process_settings.o: src/post_process_settings.cpp.o
-
-.PHONY : src/post_process_settings.o
-
-# target to build an object file
-src/post_process_settings.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.o
-.PHONY : src/post_process_settings.cpp.o
-
-src/post_process_settings.i: src/post_process_settings.cpp.i
-
-.PHONY : src/post_process_settings.i
-
-# target to preprocess a source file
-src/post_process_settings.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.i
-.PHONY : src/post_process_settings.cpp.i
-
-src/post_process_settings.s: src/post_process_settings.cpp.s
-
-.PHONY : src/post_process_settings.s
-
-# target to generate assembly for a file
-src/post_process_settings.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/post_process_settings.cpp.s
-.PHONY : src/post_process_settings.cpp.s
-
-src/resource.o: src/resource.cpp.o
-
-.PHONY : src/resource.o
-
-# target to build an object file
-src/resource.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.o
-.PHONY : src/resource.cpp.o
-
-src/resource.i: src/resource.cpp.i
-
-.PHONY : src/resource.i
-
-# target to preprocess a source file
-src/resource.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.i
-.PHONY : src/resource.cpp.i
-
-src/resource.s: src/resource.cpp.s
-
-.PHONY : src/resource.s
-
-# target to generate assembly for a file
-src/resource.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource.cpp.s
-.PHONY : src/resource.cpp.s
-
-src/resource_manager.o: src/resource_manager.cpp.o
-
-.PHONY : src/resource_manager.o
-
-# target to build an object file
-src/resource_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.o
-.PHONY : src/resource_manager.cpp.o
-
-src/resource_manager.i: src/resource_manager.cpp.i
-
-.PHONY : src/resource_manager.i
-
-# target to preprocess a source file
-src/resource_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.i
-.PHONY : src/resource_manager.cpp.i
-
-src/resource_manager.s: src/resource_manager.cpp.s
-
-.PHONY : src/resource_manager.s
-
-# target to generate assembly for a file
-src/resource_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/resource_manager.cpp.s
-.PHONY : src/resource_manager.cpp.s
-
-src/script_component.o: src/script_component.cpp.o
-
-.PHONY : src/script_component.o
-
-# target to build an object file
-src/script_component.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.o
-.PHONY : src/script_component.cpp.o
-
-src/script_component.i: src/script_component.cpp.i
-
-.PHONY : src/script_component.i
-
-# target to preprocess a source file
-src/script_component.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.i
-.PHONY : src/script_component.cpp.i
-
-src/script_component.s: src/script_component.cpp.s
-
-.PHONY : src/script_component.s
-
-# target to generate assembly for a file
-src/script_component.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_component.cpp.s
-.PHONY : src/script_component.cpp.s
-
-src/script_feature.o: src/script_feature.cpp.o
-
-.PHONY : src/script_feature.o
-
-# target to build an object file
-src/script_feature.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.o
-.PHONY : src/script_feature.cpp.o
-
-src/script_feature.i: src/script_feature.cpp.i
-
-.PHONY : src/script_feature.i
-
-# target to preprocess a source file
-src/script_feature.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.i
-.PHONY : src/script_feature.cpp.i
-
-src/script_feature.s: src/script_feature.cpp.s
-
-.PHONY : src/script_feature.s
-
-# target to generate assembly for a file
-src/script_feature.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_feature.cpp.s
-.PHONY : src/script_feature.cpp.s
-
-src/script_helper.o: src/script_helper.cpp.o
-
-.PHONY : src/script_helper.o
-
-# target to build an object file
-src/script_helper.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.o
-.PHONY : src/script_helper.cpp.o
-
-src/script_helper.i: src/script_helper.cpp.i
-
-.PHONY : src/script_helper.i
-
-# target to preprocess a source file
-src/script_helper.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.i
-.PHONY : src/script_helper.cpp.i
-
-src/script_helper.s: src/script_helper.cpp.s
-
-.PHONY : src/script_helper.s
-
-# target to generate assembly for a file
-src/script_helper.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/script_helper.cpp.s
-.PHONY : src/script_helper.cpp.s
-
-src/shader.o: src/shader.cpp.o
-
-.PHONY : src/shader.o
-
-# target to build an object file
-src/shader.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.o
-.PHONY : src/shader.cpp.o
-
-src/shader.i: src/shader.cpp.i
-
-.PHONY : src/shader.i
-
-# target to preprocess a source file
-src/shader.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
-
-src/shader.s: src/shader.cpp.s
-
-.PHONY : src/shader.s
-
-# target to generate assembly for a file
-src/shader.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
-
-src/shader_program.o: src/shader_program.cpp.o
-
-.PHONY : src/shader_program.o
-
-# target to build an object file
-src/shader_program.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.o
-.PHONY : src/shader_program.cpp.o
-
-src/shader_program.i: src/shader_program.cpp.i
-
-.PHONY : src/shader_program.i
-
-# target to preprocess a source file
-src/shader_program.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.i
-.PHONY : src/shader_program.cpp.i
-
-src/shader_program.s: src/shader_program.cpp.s
-
-.PHONY : src/shader_program.s
-
-# target to generate assembly for a file
-src/shader_program.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_program.cpp.s
-.PHONY : src/shader_program.cpp.s
-
-src/shader_reader.o: src/shader_reader.cpp.o
-
-.PHONY : src/shader_reader.o
-
-# target to build an object file
-src/shader_reader.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.o
-.PHONY : src/shader_reader.cpp.o
-
-src/shader_reader.i: src/shader_reader.cpp.i
-
-.PHONY : src/shader_reader.i
-
-# target to preprocess a source file
-src/shader_reader.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.i
-.PHONY : src/shader_reader.cpp.i
-
-src/shader_reader.s: src/shader_reader.cpp.s
-
-.PHONY : src/shader_reader.s
-
-# target to generate assembly for a file
-src/shader_reader.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_reader.cpp.s
-.PHONY : src/shader_reader.cpp.s
-
-src/shader_res.o: src/shader_res.cpp.o
-
-.PHONY : src/shader_res.o
-
-# target to build an object file
-src/shader_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.o
-.PHONY : src/shader_res.cpp.o
-
-src/shader_res.i: src/shader_res.cpp.i
-
-.PHONY : src/shader_res.i
-
-# target to preprocess a source file
-src/shader_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.i
-.PHONY : src/shader_res.cpp.i
-
-src/shader_res.s: src/shader_res.cpp.s
-
-.PHONY : src/shader_res.s
-
-# target to generate assembly for a file
-src/shader_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/shader_res.cpp.s
-.PHONY : src/shader_res.cpp.s
-
-src/text_file_reader.o: src/text_file_reader.cpp.o
-
-.PHONY : src/text_file_reader.o
-
-# target to build an object file
-src/text_file_reader.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.o
-.PHONY : src/text_file_reader.cpp.o
-
-src/text_file_reader.i: src/text_file_reader.cpp.i
-
-.PHONY : src/text_file_reader.i
-
-# target to preprocess a source file
-src/text_file_reader.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.i
-.PHONY : src/text_file_reader.cpp.i
-
-src/text_file_reader.s: src/text_file_reader.cpp.s
-
-.PHONY : src/text_file_reader.s
-
-# target to generate assembly for a file
-src/text_file_reader.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/text_file_reader.cpp.s
-.PHONY : src/text_file_reader.cpp.s
-
-src/texture.o: src/texture.cpp.o
-
-.PHONY : src/texture.o
-
-# target to build an object file
-src/texture.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.o
-.PHONY : src/texture.cpp.o
-
-src/texture.i: src/texture.cpp.i
-
-.PHONY : src/texture.i
-
-# target to preprocess a source file
-src/texture.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.i
-.PHONY : src/texture.cpp.i
-
-src/texture.s: src/texture.cpp.s
-
-.PHONY : src/texture.s
-
-# target to generate assembly for a file
-src/texture.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture.cpp.s
-.PHONY : src/texture.cpp.s
-
-src/texture_factory.o: src/texture_factory.cpp.o
-
-.PHONY : src/texture_factory.o
-
-# target to build an object file
-src/texture_factory.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.o
-.PHONY : src/texture_factory.cpp.o
-
-src/texture_factory.i: src/texture_factory.cpp.i
-
-.PHONY : src/texture_factory.i
-
-# target to preprocess a source file
-src/texture_factory.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.i
-.PHONY : src/texture_factory.cpp.i
-
-src/texture_factory.s: src/texture_factory.cpp.s
-
-.PHONY : src/texture_factory.s
-
-# target to generate assembly for a file
-src/texture_factory.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_factory.cpp.s
-.PHONY : src/texture_factory.cpp.s
-
-src/texture_res.o: src/texture_res.cpp.o
-
-.PHONY : src/texture_res.o
-
-# target to build an object file
-src/texture_res.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.o
-.PHONY : src/texture_res.cpp.o
-
-src/texture_res.i: src/texture_res.cpp.i
-
-.PHONY : src/texture_res.i
-
-# target to preprocess a source file
-src/texture_res.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.i
-.PHONY : src/texture_res.cpp.i
-
-src/texture_res.s: src/texture_res.cpp.s
-
-.PHONY : src/texture_res.s
-
-# target to generate assembly for a file
-src/texture_res.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/texture_res.cpp.s
-.PHONY : src/texture_res.cpp.s
-
-src/time_manager.o: src/time_manager.cpp.o
-
-.PHONY : src/time_manager.o
-
-# target to build an object file
-src/time_manager.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.o
-.PHONY : src/time_manager.cpp.o
-
-src/time_manager.i: src/time_manager.cpp.i
-
-.PHONY : src/time_manager.i
-
-# target to preprocess a source file
-src/time_manager.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.i
-.PHONY : src/time_manager.cpp.i
-
-src/time_manager.s: src/time_manager.cpp.s
-
-.PHONY : src/time_manager.s
-
-# target to generate assembly for a file
-src/time_manager.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/time_manager.cpp.s
-.PHONY : src/time_manager.cpp.s
-
-src/timer.o: src/timer.cpp.o
-
-.PHONY : src/timer.o
-
-# target to build an object file
-src/timer.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.o
-.PHONY : src/timer.cpp.o
-
-src/timer.i: src/timer.cpp.i
-
-.PHONY : src/timer.i
-
-# target to preprocess a source file
-src/timer.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.i
-.PHONY : src/timer.cpp.i
-
-src/timer.s: src/timer.cpp.s
-
-.PHONY : src/timer.s
-
-# target to generate assembly for a file
-src/timer.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/timer.cpp.s
-.PHONY : src/timer.cpp.s
-
-src/transform.o: src/transform.cpp.o
-
-.PHONY : src/transform.o
-
-# target to build an object file
-src/transform.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.o
-.PHONY : src/transform.cpp.o
-
-src/transform.i: src/transform.cpp.i
-
-.PHONY : src/transform.i
-
-# target to preprocess a source file
-src/transform.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.i
-.PHONY : src/transform.cpp.i
-
-src/transform.s: src/transform.cpp.s
-
-.PHONY : src/transform.s
-
-# target to generate assembly for a file
-src/transform.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/transform.cpp.s
-.PHONY : src/transform.cpp.s
-
-src/viewport.o: src/viewport.cpp.o
-
-.PHONY : src/viewport.o
-
-# target to build an object file
-src/viewport.cpp.o:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.o
-.PHONY : src/viewport.cpp.o
-
-src/viewport.i: src/viewport.cpp.i
-
-.PHONY : src/viewport.i
-
-# target to preprocess a source file
-src/viewport.cpp.i:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.i
-.PHONY : src/viewport.cpp.i
-
-src/viewport.s: src/viewport.cpp.s
-
-.PHONY : src/viewport.s
-
-# target to generate assembly for a file
-src/viewport.cpp.s:
-	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/viewport.cpp.s
-.PHONY : src/viewport.cpp.s
+src/Tools/timer.cpp.s:
+	cd /home/matias/Prosjekt/SillyTech3D/SillyTech3D && $(MAKE) -f SillyTech3D/CMakeFiles/SillyTech3D.dir/build.make SillyTech3D/CMakeFiles/SillyTech3D.dir/src/Tools/timer.cpp.s
+.PHONY : src/Tools/timer.cpp.s
 
 # Help Target
 help:
@@ -1781,189 +1808,192 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SillyTech3D"
+	@echo "... src/Actor/actor.o"
+	@echo "... src/Actor/actor.i"
+	@echo "... src/Actor/actor.s"
+	@echo "... src/Common/Debugging/debug.o"
+	@echo "... src/Common/Debugging/debug.i"
+	@echo "... src/Common/Debugging/debug.s"
+	@echo "... src/Common/Debugging/exception_handler.o"
+	@echo "... src/Common/Debugging/exception_handler.i"
+	@echo "... src/Common/Debugging/exception_handler.s"
+	@echo "... src/Common/Debugging/memory_manager.o"
+	@echo "... src/Common/Debugging/memory_manager.i"
+	@echo "... src/Common/Debugging/memory_manager.s"
+	@echo "... src/Common/Interfaces/core_events.o"
+	@echo "... src/Common/Interfaces/core_events.i"
+	@echo "... src/Common/Interfaces/core_events.s"
+	@echo "... src/Components/audio_component.o"
+	@echo "... src/Components/audio_component.i"
+	@echo "... src/Components/audio_component.s"
+	@echo "... src/Components/camera_component.o"
+	@echo "... src/Components/camera_component.i"
+	@echo "... src/Components/camera_component.s"
+	@echo "... src/Components/component.o"
+	@echo "... src/Components/component.i"
+	@echo "... src/Components/component.s"
+	@echo "... src/Components/light_component.o"
+	@echo "... src/Components/light_component.i"
+	@echo "... src/Components/light_component.s"
+	@echo "... src/Components/lua_script_component.o"
+	@echo "... src/Components/lua_script_component.i"
+	@echo "... src/Components/lua_script_component.s"
+	@echo "... src/Components/mesh_render_component.o"
+	@echo "... src/Components/mesh_render_component.i"
+	@echo "... src/Components/mesh_render_component.s"
+	@echo "... src/Components/physics_component.o"
+	@echo "... src/Components/physics_component.i"
+	@echo "... src/Components/physics_component.s"
+	@echo "... src/Components/script_component.o"
+	@echo "... src/Components/script_component.i"
+	@echo "... src/Components/script_component.s"
+	@echo "... src/Engine/game_engine.o"
+	@echo "... src/Engine/game_engine.i"
+	@echo "... src/Engine/game_engine.s"
+	@echo "... src/Engine/game_server.o"
+	@echo "... src/Engine/game_server.i"
+	@echo "... src/Engine/game_server.s"
+	@echo "... src/Factories/actor_factory.o"
+	@echo "... src/Factories/actor_factory.i"
+	@echo "... src/Factories/actor_factory.s"
+	@echo "... src/Factories/bounding_box_factory.o"
+	@echo "... src/Factories/bounding_box_factory.i"
+	@echo "... src/Factories/bounding_box_factory.s"
+	@echo "... src/Factories/texture_factory.o"
+	@echo "... src/Factories/texture_factory.i"
+	@echo "... src/Factories/texture_factory.s"
+	@echo "... src/Features/audio_feature.o"
+	@echo "... src/Features/audio_feature.i"
+	@echo "... src/Features/audio_feature.s"
+	@echo "... src/Features/feature.o"
+	@echo "... src/Features/feature.i"
+	@echo "... src/Features/feature.s"
+	@echo "... src/Features/game_feature.o"
+	@echo "... src/Features/game_feature.i"
+	@echo "... src/Features/game_feature.s"
+	@echo "... src/Features/graphics_feature.o"
+	@echo "... src/Features/graphics_feature.i"
+	@echo "... src/Features/graphics_feature.s"
+	@echo "... src/Features/input_feature.o"
+	@echo "... src/Features/input_feature.i"
+	@echo "... src/Features/input_feature.s"
+	@echo "... src/Features/physics_feature.o"
+	@echo "... src/Features/physics_feature.i"
+	@echo "... src/Features/physics_feature.s"
+	@echo "... src/Features/script_feature.o"
+	@echo "... src/Features/script_feature.i"
+	@echo "... src/Features/script_feature.s"
+	@echo "... src/FileIO/shader_reader.o"
+	@echo "... src/FileIO/shader_reader.i"
+	@echo "... src/FileIO/shader_reader.s"
+	@echo "... src/FileIO/text_file_reader.o"
+	@echo "... src/FileIO/text_file_reader.i"
+	@echo "... src/FileIO/text_file_reader.s"
+	@echo "... src/GUI/editor_gui.o"
+	@echo "... src/GUI/editor_gui.i"
+	@echo "... src/GUI/editor_gui.s"
+	@echo "... src/Geometry/transform.o"
+	@echo "... src/Geometry/transform.i"
+	@echo "... src/Geometry/transform.s"
+	@echo "... src/Graphics/gl_display.o"
+	@echo "... src/Graphics/gl_display.i"
+	@echo "... src/Graphics/gl_display.s"
+	@echo "... src/Graphics/gl_graphics_system.o"
+	@echo "... src/Graphics/gl_graphics_system.i"
+	@echo "... src/Graphics/gl_graphics_system.s"
+	@echo "... src/Graphics/shader.o"
+	@echo "... src/Graphics/shader.i"
+	@echo "... src/Graphics/shader.s"
+	@echo "... src/Graphics/shader_program.o"
+	@echo "... src/Graphics/shader_program.i"
+	@echo "... src/Graphics/shader_program.s"
+	@echo "... src/Graphics/viewport.o"
+	@echo "... src/Graphics/viewport.i"
+	@echo "... src/Graphics/viewport.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
-	@echo "... src/actor.o"
-	@echo "... src/actor.i"
-	@echo "... src/actor.s"
-	@echo "... src/actor_factory.o"
-	@echo "... src/actor_factory.i"
-	@echo "... src/actor_factory.s"
-	@echo "... src/actor_manager.o"
-	@echo "... src/actor_manager.i"
-	@echo "... src/actor_manager.s"
-	@echo "... src/audio_component.o"
-	@echo "... src/audio_component.i"
-	@echo "... src/audio_component.s"
-	@echo "... src/audio_feature.o"
-	@echo "... src/audio_feature.i"
-	@echo "... src/audio_feature.s"
-	@echo "... src/audio_manager.o"
-	@echo "... src/audio_manager.i"
-	@echo "... src/audio_manager.s"
-	@echo "... src/audio_res.o"
-	@echo "... src/audio_res.i"
-	@echo "... src/audio_res.s"
-	@echo "... src/bounding_box.o"
-	@echo "... src/bounding_box.i"
-	@echo "... src/bounding_box.s"
-	@echo "... src/bounding_box_factory.o"
-	@echo "... src/bounding_box_factory.i"
-	@echo "... src/bounding_box_factory.s"
-	@echo "... src/camera_component.o"
-	@echo "... src/camera_component.i"
-	@echo "... src/camera_component.s"
-	@echo "... src/camera_manager.o"
-	@echo "... src/camera_manager.i"
-	@echo "... src/camera_manager.s"
-	@echo "... src/collider.o"
-	@echo "... src/collider.i"
-	@echo "... src/collider.s"
-	@echo "... src/component.o"
-	@echo "... src/component.i"
-	@echo "... src/component.s"
-	@echo "... src/core_events.o"
-	@echo "... src/core_events.i"
-	@echo "... src/core_events.s"
-	@echo "... src/debug.o"
-	@echo "... src/debug.i"
-	@echo "... src/debug.s"
-	@echo "... src/editor_gui.o"
-	@echo "... src/editor_gui.i"
-	@echo "... src/editor_gui.s"
-	@echo "... src/feature.o"
-	@echo "... src/feature.i"
-	@echo "... src/feature.s"
-	@echo "... src/game_engine.o"
-	@echo "... src/game_engine.i"
-	@echo "... src/game_engine.s"
-	@echo "... src/game_feature.o"
-	@echo "... src/game_feature.i"
-	@echo "... src/game_feature.s"
-	@echo "... src/game_server.o"
-	@echo "... src/game_server.i"
-	@echo "... src/game_server.s"
-	@echo "... src/gl_display.o"
-	@echo "... src/gl_display.i"
-	@echo "... src/gl_display.s"
-	@echo "... src/gl_graphics_system.o"
-	@echo "... src/gl_graphics_system.i"
-	@echo "... src/gl_graphics_system.s"
-	@echo "... src/graphics_feature.o"
-	@echo "... src/graphics_feature.i"
-	@echo "... src/graphics_feature.s"
-	@echo "... src/gui_manager.o"
-	@echo "... src/gui_manager.i"
-	@echo "... src/gui_manager.s"
-	@echo "... src/input_feature.o"
-	@echo "... src/input_feature.i"
-	@echo "... src/input_feature.s"
-	@echo "... src/input_manager.o"
-	@echo "... src/input_manager.i"
-	@echo "... src/input_manager.s"
-	@echo "... src/light_component.o"
-	@echo "... src/light_component.i"
-	@echo "... src/light_component.s"
-	@echo "... src/lua_glue.o"
-	@echo "... src/lua_glue.i"
-	@echo "... src/lua_glue.s"
-	@echo "... src/lua_script_component.o"
-	@echo "... src/lua_script_component.i"
-	@echo "... src/lua_script_component.s"
-	@echo "... src/lua_script_manager.o"
-	@echo "... src/lua_script_manager.i"
-	@echo "... src/lua_script_manager.s"
-	@echo "... src/lua_script_res.o"
-	@echo "... src/lua_script_res.i"
-	@echo "... src/lua_script_res.s"
-	@echo "... src/manager.o"
-	@echo "... src/manager.i"
-	@echo "... src/manager.s"
-	@echo "... src/material.o"
-	@echo "... src/material.i"
-	@echo "... src/material.s"
-	@echo "... src/material_res.o"
-	@echo "... src/material_res.i"
-	@echo "... src/material_res.s"
-	@echo "... src/mesh.o"
-	@echo "... src/mesh.i"
-	@echo "... src/mesh.s"
-	@echo "... src/mesh_data.o"
-	@echo "... src/mesh_data.i"
-	@echo "... src/mesh_data.s"
-	@echo "... src/mesh_render_component.o"
-	@echo "... src/mesh_render_component.i"
-	@echo "... src/mesh_render_component.s"
-	@echo "... src/mesh_render_manager.o"
-	@echo "... src/mesh_render_manager.i"
-	@echo "... src/mesh_render_manager.s"
-	@echo "... src/mesh_res.o"
-	@echo "... src/mesh_res.i"
-	@echo "... src/mesh_res.s"
-	@echo "... src/physics_component.o"
-	@echo "... src/physics_component.i"
-	@echo "... src/physics_component.s"
-	@echo "... src/physics_feature.o"
-	@echo "... src/physics_feature.i"
-	@echo "... src/physics_feature.s"
-	@echo "... src/physics_manager.o"
-	@echo "... src/physics_manager.i"
-	@echo "... src/physics_manager.s"
-	@echo "... src/post_process_settings.o"
-	@echo "... src/post_process_settings.i"
-	@echo "... src/post_process_settings.s"
-	@echo "... src/resource.o"
-	@echo "... src/resource.i"
-	@echo "... src/resource.s"
-	@echo "... src/resource_manager.o"
-	@echo "... src/resource_manager.i"
-	@echo "... src/resource_manager.s"
-	@echo "... src/script_component.o"
-	@echo "... src/script_component.i"
-	@echo "... src/script_component.s"
-	@echo "... src/script_feature.o"
-	@echo "... src/script_feature.i"
-	@echo "... src/script_feature.s"
-	@echo "... src/script_helper.o"
-	@echo "... src/script_helper.i"
-	@echo "... src/script_helper.s"
-	@echo "... src/shader.o"
-	@echo "... src/shader.i"
-	@echo "... src/shader.s"
-	@echo "... src/shader_program.o"
-	@echo "... src/shader_program.i"
-	@echo "... src/shader_program.s"
-	@echo "... src/shader_reader.o"
-	@echo "... src/shader_reader.i"
-	@echo "... src/shader_reader.s"
-	@echo "... src/shader_res.o"
-	@echo "... src/shader_res.i"
-	@echo "... src/shader_res.s"
-	@echo "... src/text_file_reader.o"
-	@echo "... src/text_file_reader.i"
-	@echo "... src/text_file_reader.s"
-	@echo "... src/texture.o"
-	@echo "... src/texture.i"
-	@echo "... src/texture.s"
-	@echo "... src/texture_factory.o"
-	@echo "... src/texture_factory.i"
-	@echo "... src/texture_factory.s"
-	@echo "... src/texture_res.o"
-	@echo "... src/texture_res.i"
-	@echo "... src/texture_res.s"
-	@echo "... src/time_manager.o"
-	@echo "... src/time_manager.i"
-	@echo "... src/time_manager.s"
-	@echo "... src/timer.o"
-	@echo "... src/timer.i"
-	@echo "... src/timer.s"
-	@echo "... src/transform.o"
-	@echo "... src/transform.i"
-	@echo "... src/transform.s"
-	@echo "... src/viewport.o"
-	@echo "... src/viewport.i"
-	@echo "... src/viewport.s"
+	@echo "... src/Managers/actor_manager.o"
+	@echo "... src/Managers/actor_manager.i"
+	@echo "... src/Managers/actor_manager.s"
+	@echo "... src/Managers/audio_manager.o"
+	@echo "... src/Managers/audio_manager.i"
+	@echo "... src/Managers/audio_manager.s"
+	@echo "... src/Managers/camera_manager.o"
+	@echo "... src/Managers/camera_manager.i"
+	@echo "... src/Managers/camera_manager.s"
+	@echo "... src/Managers/gui_manager.o"
+	@echo "... src/Managers/gui_manager.i"
+	@echo "... src/Managers/gui_manager.s"
+	@echo "... src/Managers/input_manager.o"
+	@echo "... src/Managers/input_manager.i"
+	@echo "... src/Managers/input_manager.s"
+	@echo "... src/Managers/lua_script_manager.o"
+	@echo "... src/Managers/lua_script_manager.i"
+	@echo "... src/Managers/lua_script_manager.s"
+	@echo "... src/Managers/manager.o"
+	@echo "... src/Managers/manager.i"
+	@echo "... src/Managers/manager.s"
+	@echo "... src/Managers/mesh_render_manager.o"
+	@echo "... src/Managers/mesh_render_manager.i"
+	@echo "... src/Managers/mesh_render_manager.s"
+	@echo "... src/Managers/physics_manager.o"
+	@echo "... src/Managers/physics_manager.i"
+	@echo "... src/Managers/physics_manager.s"
+	@echo "... src/Managers/resource_manager.o"
+	@echo "... src/Managers/resource_manager.i"
+	@echo "... src/Managers/resource_manager.s"
+	@echo "... src/Managers/time_manager.o"
+	@echo "... src/Managers/time_manager.i"
+	@echo "... src/Managers/time_manager.s"
+	@echo "... src/Model/bounding_box.o"
+	@echo "... src/Model/bounding_box.i"
+	@echo "... src/Model/bounding_box.s"
+	@echo "... src/Model/material.o"
+	@echo "... src/Model/material.i"
+	@echo "... src/Model/material.s"
+	@echo "... src/Model/mesh.o"
+	@echo "... src/Model/mesh.i"
+	@echo "... src/Model/mesh.s"
+	@echo "... src/Model/mesh_data.o"
+	@echo "... src/Model/mesh_data.i"
+	@echo "... src/Model/mesh_data.s"
+	@echo "... src/Model/texture.o"
+	@echo "... src/Model/texture.i"
+	@echo "... src/Model/texture.s"
+	@echo "... src/Physics/collider.o"
+	@echo "... src/Physics/collider.i"
+	@echo "... src/Physics/collider.s"
+	@echo "... src/Resources/audio_res.o"
+	@echo "... src/Resources/audio_res.i"
+	@echo "... src/Resources/audio_res.s"
+	@echo "... src/Resources/lua_script_res.o"
+	@echo "... src/Resources/lua_script_res.i"
+	@echo "... src/Resources/lua_script_res.s"
+	@echo "... src/Resources/material_res.o"
+	@echo "... src/Resources/material_res.i"
+	@echo "... src/Resources/material_res.s"
+	@echo "... src/Resources/mesh_res.o"
+	@echo "... src/Resources/mesh_res.i"
+	@echo "... src/Resources/mesh_res.s"
+	@echo "... src/Resources/resource.o"
+	@echo "... src/Resources/resource.i"
+	@echo "... src/Resources/resource.s"
+	@echo "... src/Resources/shader_res.o"
+	@echo "... src/Resources/shader_res.i"
+	@echo "... src/Resources/shader_res.s"
+	@echo "... src/Resources/texture_res.o"
+	@echo "... src/Resources/texture_res.i"
+	@echo "... src/Resources/texture_res.s"
+	@echo "... src/Scripting/lua_glue.o"
+	@echo "... src/Scripting/lua_glue.i"
+	@echo "... src/Scripting/lua_glue.s"
+	@echo "... src/Scripting/script_helper.o"
+	@echo "... src/Scripting/script_helper.i"
+	@echo "... src/Scripting/script_helper.s"
+	@echo "... src/Tools/timer.o"
+	@echo "... src/Tools/timer.i"
+	@echo "... src/Tools/timer.s"
 .PHONY : help
 
 

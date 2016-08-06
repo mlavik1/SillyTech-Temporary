@@ -4,8 +4,8 @@
 #include "display.h"
 #include <SDL.h>
 #include <GL/glew.h>
-#include <GL/GL.h>
-#include <GL/GLU.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
 
 class GLDisplay : public Display
 {
