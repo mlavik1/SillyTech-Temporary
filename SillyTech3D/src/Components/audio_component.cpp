@@ -8,7 +8,6 @@
 
 AudioComponent::AudioComponent(const char *arg_filename) : Component()
 {
-	Component::Component();
 	//mBuffer = 0;
 	mSource = 0;
 	//mStatus = -1;
