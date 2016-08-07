@@ -16,7 +16,7 @@ public:
 	virtual void InitMainFrameBuffer(int arg_width, int arg_height) {}
 	virtual void BindMainFrameBuffer() {}
 	virtual void RenderMainFrameBuffer() {}
-	virtual ShaderProgram &GetPostProcessProgram() { return ShaderProgram(); }
+	virtual ShaderProgram &GetPostProcessProgram() = 0;
 };
 
 #endif

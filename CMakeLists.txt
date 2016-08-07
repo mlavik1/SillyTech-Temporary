@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.3)
 project(SillyTech3D)
 
 set(CMAKE_BUILD_TYPE Debug)
+add_definitions(-malign-double)
+set_directory_properties(PROPERTIES COMPILE_DEFINITIONS "USE_C99_MATH;_DEBUG")
 
 set(BUILD_ROOT "${CMAKE_SOURCE_DIR}/build")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build")

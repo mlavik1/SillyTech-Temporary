@@ -2,7 +2,7 @@
 #define MESH_H
 
 #include <GL/glew.h>
-#include <gl/GL.h>
+#include <GL/gl.h>
 #include "mesh_data.h"
 #include <string>
 #include "bounding_box.h"
