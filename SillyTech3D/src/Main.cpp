@@ -1,4 +1,6 @@
+#ifdef _WIN32
 #include <Windows.h>
+#endif
 #include <SDL.h>
 #include <GL/glew.h>
 #undef main // prevent LNK2019

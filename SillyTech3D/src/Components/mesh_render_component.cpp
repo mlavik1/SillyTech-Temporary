@@ -7,7 +7,7 @@
 #include "mesh_render_manager.h"
 #include "bounding_box_factory.h"
 
-MeshRenderComponent::MeshRenderComponent()
+MeshRenderComponent::MeshRenderComponent() : Component()
 {
 	mIsActive = false;
 	mMeshID = "";

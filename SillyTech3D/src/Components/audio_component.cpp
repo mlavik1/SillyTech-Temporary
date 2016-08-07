@@ -6,7 +6,7 @@
 #include "audio_res.h"
 #include "resource_manager.h"
 
-AudioComponent::AudioComponent(const char *arg_filename)
+AudioComponent::AudioComponent(const char *arg_filename) : Component()
 {
 	Component::Component();
 	//mBuffer = 0;
@@ -21,8 +21,6 @@ AudioComponent::~AudioComponent()
 {
 	alDeleteSources(1, &mSource);
 	//alDeleteBuffers(1, &mBuffer);
-
-	Component::~Component();
 }
 
 

@@ -4,15 +4,13 @@
 #include "resource_manager.h"
 #include "lua_script_res.h"
 
-LuaScriptComponent::LuaScriptComponent()
+LuaScriptComponent::LuaScriptComponent() : ScriptComponent()
 {
-	ScriptComponent::ScriptComponent();
 	this->mLuaState = 0;
 }
 
 LuaScriptComponent::~LuaScriptComponent()
 {
-	ScriptComponent::~ScriptComponent();
 }
 
 

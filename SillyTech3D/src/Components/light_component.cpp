@@ -3,16 +3,14 @@
 #include "mesh_render_manager.h"
 
 
-LightComponent::LightComponent()
+LightComponent::LightComponent() : Component()
 {
-	Component::Component();
-
 	SetLightType(LightType::POINT_LIGHT);
 }
 
 LightComponent::~LightComponent()
 {
-	Component::~Component();
+
 }
 
 

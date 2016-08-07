@@ -2,7 +2,7 @@
 
 #include <SDL.h>
 #include <SDL_image.h>
-#include "GL\glew.h"
+#include "GL/glew.h"
 #include "debug.h"
 
 Texture::Texture()

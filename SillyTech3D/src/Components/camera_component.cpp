@@ -2,16 +2,14 @@
 #include "actor.h"
 #include "camera_manager.h"
 
-CameraComponent::CameraComponent() : mViewport(0.0f,0.0f,1.0f,1.0f)
+CameraComponent::CameraComponent() : Component(), mViewport(0.0f,0.0f,1.0f,1.0f)
 {
-	Component::Component();
-
 	SetCameraType(CameraType::PERSPECTIVE);
 }
 
 CameraComponent::~CameraComponent()
 {
-	Component::~Component();
+
 }
 
 

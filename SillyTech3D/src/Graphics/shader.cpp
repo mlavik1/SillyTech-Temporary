@@ -1,5 +1,6 @@
 #include "shader.h"
 #include <fstream>
+#include <string.h>
 
 #include "debug.h"
 

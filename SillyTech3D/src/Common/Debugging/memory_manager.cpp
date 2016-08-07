@@ -75,3 +75,6 @@ void DumpMemoryAllocations()
 	memoryManager.dumpMemoryAllocations();
 }
 
+#define new new(__FILE__,__LINE__)
+
+#define delete delete

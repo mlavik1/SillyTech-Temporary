@@ -21,7 +21,7 @@ public:
 
 public:
 	ScriptComponent();
-	~ScriptComponent();
+	virtual ~ScriptComponent();
 
 protected:
 	std::string mScriptName;

@@ -15,12 +15,10 @@ inline void* operator new(size_t arg_size, const char* arg_file, int arg_line)
 	return AllocateMemory(arg_size, arg_file, arg_line);
 }
 
-inline void operator delete(void *arg_ptr)
+inline void operator delete(void *arg_ptr) noexcept
 {
 	//free(arg_ptr);
 	DeallocateMemory(arg_ptr);
 }
 
-#define new new(__FILE__,__LINE__)
 
-#define delete delete

@@ -8,7 +8,7 @@
 #include <glm.hpp>
 #include "mesh_render_component.h"
 
-PhysicsComponent::PhysicsComponent()
+PhysicsComponent::PhysicsComponent() : Component()
 {
 	
 }

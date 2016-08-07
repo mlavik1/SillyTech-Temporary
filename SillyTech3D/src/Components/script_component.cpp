@@ -2,7 +2,7 @@
 
 #include "debug.h"
 
-ScriptComponent::ScriptComponent()
+ScriptComponent::ScriptComponent() : Component()
 {
 	mIsActive = false;
 }

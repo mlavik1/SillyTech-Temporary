@@ -1,7 +1,8 @@
-#include "Audio_manager.h"
+#include "audio_manager.h"
 
 #include <openal/alut.h>
 #include "audio_component.h"
+#include <algorithm>
 
 __ImplementSingleton(AudioManager)
 
