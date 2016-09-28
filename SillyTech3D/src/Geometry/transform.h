@@ -6,13 +6,16 @@
 #include "gtc/matrix_transform.hpp"
 #include "gtc/quaternion.hpp"
 #include "gtx/quaternion.hpp"
-
+#include "replication.h"
 
 class Actor;
 
-class Transform
+class  Transform : IReplicable
 {
 	friend class EditorGUI; // A is a friend of B
+
+	REPLICATION_BODY(Transform)
+
 public:
 	Transform(Actor* arg_actor);
 	~Transform();
@@ -49,6 +52,16 @@ public:
 	glm::mat4 GetGlobalModelMatrix();
 
 	void Print();
+
+public:
+	REPLICATE_VARIABLE(glm::vec3, mPosition)
+
+protected:
+	virtual void GetReplicableMembers() override
+	{
+		REPLICATE(Transform, mPosition)
+	}
+
 };
 
 #endif

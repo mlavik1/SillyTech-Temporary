@@ -14,17 +14,6 @@ LightComponent::~LightComponent()
 }
 
 
-
-void LightComponent::OnBeginFrame()
-{
-	Component::OnBeginFrame();
-}
-
-void LightComponent::OnEndFrame()
-{
-	Component::OnEndFrame();
-}
-
 void LightComponent::OnFrame()
 {
 	Component::OnFrame();

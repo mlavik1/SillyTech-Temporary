@@ -12,6 +12,7 @@
 #include "lua_script_manager.h"
 #include "resource_manager.h"
 
+
 class GameEngine
 {
 	__DeclareSingleton(GameEngine)

@@ -4,7 +4,7 @@
 // Litt rotete, det bør fiksast opp i
 //
 // Rotasjonsmatrisen er eit slags mellomlager. Rotasjonen ligg eigentleg lagra i mRotationQuaternion
-// IKKJE FORSØK Å LAGRE ROTASJON DIREKTE I MATRISEN  - AntTweakBar bruker quaternion'en
+// IKKJE FORSØK ?LAGRE ROTASJON DIREKTE I MATRISEN  - AntTweakBar bruker quaternion'en
 
 #include "transform.h"
 #include "debug.h"
@@ -12,6 +12,8 @@
 
 Transform::Transform(Actor* arg_actor)
 {
+	REPLICATION_CONSTRUCTOR()
+
 	SetPosition(glm::vec3(0.0f, 0.0f, 0.0f));
 	//isDirty = true;
 	mActor = arg_actor;

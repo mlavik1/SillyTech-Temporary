@@ -14,16 +14,6 @@ GameFeature::~GameFeature()
 	__DestructSingleton(GameFeature)
 }
 
-void GameFeature::OnBeginFrame()
-{
-	Feature::OnBeginFrame();
-}
-
-void GameFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-}
-
 void GameFeature::OnFrame()
 {
 	Feature::OnFrame();

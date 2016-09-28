@@ -14,16 +14,6 @@ InputFeature::~InputFeature()
 	__DestructSingleton(InputFeature)
 }
 
-void InputFeature::OnBeginFrame()
-{
-	Feature::OnBeginFrame();
-}
-
-void InputFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-}
-
 void InputFeature::OnFrame()
 {
 	Feature::OnFrame();

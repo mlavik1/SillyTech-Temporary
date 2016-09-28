@@ -9,21 +9,22 @@
 #include <string>
 #include "transform.h"
 #include "lua_garbage.h"
+#include "replication.h"
 
 //#include "boost/enable_shared_from_this.hpp"
 
 typedef std::shared_ptr<Component> component_ptr;
 
-class Actor : ICoreEvents
+class Actor : ICoreEvents, IReplicable
 {
+	REPLICATION_BODY(Actor)
+
 public:
 	Actor();
 	~Actor();
 
 public:
-	void OnBeginFrame() override;
 	void OnFrame() override;
-	void OnEndFrame() override;
 	void OnActivate() override;
 	void OnDeactivate() override;
 	void OnStart() override;
@@ -114,6 +115,14 @@ private:
 		if (arg_inchildren)
 			for (Actor *child : mChildren)
 				child->addComponentsToVector<T>(vec, arg_inchildren);
+	}
+
+	REPLICATE_CLASSINSTANCE(Transform, mTransform)
+
+protected:
+	virtual void GetReplicableMembers() override
+	{
+		REPLICATE(Actor, mTransform)
 	}
 };
 

@@ -86,6 +86,16 @@ file(GLOB_RECURSE SRC_SCRIPTING
     "${SourceDir}/Scripting/*.h"
 )
 
+file(GLOB_RECURSE SRC_THREADING
+    "${SourceDir}/Threading/*.cpp"
+    "${SourceDir}/Threading/*.h"
+)
+
+file(GLOB_RECURSE SRC_NETWORKING
+    "${SourceDir}/Networking/*.cpp"
+    "${SourceDir}/Networking/*.h"
+)
+
 file(GLOB_RECURSE SRC_TOOLS
     "${SourceDir}/Tools/*.cpp"
     "${SourceDir}/Tools/*.h"
@@ -109,6 +119,8 @@ source_group("Model" FILES ${SRC_MODEL})
 source_group("Physics" FILES ${SRC_PHYSICS})
 source_group("Resources" FILES ${SRC_RESOURCES})
 source_group("Scripting" FILES ${SRC_SCRIPTING})
+source_group("Threading" FILES ${SRC_THREADING})
+source_group("Networking" FILES ${SRC_NETWORKING})
 source_group("Tools" FILES ${SRC_TOOLS})
 
 message(${SourceDir})
@@ -148,6 +160,8 @@ include_directories("${SourceDir}/Model" )
 include_directories("${SourceDir}/Physics" )
 include_directories("${SourceDir}/Resources" )
 include_directories("${SourceDir}/Scripting" )
+include_directories("${SourceDir}/Threading" )
+include_directories("${SourceDir}/Networking" )
 include_directories("${SourceDir}/Tools" )
 
 
@@ -177,6 +191,7 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/alut.lib)
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/assimp.lib)
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/glew32.lib)
+	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/SDL2_net.lib)
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/SDL2_mixer.lib)
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/SDL2_image.lib)
 	TARGET_LINK_LIBRARIES(SillyTech3D ${LIB_DIR}/SDL2main.lib)

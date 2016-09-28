@@ -14,16 +14,6 @@ ScriptFeature::~ScriptFeature()
 	__DestructSingleton(ScriptFeature)
 }
 
-void ScriptFeature::OnBeginFrame()
-{
-	Feature::OnBeginFrame();
-}
-
-void ScriptFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-}
-
 void ScriptFeature::OnFrame()
 {
 	Feature::OnFrame();

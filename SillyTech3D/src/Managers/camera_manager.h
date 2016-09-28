@@ -12,9 +12,7 @@ class CameraManager : public Manager
 	__DeclareSingleton(CameraManager)
 
 public:
-	void OnBeginFrame() override;
 	void OnFrame() override;
-	void OnEndFrame() override;
 	void OnActivate() override;
 	void OnDeactivate() override;
 	void OnStart() override;
@@ -24,7 +22,7 @@ public:
 	void DetachCameraComponent(CameraComponent *arg_camcomp);
 
 	int					GetNumCameraComponents();
-	CameraComponent*	GetCameraComponent(int cam_index = 0);
+	CameraComponent*	GetCameraComponent(size_t cam_index = 0);
 	CameraComponent*	GetMainCameraComponent();
 
 private:

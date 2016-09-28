@@ -20,17 +20,6 @@ MeshRenderComponent::~MeshRenderComponent()
 }
 
 
-
-void MeshRenderComponent::OnBeginFrame()
-{
-	Component::OnBeginFrame();
-}
-
-void MeshRenderComponent::OnEndFrame()
-{
-	Component::OnEndFrame();
-}
-
 void MeshRenderComponent::OnFrame()
 {
 	Component::OnFrame();

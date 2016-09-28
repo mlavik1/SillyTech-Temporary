@@ -1,17 +1,7 @@
 #include "core_events.h"
 
-void ICoreEvents::OnBeginFrame()
-{
-
-}
 
 void ICoreEvents::OnFrame()
-{
-
-}
-
-
-void ICoreEvents::OnEndFrame()
 {
 
 }

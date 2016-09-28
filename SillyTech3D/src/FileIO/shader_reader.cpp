@@ -70,7 +70,7 @@ void ShaderReader::parseFile(const char* arg_filename)
 		if (index != std::string::npos)
 		{
 			std::stringstream ss("");
-			for (int i = line.length(); line[i] != ' '; i--)
+			for (size_t i = line.length(); line[i] != ' '; i--)
 				ss << line[i];
 			mDefinitionList.push_back(ss.str());
 		}

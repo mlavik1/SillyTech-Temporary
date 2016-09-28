@@ -14,16 +14,6 @@ AudioFeature::~AudioFeature()
 	__DestructSingleton(AudioFeature)
 }
 
-void AudioFeature::OnBeginFrame()
-{
-	Feature::OnBeginFrame();
-}
-
-void AudioFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-}
-
 void AudioFeature::OnFrame()
 {
 	Feature::OnFrame();

@@ -16,9 +16,9 @@ TimeManager::~TimeManager()
 	__DestructSingleton(TimeManager)
 }
 
-void TimeManager::OnBeginFrame()
+void TimeManager::OnFrame()
 {
-	Manager::OnBeginFrame();
+	Manager::OnFrame();
 	if (mPaused)
 		return;
 
@@ -26,16 +26,6 @@ void TimeManager::OnBeginFrame()
 	mCurrentTicks = SDL_GetTicks();
 	mDeltaTicks = mCurrentTicks - mPreviousTicks;
 	
-}
-
-void TimeManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-}
-
-void TimeManager::OnFrame()
-{
-	Manager::OnFrame();
 }
 
 void TimeManager::OnStart()

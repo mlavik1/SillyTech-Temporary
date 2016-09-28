@@ -22,9 +22,9 @@ PhysicsManager::~PhysicsManager()
 }
 
 
-void PhysicsManager::OnBeginFrame()
+void PhysicsManager::OnFrame()
 {
-	Manager::OnBeginFrame();
+	Manager::OnFrame();
 
 	/***   NEIII   Gjer dette ein annan plass ----test **/
 	for (PhysicsComponent *pc : mUninitialised)
@@ -52,25 +52,9 @@ void PhysicsManager::OnBeginFrame()
 	for (i = mPhysicsComponents.begin(); i != mPhysicsComponents.end(); i++)
 	{
 		if(i->second)
-			i->second->OnBeginFrame();
+			i->second->OnFrame();
 	}
 		
-
-}
-
-void PhysicsManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-	std::unordered_map<std::string, PhysicsComponent*>::iterator i;
-
-}
-
-void PhysicsManager::OnFrame()
-{
-	Manager::OnFrame();
-
-	std::unordered_map<std::string, PhysicsComponent*>::iterator i;
 
 }
 

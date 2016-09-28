@@ -24,6 +24,8 @@
 #include "physics_feature.h"
 #include "physics_manager.h"
 #include "gui_manager.h"
+#include "networking_feature.h"
+#include "replication_manager.h"
 
 __ImplementSingleton(GameEngine)
 
@@ -123,6 +125,11 @@ void GameEngine::createFeatures()
 	PhysicsManager *physicsManager = PhysicsManager::Create();
 	physicsFeature->AttachManager(physicsManager);
 	gameServer->AttachFeature(physicsFeature);
+	
+	NetworkingFeature *networkingFeature = NetworkingFeature::Create();
+	ReplicationManager *ReplicationManager = ReplicationManager::Create();
+	networkingFeature->AttachManager(ReplicationManager);
+	gameServer->AttachFeature(networkingFeature);
 	
 
 }

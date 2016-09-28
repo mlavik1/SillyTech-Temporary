@@ -17,16 +17,6 @@ void Component::SetParent(Actor *arg_parent)
 }
 
 
-void Component::OnBeginFrame()
-{
-
-}
-
-void Component::OnEndFrame()
-{
-
-}
-
 void Component::OnFrame()
 {
 

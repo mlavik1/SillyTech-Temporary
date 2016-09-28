@@ -24,16 +24,6 @@ AudioComponent::~AudioComponent()
 
 
 
-void AudioComponent::OnBeginFrame()
-{
-	Component::OnBeginFrame();
-}
-
-void AudioComponent::OnEndFrame()
-{
-	Component::OnEndFrame();
-}
-
 void AudioComponent::OnFrame()
 {
 	Component::OnFrame();

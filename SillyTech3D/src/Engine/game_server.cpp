@@ -18,6 +18,7 @@ void GameServer::Start()
 {
 	//__LogTime("");
 
+	mFeatures["NetworkingFeature"]->OnStart();	//__LogTime("OnStart:NetworkingFeature");
 	mFeatures["PhysicsFeature"]->OnStart();		//__LogTime("OnStart:PhysicsFeature");
 	mFeatures["InputFeature"]->OnStart();		//__LogTime("OnStart:InputFeature");
 	mFeatures["GameFeature"]->OnStart();		//__LogTime("OnStart:GameFeature");
@@ -25,41 +26,27 @@ void GameServer::Start()
 	mFeatures["ScriptFeature"]->OnStart();		//__LogTime("OnStart:ScriptFeature");
 	mFeatures["GraphicsFeature"]->OnStart();	//__LogTime("OnStart:GraphicsFeature");
 
-	
+	mGraphicsThread = new ST_Thread([&]() -> void{ mFeatures["GraphicsFeature"]->OnFrame(); });
+	mInputThead = new ST_Thread([&]() -> void { mFeatures["InputFeature"]->OnFrame(); });
+	mAudioThread = new ST_Thread([&]() -> void { mFeatures["AudioFeature"]->OnFrame(); });
 }
 
 void GameServer::Update()
 {
-	//std::cout << "update" << std::endl;
-	
-	// OnBeginFrame
-	{	__LogTime("");
-		mFeatures["PhysicsFeature"]->OnBeginFrame();		__LogTime("OnBeginFrame:PhysicsFeature");
-		mFeatures["InputFeature"]->OnBeginFrame();			__LogTime("OnBeginFrame:InputFeature");
-		mFeatures["GameFeature"]->OnBeginFrame();			__LogTime("OnBeginFrame:GameFeature");
-		mFeatures["AudioFeature"]->OnBeginFrame();			__LogTime("OnBeginFrame:AudioFeature");
-		mFeatures["ScriptFeature"]->OnBeginFrame();			__LogTime("OnBeginFrame:ScriptFeature");
-		mFeatures["GraphicsFeature"]->OnBeginFrame();		__LogTime("OnBeginFrame:GraphicsFeature");
-	}
+
+	//mAudioThread->Execute();
+	//mAudioThread->WaitForThread();
 
 	// OnFrame
 	{__LogTime("");
+		mFeatures["NetworkingFeature"]->OnFrame();			__LogTime("OnFrame:NetworkingFeature");
+		mFeatures["GraphicsFeature"]->OnFrame();			__LogTime("OnFrame:GraphicsFeature");
 		mFeatures["PhysicsFeature"]->OnFrame();				__LogTime("OnFrame:PhysicsFeature");
 		mFeatures["InputFeature"]->OnFrame();				__LogTime("OnFrame:InputFeature");
-		mFeatures["GameFeature"]->OnFrame();				__LogTime("OnFrame:GameFeature");
 		mFeatures["AudioFeature"]->OnFrame();				__LogTime("OnFrame:AudioFeature");
+		mFeatures["GameFeature"]->OnFrame();				__LogTime("OnFrame:GameFeature");
 		mFeatures["ScriptFeature"]->OnFrame();				__LogTime("OnFrame:ScriptFeature");
-		mFeatures["GraphicsFeature"]->OnFrame();			__LogTime("OnFrame:GraphicsFeature");
-	}
-
-	// OnEndFrame
-	{
-		mFeatures["PhysicsFeature"]->OnEndFrame();
-		mFeatures["InputFeature"]->OnEndFrame();
-		mFeatures["GameFeature"]->OnEndFrame();
-		mFeatures["AudioFeature"]->OnEndFrame();
-		mFeatures["ScriptFeature"]->OnEndFrame();
-		mFeatures["GraphicsFeature"]->OnEndFrame();
+		
 	}
 
 }

@@ -25,7 +25,7 @@ Actor* ActorFactory::CreateFromModel(const char* arg_path)
 		return 0;
 	}
 
-	for (int m = 0; m < scene->mNumMeshes; m++)
+	for (unsigned int m = 0; m < scene->mNumMeshes; m++)
 	{
 		Actor *child = new Actor();
 		child->SetName(scene->mMeshes[m]->mName.C_Str());
@@ -68,7 +68,7 @@ Actor* ActorFactory::CreateFromModel(const char* arg_path)
 			};
 		}
 		
-		for (int f = 0; f < scene->mMeshes[m]->mNumFaces; f++)
+		for (unsigned int f = 0; f < scene->mMeshes[m]->mNumFaces; f++)
 		{
 			const aiFace& face = scene->mMeshes[m]->mFaces[f];
 

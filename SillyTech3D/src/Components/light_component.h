@@ -14,9 +14,7 @@ public:
 	typedef enum { POINT_LIGHT = 1, DIRECTIONAL_LIGHT = 2, SPOT_LIGHT = 3, AREA_LIGHT = 4 } LightType;
 
 public:
-	void OnBeginFrame() override;
 	void OnFrame() override;
-	void OnEndFrame() override;
 	void OnActivate() override;
 	void OnDeactivate() override;
 	void OnStart() override;

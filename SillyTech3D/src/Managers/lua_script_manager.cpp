@@ -18,24 +18,12 @@ LuaScriptManager::~LuaScriptManager()
 	__DestructSingleton(LuaScriptManager)
 }
 
-
-void LuaScriptManager::OnBeginFrame()
-{
-	Manager::OnBeginFrame();
-
-	callScripts("Update");
-
-}
-
-void LuaScriptManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-}
-
 void LuaScriptManager::OnFrame()
 {
 	Manager::OnFrame();
+
+	callScripts("Update");
+
 }
 
 void LuaScriptManager::OnStart()
@@ -70,7 +58,7 @@ void LuaScriptManager::AttachScriptComponent(LuaScriptComponent *arg_comp)
 
 void LuaScriptManager::RemoveScriptComponent(LuaScriptComponent *arg_comp)
 {
-	for (int i = 0; i < mScriptComponents.size(); i ++)
+	for (size_t i = 0; i < mScriptComponents.size(); i ++)
 		if(mScriptComponents[i] == arg_comp)
 			mScriptComponents.erase(mScriptComponents.begin() + i);
 }

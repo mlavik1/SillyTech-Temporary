@@ -19,23 +19,12 @@ GUIManager::~GUIManager()
 
 
 
-void GUIManager::OnBeginFrame()
-{
-	Manager::OnBeginFrame();
-
-}
-
-void GUIManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-	mEditorGUI->Update();
-	TwDraw();
-}
-
 void GUIManager::OnFrame()
 {
 	Manager::OnFrame();
+
+	mEditorGUI->Update();
+	TwDraw();
 }
 
 void GUIManager::OnStart()

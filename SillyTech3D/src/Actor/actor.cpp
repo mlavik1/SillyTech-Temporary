@@ -3,6 +3,8 @@
 
 Actor::Actor() : mTransform(this)
 {
+	REPLICATION_CONSTRUCTOR()
+
 	mIsActive = false;
 	mName = "";
 	mParent = 0;
@@ -14,21 +16,11 @@ Actor::~Actor()
 	__Assert(mComponents.empty());
 }
 
-void Actor::OnBeginFrame()
+void Actor::OnFrame()
 {
 	glm::vec3 newPos = mTransform.GetGlobalPosition();
 	mVelocity = (newPos - mOldPosition) * TimeManager::Instance()->GetDeltaTime();
 	mOldPosition = newPos;
-}
-
-void Actor::OnEndFrame()
-{
-
-}
-
-void Actor::OnFrame()
-{
-
 }
 
 void Actor::OnStart()
@@ -67,7 +59,7 @@ void Actor::AttachComponent(Component *arg_component)
 
 void Actor::DetachComponent(Component *arg_component)
 {
-	for (int i = 0; i < mComponents.size(); i++)
+	for (size_t i = 0; i < mComponents.size(); i++)
 	{
 		if (mComponents.at(i) == arg_component)
 		{

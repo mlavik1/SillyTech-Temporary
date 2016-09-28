@@ -28,19 +28,6 @@ MeshRenderManager::~MeshRenderManager()
 	__DestructSingleton(MeshRenderManager)
 }
 
-
-void MeshRenderManager::OnBeginFrame()
-{
-	Manager::OnBeginFrame();
-
-}
-
-void MeshRenderManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-}
-
 void MeshRenderManager::OnFrame()
 {
 	Manager::OnFrame();
@@ -187,7 +174,7 @@ void MeshRenderManager::OnFrame()
 			// ***** TODO *****
 			// Only do this when neccessary!!!
 			material->GetShaderProgram().SetUniform("numLights", (GLint)mLightComponents.size());
-			for (int i = 0; i < mLightComponents.size(); i++)
+			for (size_t i = 0; i < mLightComponents.size(); i++)
 			{
 				LightComponent *light = mLightComponents[i];
 				material->GetShaderProgram().SetUniform((std::string("lights[")+std::to_string(i)+std::string("].type")).c_str(), (GLint)light->GetLightType());
@@ -270,7 +257,7 @@ void MeshRenderManager::AttachMeshRenderComponent(MeshRenderComponent *arg_comp)
 void MeshRenderManager::RemoveMeshRenderComponent(MeshRenderComponent *arg_comp)
 {
 
-	for (int i = 0; i < mMeshRenderComponents.size(); i++)
+	for (size_t i = 0; i < mMeshRenderComponents.size(); i++)
 		if (mMeshRenderComponents[i] == arg_comp)
 			mMeshRenderComponents.erase(mMeshRenderComponents.begin() + i);
 }
@@ -282,7 +269,7 @@ void MeshRenderManager::AttachLightComponent(LightComponent *arg_comp)
 
 void MeshRenderManager::RemoveLightComponent(LightComponent *arg_comp)
 {
-	for (int i = 0; i < mLightComponents.size(); i++)
+	for (size_t i = 0; i < mLightComponents.size(); i++)
 		if (mLightComponents[i] == arg_comp)
 			mLightComponents.erase(mLightComponents.begin() + i);
 }

@@ -21,9 +21,9 @@ InputManager::~InputManager()
 }
 
 
-void InputManager::OnBeginFrame()
+void InputManager::OnFrame()
 {
-	Manager::OnBeginFrame();
+	Manager::OnFrame();
 
 	mKeyUpEvents.clear();
 	mKeyDownEvents.clear();
@@ -60,25 +60,12 @@ void InputManager::OnBeginFrame()
 		
 	}
 
-	
-
-}
-
-void InputManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-}
-
-void InputManager::OnFrame()
-{
-	Manager::OnFrame();
-
 	// TEMP
 	// ***** TODO *****
 	// USE CALLBACK
 	if (GetKey("q"))
 		LuaScriptManager::Instance()->RunTerminalInput();
+
 }
 
 void InputManager::OnStart()

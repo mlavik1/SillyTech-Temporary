@@ -8,6 +8,7 @@
 #include "feature_fwd_decl.h"
 #include "game_feature.h"
 #include "timer.h"
+#include "st_thread.h"
 
 #define __LogTime(ID) (mTimer.LogTime(ID))
 
@@ -30,6 +31,11 @@ private:
 	
 	std::map<std::string, Feature*> mFeatures;
 	Timer mTimer; // DO NOT CHANGE: used by __LogTime()-macro
+
+	ST_Thread* mGraphicsThread = 0;
+	ST_Thread* mInputThead = 0;
+	ST_Thread* mPhysicsThread = 0;
+	ST_Thread* mAudioThread = 0;
 };
 
 #endif

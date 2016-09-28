@@ -19,28 +19,14 @@ PhysicsComponent::~PhysicsComponent()
 }
 
 
-void PhysicsComponent::OnBeginFrame()
+void PhysicsComponent::OnFrame()
 {
-	Component::OnBeginFrame();
+	Component::OnFrame();
 	
 	physx::PxVec3 pose = mActor->getGlobalPose().p;
 	GetParent()->GetTransform().SetGlobalPosition(glm::vec3(pose.x, pose.y, pose.z));
 
 	//LOG_INFO() << pos.x << ", " << pos.y << ", " << pos.z;
-}
-
-void PhysicsComponent::OnEndFrame()
-{
-	// NOT IN USE
-
-	Component::OnEndFrame();
-}
-
-void PhysicsComponent::OnFrame()
-{
-	// NOT IN USE
-
-	Component::OnFrame();
 }
 
 void PhysicsComponent::OnStart()

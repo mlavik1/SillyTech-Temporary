@@ -9,9 +9,7 @@ class ScriptFeature : public Feature
 	__DeclareSingleton(ScriptFeature)
 
 public:
-	void OnBeginFrame() override;
 	void OnFrame() override;
-	void OnEndFrame() override;
 	void OnActivate() override;
 	void OnDeactivate() override;
 	void OnStart() override;

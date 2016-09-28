@@ -14,16 +14,6 @@ PhysicsFeature::~PhysicsFeature()
 	__DestructSingleton(PhysicsFeature)
 }
 
-void PhysicsFeature::OnBeginFrame()
-{
-	Feature::OnBeginFrame();
-}
-
-void PhysicsFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-}
-
 void PhysicsFeature::OnFrame()
 {
 	Feature::OnFrame();

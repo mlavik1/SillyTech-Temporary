@@ -2,18 +2,6 @@
 
 
 
-void Manager::OnBeginFrame()
-{
-	if (!mActive)
-		return;
-}
-
-void Manager::OnEndFrame()
-{
-	if (!mActive)
-		return;
-}
-
 void Manager::OnFrame()
 {
 	if (!mActive)

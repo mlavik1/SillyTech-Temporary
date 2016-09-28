@@ -19,24 +19,14 @@ AudioManager::~AudioManager()
 	__DestructSingleton(AudioManager)
 }
 
-void AudioManager::OnBeginFrame()
+void AudioManager::OnFrame()
 {
-	Manager::OnBeginFrame();
+	Manager::OnFrame();
 
 	for (AudioComponent *comp : mAudioComponents)
 	{
 		comp->ContinueAudio();
 	}
-}
-
-void AudioManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-}
-
-void AudioManager::OnFrame()
-{
-	Manager::OnFrame();
 }
 
 void AudioManager::OnStart()

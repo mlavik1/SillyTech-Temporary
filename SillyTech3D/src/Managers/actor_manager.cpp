@@ -20,26 +20,6 @@ void ActorManager::AttachActor(Actor *arg_actor)
 	arg_actor->OnActivate();
 }
 
-void ActorManager::OnBeginFrame()
-{
-	Manager::OnBeginFrame();
-
-	std::vector<actor_ptr>::iterator i;
-
-	for (i = mActors.begin(); i != mActors.end(); i++)
-		(*i)->OnBeginFrame();
-}
-
-void ActorManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-	std::vector<actor_ptr>::iterator i;
-
-	for (i = mActors.begin(); i != mActors.end(); i++)
-		(*i)->OnEndFrame();
-}
-
 void ActorManager::OnFrame()
 {
 	Manager::OnFrame();

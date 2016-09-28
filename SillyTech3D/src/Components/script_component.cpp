@@ -13,17 +13,6 @@ ScriptComponent::~ScriptComponent()
 }
 
 
-
-void ScriptComponent::OnBeginFrame()
-{
-	Component::OnBeginFrame();
-}
-
-void ScriptComponent::OnEndFrame()
-{
-	Component::OnEndFrame();
-}
-
 void ScriptComponent::OnFrame()
 {
 	Component::OnFrame();

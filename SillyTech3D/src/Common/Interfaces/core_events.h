@@ -5,9 +5,7 @@ class ICoreEvents
 {
 
 public:
-	virtual void OnBeginFrame();
 	virtual void OnFrame();
-	virtual void OnEndFrame();
 	virtual void OnActivate();
 	virtual void OnDeactivate();
 	virtual void OnStart();

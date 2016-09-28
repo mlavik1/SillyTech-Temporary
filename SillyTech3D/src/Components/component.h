@@ -10,9 +10,7 @@ class Component : public ICoreEvents
 {
 
 public:
-	virtual void OnBeginFrame() override;
 	virtual void OnFrame() override;
-	virtual void OnEndFrame() override;
 	virtual void OnActivate() override;
 	virtual void OnDeactivate() override;
 	virtual void OnStart() override;

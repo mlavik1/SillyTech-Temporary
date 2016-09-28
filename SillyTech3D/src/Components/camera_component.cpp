@@ -12,18 +12,6 @@ CameraComponent::~CameraComponent()
 
 }
 
-
-
-void CameraComponent::OnBeginFrame()
-{
-	Component::OnBeginFrame();
-}
-
-void CameraComponent::OnEndFrame()
-{
-	Component::OnEndFrame();
-}
-
 void CameraComponent::OnFrame()
 {
 	Component::OnFrame();

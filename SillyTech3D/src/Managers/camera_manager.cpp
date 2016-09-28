@@ -17,19 +17,6 @@ CameraManager::~CameraManager()
 }
 
 
-
-void CameraManager::OnBeginFrame()
-{
-	Manager::OnBeginFrame();
-
-}
-
-void CameraManager::OnEndFrame()
-{
-	Manager::OnEndFrame();
-
-}
-
 void CameraManager::OnFrame()
 {
 	Manager::OnFrame();
@@ -64,7 +51,7 @@ void CameraManager::AttachCameraComponent(CameraComponent *arg_camcomp)
 
 void CameraManager::DetachCameraComponent(CameraComponent *arg_camcomp)
 {
-	for (int i = 0; i < mCameraComponents.size(); i++)
+	for (size_t i = 0; i < mCameraComponents.size(); i++)
 	{
 		if (mCameraComponents.at(i) == arg_camcomp)
 		{
@@ -81,7 +68,7 @@ int CameraManager::GetNumCameraComponents()
 	return mCameraComponents.size();
 }
 
-CameraComponent *CameraManager::GetCameraComponent(int cam_index)
+CameraComponent *CameraManager::GetCameraComponent(size_t cam_index)
 {
 	if (cam_index > mCameraComponents.size() - 1)
 		return 0;

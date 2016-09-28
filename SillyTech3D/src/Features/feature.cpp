@@ -1,22 +1,11 @@
 #include "feature.h"
 
-void Feature::OnBeginFrame()
-{
-	for (Manager *mgr : mManagers)
-		mgr->OnBeginFrame();
-}
-
-void Feature::OnEndFrame()
-{
-	for (Manager *mgr : mManagers)
-		mgr->OnEndFrame();
-}
-
 void Feature::OnFrame()
 {
 
 	for (Manager *mgr : mManagers)
-		mgr->OnFrame();
+		if (mgr->GetActive())
+			mgr->OnFrame();
 }
 
 void Feature::OnStart()

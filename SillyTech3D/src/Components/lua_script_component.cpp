@@ -14,17 +14,6 @@ LuaScriptComponent::~LuaScriptComponent()
 }
 
 
-
-void LuaScriptComponent::OnBeginFrame()
-{
-	ScriptComponent::OnBeginFrame();
-}
-
-void LuaScriptComponent::OnEndFrame()
-{
-	ScriptComponent::OnEndFrame();
-}
-
 void LuaScriptComponent::OnFrame()
 {
 	ScriptComponent::OnFrame();

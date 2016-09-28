@@ -9,9 +9,7 @@ class PhysicsFeature : public Feature
 	__DeclareSingleton(PhysicsFeature)
 
 public:
-	void OnBeginFrame() override;
 	void OnFrame() override;
-	void OnEndFrame() override;
 	void OnActivate() override;
 	void OnDeactivate() override;
 	void OnStart() override;

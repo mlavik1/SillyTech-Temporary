@@ -21,22 +21,11 @@ GraphicsFeature::~GraphicsFeature()
 	__DestructSingleton(GraphicsFeature)
 }
 
-void GraphicsFeature::OnBeginFrame()
-{
-	mDisplay->Reshape();
-	mGraphicsSystem->PrepareRender();
-
-	Feature::OnBeginFrame();
-}
-
-void GraphicsFeature::OnEndFrame()
-{
-	Feature::OnEndFrame();
-	mDisplay->SwapBuffers();
-}
 
 void GraphicsFeature::OnFrame()
 {
+	mDisplay->Reshape();
+	mGraphicsSystem->PrepareRender();
 
 if(mPostProcessRendering)
 	mGraphicsSystem->BindMainFrameBuffer();
@@ -50,6 +39,8 @@ if(mPostProcessRendering)
 	}
 	// Draw tweak bars
 	//TwDraw();
+
+	mDisplay->SwapBuffers();
 }
 
 void GraphicsFeature::OnStart()
