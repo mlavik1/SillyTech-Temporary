@@ -24,3 +24,4 @@ You will need Visual Studio 2015 and CMake in order to build this project.
 3. Build and run!
 
 
+**The architecture is inspired by Genesis3D: https://github.com/Genesis-3D/Genesis-3D**
