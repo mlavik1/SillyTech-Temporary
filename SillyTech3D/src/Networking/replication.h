@@ -4,6 +4,7 @@
 #include <sstream>
 #include <vector>
 #include <bitset>
+#include "replication_manager.h"
 
 #define REPLICATION_DATATYPE const char*
 
@@ -64,6 +65,7 @@ class IReplicable
 protected:
 	virtual void GetReplicableMembers() {}
 	std::string mReplicationID;
+	bool mIsReplicated = false;
 
 public:
 	virtual void SetReplicatedData(REPLICATION_DATATYPE data, int& i)
@@ -84,6 +86,12 @@ public:
 	inline void SetReplicationID(std::string arg_id)
 	{
 		mReplicationID = arg_id;
+	}
+
+	inline void SetIsReplicated(bool arg_replicate)
+	{
+		mIsReplicated = arg_replicate;
+		ReplicationManager::Instance()->SetReplicate(this, arg_replicate);
 	}
 
 	virtual std::string GetMemoryHash()

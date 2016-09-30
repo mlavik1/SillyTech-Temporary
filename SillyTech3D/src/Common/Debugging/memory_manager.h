@@ -4,7 +4,8 @@
 #include<stdlib.h>
 //#include<iostream>
 
-void* AllocateMemory(size_t arg_size, const char* arg_file, int arg_line);
+void* AllocateMemory(size_t arg_size, const char* arg_
+	, int arg_line);
 void DeallocateMemory(void* arg_ptr);
 void DumpMemoryAllocations();
 

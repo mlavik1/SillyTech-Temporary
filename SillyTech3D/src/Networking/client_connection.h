@@ -1,12 +1,15 @@
 #pragma once
 
 #include "tcp_connectionk.h"
+#include <functional>
 
 class ClientConnection : public TcpConnection
 {
 private:
 	TCPsocket mServerSocket;
-	void(*mMessageCallback)(const char*);
+
+	std::function<void(const char*)> mMessageCallback;
+	//void(*mMessageCallback)(const char*);
 	void(*mServerDisconnectedCallback)();
 
 public:
@@ -20,7 +23,8 @@ public:
 
 
 // Callback modifiers
-	inline void SetMessageCallback(void(*arg_func)(const char*))
+	template<typename Functor>
+	inline void SetMessageCallback(Functor arg_func)
 	{
 		mMessageCallback = arg_func;
 	}

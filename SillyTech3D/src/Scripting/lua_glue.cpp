@@ -17,6 +17,8 @@
 #include "audio_component.h"
 #include "physics_component.h"
 #include "game_server.h"
+#include "networking_feature.h"
+#include "replication.h"
 
 void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 {
@@ -75,10 +77,17 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 			.def("Rotate", &Transform::Rotate)
 			.def("SetRotation", &Transform::SetRotation)
 	];
+	
+	// IReplicable:
+	luabind::module(luaState)[
+		luabind::class_<IReplicable>("IReplicable")
+			.def("SetIsReplicated", &IReplicable::SetIsReplicated)
+			.def("SetReplicationID", &IReplicable::SetReplicationID)
+	];
 
 	// Actor:
 	luabind::module(luaState)[
-		luabind::class_<Actor>("Actor")
+		luabind::class_<Actor, IReplicable>("Actor")
 			.def(luabind::constructor<>())
 			.def("GetName", &Actor::GetName)
 			.def("SetName", &Actor::SetName)
@@ -94,6 +103,15 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 			.def("GetMeshRenderComponents", &Actor::GetComponentsPtrByType<MeshRenderComponent>, luabind::return_stl_iterator)
 	];
 	
+	// NetworkingFeature:
+	luabind::module(luaState)[
+		luabind::def("Networking", &NetworkingFeature::Instance),
+			luabind::class_<NetworkingFeature>("NetworkingFeature")
+			.def("SetServer", &NetworkingFeature::SetServer)
+			.def("SetClient", &NetworkingFeature::SetClient)
+			.def("ConnectToServer", &NetworkingFeature::ConnectToServer)
+	];
+
 	// InputManager:
 	luabind::module(luaState)[
 		luabind::def("Input", &InputManager::Instance),

@@ -4,7 +4,8 @@
 #include "manager.h"
 #include "singleton.h"
 #include <vector>
-#include "replication.h"
+
+class IReplicable; // fwd. decl.
 
 
 class ReplicationManager : public Manager
@@ -32,6 +33,8 @@ public:
 	void AddOutgoingMessage(std::string arg_message);
 
 	void SetReplicate(IReplicable *arg_object, bool arg_replicate);
+
+	void ReplicationTest(const char* arg_message);
 
 };
 

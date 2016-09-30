@@ -15,7 +15,7 @@
 
 typedef std::shared_ptr<Component> component_ptr;
 
-class Actor : ICoreEvents, IReplicable
+class Actor : ICoreEvents, public IReplicable
 {
 	REPLICATION_BODY(Actor)
 

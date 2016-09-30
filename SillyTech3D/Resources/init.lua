@@ -42,6 +42,11 @@ car_audio:SetLooping(true)
 car:AttachComponent(car_audio)
 car:AttachComponent(car_script)
 
+reptest = CreateActorFromModel("reptest", "Resources/Model/Ferrari/ferrari-f1-race-car.obj")
+reptest:GetTransform():SetPosition(vec3(-80.0, -10.0, -200.0))
+GetActorByName("reptest"):SetIsReplicated(true)
+--GetActorByName("reptest"):GetTransform():SetPosition(vec3(-40.0, -10.0, -200.0))
+
 -- Terrain
 bergen = CreateActorFromModel("Bergen", "Resources/Heightmap/Heightmap.obj")
 bergen:GetTransform():SetPosition(vec3(-6750.0, -550.0, -8950.0))
