@@ -47,6 +47,9 @@ reptest:GetTransform():SetPosition(vec3(-80.0, -10.0, -200.0))
 GetActorByName("reptest"):SetIsReplicated(true)
 --GetActorByName("reptest"):GetTransform():SetPosition(vec3(-40.0, -10.0, -200.0))
 
+--Networking()::ConnectToServer("localhost")
+
+
 -- Terrain
 bergen = CreateActorFromModel("Bergen", "Resources/Heightmap/Heightmap.obj")
 bergen:GetTransform():SetPosition(vec3(-6750.0, -550.0, -8950.0))

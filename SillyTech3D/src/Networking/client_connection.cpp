@@ -15,7 +15,8 @@ void ClientConnection::FetchNewMessages()
 	if (SDLNet_CheckSockets(mSocketSet, 0) > 0 && SDLNet_SocketReady(mServerSocket))
 	{
 		char text[BUFFER_SIZE];
-		if (SDLNet_TCP_Recv(mServerSocket, text, 100))
+		int bytesReceived = SDLNet_TCP_Recv(mServerSocket, text, 100);
+		if (bytesReceived > 0)
 		{
 			if (mMessageCallback)
 				mMessageCallback(text);

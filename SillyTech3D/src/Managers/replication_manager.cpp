@@ -28,16 +28,28 @@ void ReplicationManager::OnFrame()
 	{
 		for (IReplicable* repl : mReplicatingObjects)
 		{
+			// TODO: Use ID !!!!!!!
+
+			std::string replstring(repl->GetReplicatedData().str().c_str(), 512);
+			NetMessage netMessage(NetMessageType::ObjectReplication, 90/*NONONO!!!*/, repl->GetReplicatedData().str().c_str());
+			std::string test = netMessage.GetStringRepresentation();
+			NetMessage netMessage2(netMessage.GetStringRepresentation().c_str());
+
+			NetworkingFeature::Instance()->AddOutgoingMessage(test);
+			//NetworkingFeature::Instance()->AddOutgoingMessage(netMessage.GetStringRepresentation());
+
 			// TODO: Use ID
-			NetworkingFeature::Instance()->AddOutgoingMessage(repl->GetReplicatedData().str());
+			//NetworkingFeature::Instance()->AddOutgoingMessage(repl->GetReplicatedData().str());
 		}
 	}
 
-	for (std::string msg : mIncomingMessageQueue)
+	for (std::string msg : mIncomingMessageQueue) // TODO: Store NetMessage (not string) in list
 	{
+		NetMessage netMessage(msg.c_str());
+
 		int i = 0;
 		if (mReplicatingObjects.size() > 0)
-			mReplicatingObjects[0]->SetReplicatedData(msg.c_str(), i);
+			mReplicatingObjects[0]->SetReplicatedData(netMessage.GetMessage().c_str(), i);
 	}
 
 	mIncomingMessageQueue.clear();
@@ -97,7 +109,9 @@ void ReplicationManager::SetReplicate(IReplicable *arg_object, bool arg_replicat
 
 void ReplicationManager::ReplicationTest(const char* arg_message)
 {
+	NetMessage netMessage(arg_message);
+
 	int i = 0;
-	if (mReplicatingObjects.size() > 0)
-		mReplicatingObjects[0]->SetReplicatedData(arg_message, i);
+	if (mReplicatingObjects.size() > 0 && netMessage.GetMessageType() != NetMessageType::Ignored)
+		mReplicatingObjects[0]->SetReplicatedData(netMessage.GetMessage().c_str(), i);
 }

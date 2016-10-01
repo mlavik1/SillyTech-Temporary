@@ -4,6 +4,7 @@
 #include "manager.h"
 #include "singleton.h"
 #include <vector>
+#include "net_message.h"
 
 class IReplicable; // fwd. decl.
 
@@ -25,8 +26,8 @@ private:
 
 	std::vector<IReplicable*> mReplicatingObjects;
 
-	std::vector<std::string> mIncomingMessageQueue;
-	std::vector<std::string> mOutgoingMessageQueue;
+	std::vector<std::string> mIncomingMessageQueue; // TODO: Store NetMessage (not string) in list
+	std::vector<std::string> mOutgoingMessageQueue; // TODO: Store NetMessage (not string) in list
 
 public:
 	void AddIncomingMessage(std::string arg_message);
