@@ -28,6 +28,9 @@ public:
 
 	bool IsConnected();
 	
+	std::string GetHost();
+	void Close();
+
 	virtual void FetchNewMessages() = 0;
 
 	

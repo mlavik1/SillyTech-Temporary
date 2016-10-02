@@ -11,6 +11,7 @@ public:
 	~Timer();
 
 	void Start();
+	bool HasStarted();
 	int GetTime();
 	int GetTimeAndRestart();
 	void LogTime(const char *arg_id);
@@ -20,6 +21,7 @@ public:
 private:
 	unsigned int mStartTicks;
 	std::unordered_map<std::string, int> mTimeMap;
+	bool mHasStarted = false;
 };
 
 #endif

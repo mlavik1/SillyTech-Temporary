@@ -9,6 +9,7 @@
 #include "client_connection.h"
 #include <unordered_map>
 #include <string>
+#include "net_message.h"
 
 class NetworkingFeature : public Feature
 {
@@ -26,31 +27,29 @@ private:
 	NetworkingFeature();
 	~NetworkingFeature();
 	
-	std::unordered_map<int, std::vector<std::string>> mIncomingMessages;
-	std::unordered_map<int, std::vector<std::string>> mOutgoingMessages;
+	std::vector<NetMessage>				mIncomingClientMessages; // Messages from clients
+	std::unordered_map<int, std::vector<NetMessage>> mIncomingServerMessages; // Messages from server
+	std::unordered_map<int, std::vector<NetMessage>> mOutgoingClientMessages; // Messages to clients
 
-	bool mIsServer;
+	bool mIsServer = false;
 	int mPort;
-	std::string mHost;
 
-	ClientConnection* mClientConnection = nullptr;
+	std::vector<ClientConnection*> mClientConnections; // May connect to multiple servers
 	ServerConnection* mServerConnection = nullptr;
 
-	void handleIncomingMessage(const char* arg_message);
+	void handleIncomingServerMessage(int arg_Server, const char* arg_message);
+	void handleIncomingClientMessage(int arg_client, const char* arg_message);
 
 public:
 	void SetServer();
-	void SetClient();
-
-	void SendMessages();
-	void ProcessMessages();
 
 	void SetPort(int arg_port);
 	void ConnectToServer(const char* arg_host);
+	void DisconnectFromServer(const char* arg_host);
 
 	bool IsServer();
 
-	void AddOutgoingMessage(std::string arg_message, int arg_socket = -1);
+	void AddOutgoingMessage(NetMessage arg_message, int arg_socket = -1);
 
 };
 

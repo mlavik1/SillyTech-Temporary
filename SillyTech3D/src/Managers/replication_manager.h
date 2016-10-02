@@ -5,6 +5,10 @@
 #include "singleton.h"
 #include <vector>
 #include "net_message.h"
+#include "replication_types.h"
+#include "timer.h"
+#include <unordered_map>
+
 
 class IReplicable; // fwd. decl.
 
@@ -24,18 +28,20 @@ private:
 	ReplicationManager();
 	~ReplicationManager();
 
+	const float ReplicationDelay = 100.0f; // TEMP: Don't do this. But make sure clients are not spammed with messages
+										// If too many messages are sent, clients will for some reason receive garbage messages??
+
+	//std::unordered_map<repid_t, IReplicable*> mReplicatingObjects;
 	std::vector<IReplicable*> mReplicatingObjects;
 
-	std::vector<std::string> mIncomingMessageQueue; // TODO: Store NetMessage (not string) in list
-	std::vector<std::string> mOutgoingMessageQueue; // TODO: Store NetMessage (not string) in list
+	std::vector<NetMessage> mIncomingMessageQueue;
+
+	Timer mServerReplicationTimer;
 
 public:
-	void AddIncomingMessage(std::string arg_message);
-	void AddOutgoingMessage(std::string arg_message);
+	void AddIncomingMessage(NetMessage arg_message);
 
-	void SetReplicate(IReplicable *arg_object, bool arg_replicate);
-
-	void ReplicationTest(const char* arg_message);
+	repid_t SetReplicate(IReplicable *arg_object, bool arg_replicate);
 
 };
 

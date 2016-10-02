@@ -10,7 +10,7 @@ private:
 
 	std::function<void(const char*)> mMessageCallback;
 	//void(*mMessageCallback)(const char*);
-	void(*mServerDisconnectedCallback)();
+	void(*mServerDisconnectedCallback)() = 0;
 
 public:
 	ClientConnection();

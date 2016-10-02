@@ -28,6 +28,7 @@ public:
 	inline NetMessageType	GetMessageType()		{ return mMessageType; }
 	inline msglen_t			GetMessageLength()		{ return mMessageLength; }
 	inline std::string		GetMessage()			{ return mMessage; }
+	inline size_t			GetTotalLength()		{ return GetMessageLength() + sizeof(msgprefix_t) + sizeof(msgtype_t) + sizeof(msglen_t); }
 
 	std::string GetStringRepresentation();
 

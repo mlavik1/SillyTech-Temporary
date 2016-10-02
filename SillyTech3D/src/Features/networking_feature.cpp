@@ -9,7 +9,7 @@ NetworkingFeature::NetworkingFeature()
 
 	SDLNet_Init();
 
-	mPort = 1234;
+	mPort = 1334;
 
 	__ConstructSingleton(NetworkingFeature)
 }
@@ -17,6 +17,21 @@ NetworkingFeature::NetworkingFeature()
 NetworkingFeature::~NetworkingFeature()
 {
 	__DestructSingleton(NetworkingFeature)
+
+	if (mServerConnection != nullptr)
+	{
+		mServerConnection->Close();
+		delete(mServerConnection);
+	}
+
+	for (ClientConnection* conn : mClientConnections)
+	{
+		conn->Close();
+		delete(conn);
+	}
+
+	SDLNet_Quit();
+
 }
 
 void NetworkingFeature::OnFrame()
@@ -28,26 +43,28 @@ void NetworkingFeature::OnFrame()
 		mServerConnection->FetchNewMessages();
 
 
-		for (auto& pair : mOutgoingMessages)
+		for (auto& pair : mOutgoingClientMessages)
 		{
-			for (std::string msg : pair.second)
+			for (NetMessage &msg : pair.second)
 			{
 				if (pair.first == -1)
-					mServerConnection->SendMessageToAll(msg.c_str(), msg.size());
+					mServerConnection->SendMessageToAll(msg.GetStringRepresentation().c_str(), 90/*msg.GetTotalLength()*/);
 				else
-					mServerConnection->SendMessage(pair.first, msg.c_str(), msg.size());
+					mServerConnection->SendMessage(pair.first, msg.GetStringRepresentation().c_str(), msg.GetTotalLength());
 			}
 		}
 	}
 		
-	else if (mClientConnection != nullptr && !mIsServer)
+	else if (mClientConnections.size() > 0 /*&& !mIsServer*/)
 	{
-		mClientConnection->FetchNewMessages();
+		for (ClientConnection* conn : mClientConnections)
+		{
+			conn->FetchNewMessages();
+		}
 	}
 		
-
-	mIncomingMessages.clear();
-	mOutgoingMessages.clear();
+	mIncomingServerMessages.clear();
+	mOutgoingClientMessages.clear();
 
 
 	// We may manually add new incoming/outgoing messages after this
@@ -85,15 +102,6 @@ void NetworkingFeature::SetServer()
 	
 }
 
-void NetworkingFeature::SetClient()
-{
-	mIsServer = false;
-	if (mClientConnection == nullptr)
-		mClientConnection = new ClientConnection();
-
-	mClientConnection->SetMessageCallback([&](const char* arg_message) -> void { handleIncomingMessage(arg_message); });
-}
-
 void NetworkingFeature::SetPort(int arg_port)
 {
 	mPort = arg_port;
@@ -101,48 +109,82 @@ void NetworkingFeature::SetPort(int arg_port)
 	if (mServerConnection != nullptr && mServerConnection->IsConnected())
 		mServerConnection->Connect(mPort);
 
-	if (mClientConnection != nullptr && mClientConnection->IsConnected())
-		mClientConnection->Connect(mHost.c_str(), mPort);
 }
 
 void NetworkingFeature::ConnectToServer(const char* arg_host)
 {
-	if (mClientConnection != nullptr)
+	ClientConnection* connection = nullptr;
+	size_t connectionIndex = 0;
+
+	if (mClientConnections.size() > 0)
 	{
-		mHost = arg_host;
-		bool connected = mClientConnection->Connect(mHost.c_str(), mPort);
+		for (size_t i = 0; i < mClientConnections.size(); i++)
+		{
+			ClientConnection* conn = mClientConnections[i];
+			if (conn->GetHost() == std::string(arg_host))
+			{
+				connection = conn;
+				connectionIndex = i;
+			}
+		}
+	}
+
+	if (connection == nullptr) // Create new connection, and connect
+	{
+		connectionIndex = mClientConnections.size();
+		connection = new ClientConnection();
+		connection->SetMessageCallback([&](const char* arg_message) -> void { handleIncomingServerMessage(connectionIndex, arg_message); });
+		bool connected = connection->Connect(arg_host, mPort);
 		if (connected)
-			mClientConnection->SendMessage("Hei"); // TEMP! Send a proper request!
+		{
+			mClientConnections.push_back(connection);
+			connection->SendMessage("Hei"); // TEMP! Send a proper request!
+		}
 		else
+		{
 			LOG_ERROR() << "Failed to connect to host:" << arg_host;
+			
+		}
+			
 	}
 }
 
-void NetworkingFeature::SendMessages()
+void NetworkingFeature::DisconnectFromServer(const char* arg_host)
 {
+
+}
+
+void NetworkingFeature::handleIncomingServerMessage(int arg_Server, const char* arg_message)
+{
+	NetMessage netMessage(arg_message);
+
+	if (netMessage.GetMessageType() == NetMessageType::Ignored)
+	{
+		LOG_WARNING() << "Received ignored message: " << arg_message;
+	}
+
+	if (netMessage.GetMessageType() == NetMessageType::ObjectReplication)
+	{
+		ReplicationManager::Instance()->AddIncomingMessage(netMessage);
+	}
 	
 }
 
-void NetworkingFeature::ProcessMessages()
+void NetworkingFeature::handleIncomingClientMessage(int arg_client, const char* arg_message)
 {
+	NetMessage netMessage(arg_message);
+
+	LOG_INFO() << "Message from client " << arg_client << ": " << netMessage.GetStringRepresentation();
+
 }
 
-void NetworkingFeature::handleIncomingMessage(const char* arg_message)
-{
-	//mIncomingMessages[arg_socket].push_back(arg_message);
-
-	//if (!mIsServer)
-	//	ReplicationManager::Instance()->AddIncomingMessage(arg_message); // !!! Can't just cast it to string! Resulting string is then empty
-	if (!mIsServer)
-		ReplicationManager::Instance()->ReplicationTest(arg_message);
-}
 
 bool NetworkingFeature::IsServer()
 {
 	return mIsServer;
 }
 
-void NetworkingFeature::AddOutgoingMessage(std::string arg_message, int arg_socket)
+void NetworkingFeature::AddOutgoingMessage(NetMessage arg_message, int arg_socket)
 {
-	mOutgoingMessages[arg_socket].push_back(arg_message);
+	mOutgoingClientMessages[arg_socket].push_back(arg_message);
 }

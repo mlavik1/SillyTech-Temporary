@@ -16,6 +16,16 @@ void TcpConnection::setHost(const char *arg_host)
 	mHost = arg_host;
 }
 
+std::string TcpConnection::GetHost()
+{
+	return mHost;
+}
+
+void TcpConnection::Close()
+{
+	SDLNet_FreeSocketSet(mSocketSet);
+}
+
 bool TcpConnection::getHostIPAddress(IPaddress &out, int port)
 {
 	const char *host = NULL;

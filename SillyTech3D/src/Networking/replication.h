@@ -4,6 +4,7 @@
 #include <sstream>
 #include <vector>
 #include <bitset>
+#include "replication_types.h"
 #include "replication_manager.h"
 
 #define REPLICATION_DATATYPE const char*
@@ -64,7 +65,7 @@ class IReplicable
 {
 protected:
 	virtual void GetReplicableMembers() {}
-	std::string mReplicationID;
+	repid_t mReplicationID = repid_none;
 	bool mIsReplicated = false;
 
 public:
@@ -78,12 +79,12 @@ public:
 		return oss;
 	}
 
-	inline std::string GetReplicationID()
+	inline repid_t GetReplicationID()
 	{
 		return mReplicationID;
 	}
 
-	inline void SetReplicationID(std::string arg_id)
+	inline void SetReplicationID(repid_t arg_id)
 	{
 		mReplicationID = arg_id;
 	}
@@ -92,13 +93,6 @@ public:
 	{
 		mIsReplicated = arg_replicate;
 		ReplicationManager::Instance()->SetReplicate(this, arg_replicate);
-	}
-
-	virtual std::string GetMemoryHash()
-	{
-		std::ostringstream oss;
-		oss << this;
-		return oss.str();
 	}
 
 	

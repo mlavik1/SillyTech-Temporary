@@ -108,7 +108,7 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 		luabind::def("Networking", &NetworkingFeature::Instance),
 			luabind::class_<NetworkingFeature>("NetworkingFeature")
 			.def("SetServer", &NetworkingFeature::SetServer)
-			.def("SetClient", &NetworkingFeature::SetClient)
+			//.def("SetClient", &NetworkingFeature::SetClient)
 			.def("ConnectToServer", &NetworkingFeature::ConnectToServer)
 	];
 

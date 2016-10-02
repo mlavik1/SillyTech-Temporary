@@ -13,6 +13,12 @@ Timer::~Timer()
 void Timer::Start()
 {
 	mStartTicks = SDL_GetTicks();
+	mHasStarted = true;
+}
+
+bool Timer::HasStarted()
+{
+	return mHasStarted;
 }
 
 int Timer::GetTime()
