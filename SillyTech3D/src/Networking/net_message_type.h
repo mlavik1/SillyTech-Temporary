@@ -4,7 +4,8 @@
 enum NetMessageType
 {
 	Ignored				= 0x0000,
-	ObjectReplication	= 0x0001
+	ObjectReplication	= 0x0001,
+	LuaCall				= 0x0002
 };
 
 

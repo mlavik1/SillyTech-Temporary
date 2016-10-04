@@ -26,6 +26,7 @@ public:
 
 	void RunScriptOnce(const char *arg_file);
 	void RunTerminalInput();
+	void ExectureLine(const char *arg_line);
 	void RecompileScripts();
 
 

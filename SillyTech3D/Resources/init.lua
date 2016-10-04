@@ -44,6 +44,7 @@ car:AttachComponent(car_script)
 
 reptest = CreateActorFromModel("reptest", "Resources/Model/Ferrari/ferrari-f1-race-car.obj")
 reptest:GetTransform():SetPosition(vec3(-80.0, -10.0, -200.0))
+GetActorByName("reptest"):SetReplicationID(1)
 GetActorByName("reptest"):SetIsReplicated(true)
 --GetActorByName("reptest"):GetTransform():SetPosition(vec3(-40.0, -10.0, -200.0))
 

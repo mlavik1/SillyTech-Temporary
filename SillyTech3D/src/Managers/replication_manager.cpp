@@ -9,6 +9,8 @@ ReplicationManager::ReplicationManager()
 {
 	__ConstructSingleton(ReplicationManager)
 
+
+		mReplicationIterator = mReplicatingObjects.begin();
 }
 
 
@@ -30,23 +32,35 @@ void ReplicationManager::OnFrame()
 	{
 		mServerReplicationTimer.GetTimeAndRestart();
 
-		for (IReplicable* repl : mReplicatingObjects)
+		if (mReplicationIterator == mReplicatingObjects.end())
+			mReplicationIterator = mReplicatingObjects.begin();
+		//for (; mReplicationIterator != mReplicatingObjects.end(); mReplicationIterator++)
+		if (mReplicationIterator != mReplicatingObjects.end())
 		{
-			// TODO: Use ID !!!!!!!
-			NetMessage netMessage(NetMessageType::ObjectReplication, 90/*NONONO!!!*/, repl->GetReplicatedData().str().c_str());
+			IReplicable* repl = mReplicationIterator._Ptr->_Myval.second;
+
+			std::ostringstream oss;
+			repid_t repID = repl->GetReplicationID();
+			for (size_t i = 0; i < sizeof(repid_t); i++)
+				oss << reinterpret_cast<char *>(&repID)[i];
+			oss << repl->GetReplicatedData().str();
+			NetMessage netMessage(NetMessageType::ObjectReplication, 90/*NONONO!!!*/, oss.str().c_str());
 
 			NetworkingFeature::Instance()->AddOutgoingMessage(netMessage);
-
-			// TODO: Use ID
-			//NetworkingFeature::Instance()->AddOutgoingMessage(repl->GetReplicatedData().str());
-		}
+		} mReplicationIterator ++ ; // temp - TODO: check if we need to replicate
 	}
 
 	for (NetMessage &netMessage : mIncomingMessageQueue) // TODO: Store NetMessage (not string) in list
 	{
-		int i = 0;
-		if (mReplicatingObjects.size() > 0)
-			mReplicatingObjects[0]->SetReplicatedData(netMessage.GetMessage().c_str(), i);
+		std::string msgg = netMessage.GetMessage();
+		const char* msg = msgg.c_str();
+		repid_t repID = *(reinterpret_cast<repid_t*>((char*)msg));
+
+		if (mReplicatingObjects.find(repID) != mReplicatingObjects.end())
+		{
+			int i = 0;
+			mReplicatingObjects[repID]->SetReplicatedData(msg + sizeof(repid_t), i);
+		}
 	}
 
 	mIncomingMessageQueue.clear();
@@ -82,20 +96,32 @@ void ReplicationManager::AddIncomingMessage(NetMessage arg_message)
 repid_t ReplicationManager::SetReplicate(IReplicable *arg_object, bool arg_replicate)
 {
 	if (arg_replicate)
-		mReplicatingObjects.push_back(arg_object);
+	{
+		repid_t repID = repid_none;
+		std::unordered_map<repid_t, IReplicable*>::iterator iter = mReplicatingObjects.begin();
+		for (; iter != mReplicatingObjects.end(); iter++)
+		{
+			repid_t curr = iter._Ptr->_Myval.first;
+			if (curr > repID)
+				repID = curr;
+		}
+		repID++;
+		arg_object->SetReplicationID(repID);
+		mReplicatingObjects.insert(std::pair<repid_t, IReplicable*>(repID, arg_object));
+		return repID;
+	}
 	else
 	{ // Remove:
-		std::vector<IReplicable*>::iterator iter = mReplicatingObjects.begin();
+		std::unordered_map<repid_t, IReplicable*>::iterator iter = mReplicatingObjects.begin();
 		for (; iter != mReplicatingObjects.begin(); iter ++)
 		{
-			if (*iter._Ptr == arg_object)
+			if (iter._Ptr->_Myval.second == arg_object)
 			{
 				mReplicatingObjects.erase(iter);
 				break;
 			}
 		}
+		return repid_none;
 	}
-
-	return repid_none; // TODO: Generate unique ID, and add to map!
 
 }

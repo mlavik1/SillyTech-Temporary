@@ -54,6 +54,9 @@ private:
 
 	static void TW_CALL callbackRemoveComponent(void *clientData);
 	
+public:
+	static void RefreshSceneHierarchy();
+
 	//static float getActorPosX() { editorGUI->actorPos = editorGUI->mSelectedActor->GetTransform().GetGlobalPosition(); return editorGUI->actorPos.x; }
 	//static float getActorPosY() { editorGUI->actorPos = editorGUI->mSelectedActor->GetTransform().GetGlobalPosition(); return editorGUI->actorPos.y; }
 	//static float getActorPosZ() { return editorGUI->mSelectedActor->GetTransform().GetGlobalPosition().z; }

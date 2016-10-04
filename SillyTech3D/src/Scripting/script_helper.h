@@ -19,6 +19,11 @@ class ScriptHelper
 public:
 	
 	static void PrintText(const char* arg_text);
+
+	static void LogInfo(const char* arg_text);
+	static void LogWarning(const char* arg_text);
+	static void LogError(const char* arg_text);
+
 	static Actor *GetActorByName(const char * arg_name);
 
 	static Actor *GetActor();
@@ -27,11 +32,17 @@ public:
 
 	static Actor *CreateActorFromModel(const char* arg_name, const char *arg_model);
 
+	static void CreateReplicatedActor(const char* arg_name);
+	static void CreateReplicatedActorFromModel(const char* arg_name, const char *arg_model);
+	static void ServerCall(const char* arg_call);
+	static void MulticastCall(const char* arg_call);
+
 	static LuaScriptComponent *NewLuaScriptComponent();
 	static LightComponent *NewLightComponent();
 	static CameraComponent *NewCameraComponent();
 	static PhysicsComponent *NewPhysicsComponent();
 	static Actor *NewActor();
+	static Actor *CreateActor(const char* arg_name);
 	static AudioComponent *NewAudioComponent(const char* arg_file);
 
 	static void RecompileShaders();

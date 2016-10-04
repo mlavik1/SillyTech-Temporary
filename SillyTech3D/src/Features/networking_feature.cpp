@@ -1,5 +1,6 @@
 #include "networking_feature.h"
 #include "replication_manager.h"
+#include "lua_script_manager.h"
 
 __ImplementSingleton(NetworkingFeature)
 
@@ -163,9 +164,14 @@ void NetworkingFeature::handleIncomingServerMessage(int arg_Server, const char* 
 		LOG_WARNING() << "Received ignored message: " << arg_message;
 	}
 
-	if (netMessage.GetMessageType() == NetMessageType::ObjectReplication)
+	else if (netMessage.GetMessageType() == NetMessageType::ObjectReplication)
 	{
 		ReplicationManager::Instance()->AddIncomingMessage(netMessage);
+	}
+
+	else if (netMessage.GetMessageType() == NetMessageType::LuaCall)
+	{
+		LuaScriptManager::Instance()->ExectureLine(netMessage.GetMessage().c_str());
 	}
 	
 }

@@ -84,15 +84,23 @@ public:
 		return mReplicationID;
 	}
 
+	
 	inline void SetReplicationID(repid_t arg_id)
 	{
 		mReplicationID = arg_id;
 	}
-
+	
 	inline void SetIsReplicated(bool arg_replicate)
 	{
 		mIsReplicated = arg_replicate;
 		ReplicationManager::Instance()->SetReplicate(this, arg_replicate);
+	}
+	
+	// This one should not be necessary! TODO: Remove
+	inline void SetReplicate(repid_t arg_id)
+	{
+		mReplicationID = arg_id;
+		SetIsReplicated(true);
 	}
 
 	

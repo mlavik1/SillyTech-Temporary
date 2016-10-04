@@ -19,6 +19,7 @@
 #include "game_server.h"
 #include "networking_feature.h"
 #include "replication.h"
+#include "editor_gui.h"
 
 void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 {
@@ -28,7 +29,11 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 	// helper functions:
 	luabind::module(luaState)[
 		luabind::def("PrintText", &ScriptHelper::PrintText),
+		luabind::def("LogInfo", &ScriptHelper::LogInfo),
+		luabind::def("LogWarning", &ScriptHelper::LogWarning),
+		luabind::def("LogError", &ScriptHelper::LogError),
 		luabind::def("GetActorByName", &ScriptHelper::GetActorByName),
+		luabind::def("CreateActor", &ScriptHelper::CreateActor),
 		luabind::def("CreateActorFromModel", &ScriptHelper::CreateActorFromModel),
 		luabind::def("GetActor", &ScriptHelper::GetActor),
 		luabind::def("RecompileShaders", &ScriptHelper::RecompileShaders),
@@ -40,9 +45,14 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 		luabind::def("NewAudioComponent", &ScriptHelper::NewAudioComponent),
 		luabind::def("NewActor", &ScriptHelper::NewActor),
 		luabind::def("GetPostProcessProgram", &ScriptHelper::GetPostProcessProgram),
-		luabind::def("PrintTimeLog", &ScriptHelper::PrintTimeLog)
+		luabind::def("PrintTimeLog", &ScriptHelper::PrintTimeLog),
+		luabind::def("CreateReplicatedActor", &ScriptHelper::CreateReplicatedActor),
+		luabind::def("CreateReplicatedActorFromModel", &ScriptHelper::CreateReplicatedActorFromModel),
+		luabind::def("ServerCall", &ScriptHelper::ServerCall),
+		luabind::def("MulticastCall", &ScriptHelper::MulticastCall),
+		luabind::def("RefreshSceneHierarchy", &EditorGUI::RefreshSceneHierarchy)
 	];
-
+	
 	// glm::vec3 & vec2
 	luabind::module(luaState)[
 		luabind::class_<glm::vec3>("vec3")
@@ -83,6 +93,7 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 		luabind::class_<IReplicable>("IReplicable")
 			.def("SetIsReplicated", &IReplicable::SetIsReplicated)
 			.def("SetReplicationID", &IReplicable::SetReplicationID)
+			.def("SetReplicate", &IReplicable::SetReplicate)
 	];
 
 	// Actor:
@@ -110,6 +121,7 @@ void LuaGlue::BindAll(lua_State *luaState, Actor * arg_actor)
 			.def("SetServer", &NetworkingFeature::SetServer)
 			//.def("SetClient", &NetworkingFeature::SetClient)
 			.def("ConnectToServer", &NetworkingFeature::ConnectToServer)
+			.def("IsServer", &NetworkingFeature::IsServer)
 	];
 
 	// InputManager:

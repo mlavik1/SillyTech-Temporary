@@ -255,6 +255,11 @@ void TW_CALL EditorGUI::callbackRemoveComponent(void *clientData)
 	editorGUI->RefreshActorInspector();
 }
 
+void EditorGUI::RefreshSceneHierarchy()
+{
+	editorGUI->RefreshSceneHierarchyBar();
+}
+
 void TW_CALL EditorGUI::callbackSetPaused(void *clientData)
 {
 	TimeManager::Instance()->SetPaused(!TimeManager::Instance()->IsPaused());

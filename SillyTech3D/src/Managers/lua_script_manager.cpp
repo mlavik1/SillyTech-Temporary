@@ -165,6 +165,23 @@ void LuaScriptManager::RunTerminalInput()
 	lua_close(luaState);
 }
 
+void LuaScriptManager::ExectureLine(const char * arg_line)
+{
+	lua_State *luaState = luaL_newstate();
+	luabind::open(luaState);
+
+	LuaGlue::BindAll(luaState, 0);
+
+
+	if (luaL_dostring(luaState, arg_line))
+	{
+		LOG_ERROR() << "Failed to run script(luaL_dostring): " << arg_line;
+		LOG_EXCEPTION() << lua_tostring(luaState, -1);
+	}
+
+	lua_close(luaState);
+}
+
 void LuaScriptManager::RecompileScripts()
 {
 	for (LuaScriptComponent *comp : mScriptComponents)

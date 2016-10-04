@@ -28,15 +28,17 @@ private:
 	ReplicationManager();
 	~ReplicationManager();
 
-	const float ReplicationDelay = 100.0f; // TEMP: Don't do this. But make sure clients are not spammed with messages
+	const float ReplicationDelay = 50.0f; // TEMP: Don't do this. But make sure clients are not spammed with messages
 										// If too many messages are sent, clients will for some reason receive garbage messages??
 
-	//std::unordered_map<repid_t, IReplicable*> mReplicatingObjects;
-	std::vector<IReplicable*> mReplicatingObjects;
+	std::unordered_map<repid_t, IReplicable*> mReplicatingObjects;
+	//std::vector<IReplicable*> mReplicatingObjects;
 
 	std::vector<NetMessage> mIncomingMessageQueue;
 
 	Timer mServerReplicationTimer;
+	std::unordered_map<repid_t, IReplicable*>::iterator mReplicationIterator;
+
 
 public:
 	void AddIncomingMessage(NetMessage arg_message);
