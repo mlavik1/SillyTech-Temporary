@@ -53,7 +53,7 @@ void TcpConnection::sendMessage(TCPsocket &socket, const char *arg_message)
 
 void TcpConnection::sendMessage(TCPsocket &socket, const char *arg_message, int length)
 {
-	SDLNet_TCP_Send(socket, arg_message, length);
+	int bytesSent = SDLNet_TCP_Send(socket, arg_message, length);
 }
 
 bool TcpConnection::IsConnected()

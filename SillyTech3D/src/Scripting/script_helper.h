@@ -34,7 +34,7 @@ public:
 
 	static void CreateReplicatedActor(const char* arg_name);
 	static void CreateReplicatedActorFromModel(const char* arg_name, const char *arg_model);
-	static void ServerCall(const char* arg_call);
+	static void ServerCall(int arg_serverid, const char* arg_call);
 	static void MulticastCall(const char* arg_call);
 
 	static LuaScriptComponent *NewLuaScriptComponent();

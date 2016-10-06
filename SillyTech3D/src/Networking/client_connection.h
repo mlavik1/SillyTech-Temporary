@@ -8,7 +8,7 @@ class ClientConnection : public TcpConnection
 private:
 	TCPsocket mServerSocket;
 
-	std::function<void(const char*)> mMessageCallback;
+	std::function<void(const char*, int)> mMessageCallback;
 	//void(*mMessageCallback)(const char*);
 	void(*mServerDisconnectedCallback)() = 0;
 

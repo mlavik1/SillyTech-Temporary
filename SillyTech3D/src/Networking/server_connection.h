@@ -11,7 +11,7 @@ private:
 	int mMaxClients;
 
 	// Callbacks:
-	std::function<void(int, const char*)> mMessageCallback;
+	std::function<void(int, const char*, int)> mMessageCallback;
 	std::function<void(int)> mClientConnectedCallback;
 	std::function<void(int)> mClientDisconnectedCallback;
 

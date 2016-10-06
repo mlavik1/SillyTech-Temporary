@@ -44,10 +44,12 @@ void ReplicationManager::OnFrame()
 			for (size_t i = 0; i < sizeof(repid_t); i++)
 				oss << reinterpret_cast<char *>(&repID)[i];
 			oss << repl->GetReplicatedData().str();
-			NetMessage netMessage(NetMessageType::ObjectReplication, 90/*NONONO!!!*/, oss.str().c_str());
+			NetMessage netMessage(NetMessageType::ObjectReplication, 85/*NONONO!!!*/, oss.str().c_str());
 
 			NetworkingFeature::Instance()->AddOutgoingMessage(netMessage);
-		} mReplicationIterator ++ ; // temp - TODO: check if we need to replicate
+
+			mReplicationIterator++; // temp - TODO: check if we need to replicate
+		} 
 	}
 
 	for (NetMessage &netMessage : mIncomingMessageQueue) // TODO: Store NetMessage (not string) in list

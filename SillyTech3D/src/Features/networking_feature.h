@@ -37,8 +37,11 @@ private:
 	std::vector<ClientConnection*> mClientConnections; // May connect to multiple servers
 	ServerConnection* mServerConnection = nullptr;
 
-	void handleIncomingServerMessage(int arg_Server, const char* arg_message);
-	void handleIncomingClientMessage(int arg_client, const char* arg_message);
+	void handleIncomingServerMessage(int arg_Server, const char* arg_message, int arg_bytes);
+	void handleIncomingClientMessage(int arg_client, const char* arg_message, int arg_bytes);
+
+	NetMessage mIncompleteMessage;
+	int mRemainingMessageParts = 0;
 
 public:
 	void SetServer();

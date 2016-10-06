@@ -1,6 +1,7 @@
 #include "networking_feature.h"
 #include "replication_manager.h"
 #include "lua_script_manager.h"
+#include "st_assert.h"
 
 __ImplementSingleton(NetworkingFeature)
 
@@ -48,10 +49,14 @@ void NetworkingFeature::OnFrame()
 		{
 			for (NetMessage &msg : pair.second)
 			{
-				if (pair.first == -1)
-					mServerConnection->SendMessageToAll(msg.GetStringRepresentation().c_str(), 90/*msg.GetTotalLength()*/);
-				else
-					mServerConnection->SendMessage(pair.first, msg.GetStringRepresentation().c_str(), msg.GetTotalLength());
+				for (int i = 0; i < msg.GetMessagePartCount(); i++)
+				{
+					std::string msgStr = msg.GetStringRepresentation(i);
+					if (pair.first == -1)
+						mServerConnection->SendMessageToAll(msgStr.c_str(), msgStr.length());
+					else
+						mServerConnection->SendMessage(pair.first, msgStr.c_str(), msgStr.length());
+				}
 			}
 		}
 	}
@@ -134,7 +139,7 @@ void NetworkingFeature::ConnectToServer(const char* arg_host)
 	{
 		connectionIndex = mClientConnections.size();
 		connection = new ClientConnection();
-		connection->SetMessageCallback([&](const char* arg_message) -> void { handleIncomingServerMessage(connectionIndex, arg_message); });
+		connection->SetMessageCallback([&](const char* arg_message, int arg_bytes) -> void { handleIncomingServerMessage(connectionIndex, arg_message, arg_bytes); });
 		bool connected = connection->Connect(arg_host, mPort);
 		if (connected)
 		{
@@ -155,16 +160,40 @@ void NetworkingFeature::DisconnectFromServer(const char* arg_host)
 
 }
 
-void NetworkingFeature::handleIncomingServerMessage(int arg_Server, const char* arg_message)
+void NetworkingFeature::handleIncomingServerMessage(int arg_Server, const char* arg_message, int arg_bytes)
 {
-	NetMessage netMessage(arg_message);
-
-	if (netMessage.GetMessageType() == NetMessageType::Ignored)
+	NetMessage incomingMessage(arg_message);
+	
+	if (incomingMessage.GetMessageType() == NetMessageType::Ignored)
 	{
 		LOG_WARNING() << "Received ignored message: " << arg_message;
+		return;
 	}
 
-	else if (netMessage.GetMessageType() == NetMessageType::ObjectReplication)
+
+	if (incomingMessage.GetMessagePartCount() > 1 && (mRemainingMessageParts == 0 || mIncompleteMessage.GetMessageType() != incomingMessage.GetMessageType() || mIncompleteMessage.GetMessageLength() != incomingMessage.GetTotalLength()))
+	{
+		mRemainingMessageParts = incomingMessage.GetMessagePartCount() - 1;
+		mIncompleteMessage = incomingMessage;
+		mRemainingMessageParts--;
+		return;
+	}
+
+	else if (mRemainingMessageParts > 0) // merge messages
+	{
+		__AssertComment(mIncompleteMessage.GetMessageType() == incomingMessage.GetMessageType() && mIncompleteMessage.GetMessageLength() == incomingMessage.GetTotalLength(), "NetMessage mismatch");
+	
+		mIncompleteMessage.AppendMessage(incomingMessage.GetMessage());
+		mRemainingMessageParts--;
+
+		if (mRemainingMessageParts > 0)
+			return;
+	}
+	NetMessage& netMessage = (incomingMessage.GetMessagePartCount() > 1) ? mIncompleteMessage : incomingMessage;
+	
+
+	
+	if (netMessage.GetMessageType() == NetMessageType::ObjectReplication)
 	{
 		ReplicationManager::Instance()->AddIncomingMessage(netMessage);
 	}
@@ -176,11 +205,11 @@ void NetworkingFeature::handleIncomingServerMessage(int arg_Server, const char* 
 	
 }
 
-void NetworkingFeature::handleIncomingClientMessage(int arg_client, const char* arg_message)
+void NetworkingFeature::handleIncomingClientMessage(int arg_client, const char* arg_message, int arg_bytes)
 {
 	NetMessage netMessage(arg_message);
 
-	LOG_INFO() << "Message from client " << arg_client << ": " << netMessage.GetStringRepresentation();
+	LOG_INFO() << "Message from client " << arg_client << ": " << netMessage.GetMessage();
 
 }
 

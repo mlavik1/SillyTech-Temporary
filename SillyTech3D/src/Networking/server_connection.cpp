@@ -62,10 +62,11 @@ FetchMessages:
 		if (SDLNet_CheckSockets(mSocketSet, 0) > 0 && SDLNet_SocketReady(mClients[i]))
 		{
 			char text[BUFFER_SIZE];
-			if (SDLNet_TCP_Recv(mClients[i], text, 100) > 0)
+			int bytesReceived = SDLNet_TCP_Recv(mClients[i], text, 100);
+			if (bytesReceived > 0)
 			{
 				if (mMessageCallback)
-					mMessageCallback(i, text);
+					mMessageCallback(i, text, bytesReceived);
 			}
 			else
 			{

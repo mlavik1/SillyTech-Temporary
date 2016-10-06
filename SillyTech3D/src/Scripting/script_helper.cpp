@@ -97,23 +97,21 @@ void ScriptHelper::CreateReplicatedActorFromModel(const char * arg_name, const c
 {
 	if (NetworkingFeature::Instance()->IsServer())
 	{
-		Actor* actor = ActorFactory::CreateFromModel(arg_model);
-		actor->SetName(arg_name);
+		Actor* actor = CreateActorFromModel(arg_name, arg_model);
 		repid_t repID = ReplicationManager::Instance()->SetReplicate(actor, true);
 		std::ostringstream oss;
 		oss << "MulticastCall(\"CreateActorFromModel('" << arg_name << "', '" << arg_model << "'):SetReplicate(" << repID << ")\")";
 		MulticastCall(oss.str().c_str());
-		//LuaScriptManager::Instance()->ExectureLine(oss.str().c_str());
-		EditorGUI::RefreshSceneHierarchy();
 	}
 	else
 	{
-		std::string strCall = std::string("ServerCall(\"CreateReplicatedActorFromModel('") + std::string(arg_name) + std::string("', '") + std::string(arg_model) + std::string("')\")");
-		LuaScriptManager::Instance()->ExectureLine(strCall.c_str());
+		LOG_WARNING() << "Client cannot directly create replicated actor";
+		//std::string strCall = std::string("ServerCall(0, \"CreateReplicatedActorFromModel('") + std::string(arg_name) + std::string("', '") + std::string(arg_model) + std::string("')\")");
+		//LuaScriptManager::Instance()->ExectureLine(strCall.c_str());
 	}
 }
 
-void ScriptHelper::ServerCall(const char* arg_call)
+void ScriptHelper::ServerCall(int arg_serverid, const char* arg_call)
 {
 	if (NetworkingFeature::Instance()->IsServer())
 	{
@@ -122,6 +120,9 @@ void ScriptHelper::ServerCall(const char* arg_call)
 	else
 	{
 		// TODO: send message to server
+
+		//NetMessage netMessage(NetMessageType::LuaCall, strlen(arg_call) + 1, arg_call);
+		//NetworkingFeature::Instance()->AddOutgoingMessage(arg_call);
 	}
 }
 
