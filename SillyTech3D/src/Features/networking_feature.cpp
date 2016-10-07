@@ -40,10 +40,33 @@ void NetworkingFeature::OnFrame()
 {
 	Feature::OnFrame();
 
+	// Send messages to servers
+	for (auto& pair : mOutgoingServerMessages)
+	{
+		for (NetMessage &msg : pair.second)
+		{
+			for (int i = 0; i < msg.GetMessagePartCount(); i++)
+			{
+				std::string msgStr = msg.GetStringRepresentation(i);
+				if (pair.first == -1)
+				{
+					for (ClientConnection* conn : mClientConnections)
+					{
+						conn->SendMessage(msgStr.c_str(), msgStr.length());
+					}
+				}
+				else
+				{
+					mClientConnections[pair.first]->SendMessage(msgStr.c_str(), msgStr.length());
+				}
+			}
+		}
+	}
+
+	// Send messages to clients
 	if (mServerConnection != nullptr && mIsServer)
 	{
 		mServerConnection->FetchNewMessages();
-
 
 		for (auto& pair : mOutgoingClientMessages)
 		{
@@ -60,20 +83,25 @@ void NetworkingFeature::OnFrame()
 			}
 		}
 	}
-		
-	else if (mClientConnections.size() > 0 /*&& !mIsServer*/)
+	// fetch messages from servers
+	if (mClientConnections.size() > 0 /*&& !mIsServer*/)
 	{
 		for (ClientConnection* conn : mClientConnections)
 		{
 			conn->FetchNewMessages();
 		}
 	}
+
+	// fetch messages from clients
+	if (mServerConnection != nullptr)
+	{
+		mServerConnection->FetchNewMessages();
+	}
 		
 	mIncomingServerMessages.clear();
 	mOutgoingClientMessages.clear();
+	mOutgoingServerMessages.clear();
 
-
-	// We may manually add new incoming/outgoing messages after this
 }
 
 void NetworkingFeature::OnStart()
@@ -104,7 +132,7 @@ void NetworkingFeature::SetServer()
 
 	mServerConnection->Connect(mPort);
 
-	//mServerConnection->SetMessageCallback(&NetworkingFeature::handleIncomingMessage);
+	mServerConnection->SetMessageCallback([&](int arg_clientid, const char* arg_message, int arg_bytes) -> void { handleIncomingClientMessage(arg_clientid, arg_message, arg_bytes); });
 	
 }
 
@@ -213,13 +241,23 @@ void NetworkingFeature::handleIncomingClientMessage(int arg_client, const char* 
 
 }
 
+NetMessage NetworkingFeature::processMessage(const char* arg_message)
+{
+	return NetMessage(""); // Not implemented - TODO
+}
+
 
 bool NetworkingFeature::IsServer()
 {
 	return mIsServer;
 }
 
-void NetworkingFeature::AddOutgoingMessage(NetMessage arg_message, int arg_socket)
+void NetworkingFeature::AddOutgoingClientMessage(NetMessage arg_message, int arg_socket)
 {
 	mOutgoingClientMessages[arg_socket].push_back(arg_message);
+}
+
+void NetworkingFeature::AddOutgoingServerMessage(NetMessage arg_message, int arg_serverid)
+{
+	mOutgoingServerMessages[arg_serverid].push_back(arg_message);
 }

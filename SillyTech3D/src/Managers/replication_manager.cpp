@@ -46,7 +46,7 @@ void ReplicationManager::OnFrame()
 			oss << repl->GetReplicatedData().str();
 			NetMessage netMessage(NetMessageType::ObjectReplication, 85/*NONONO!!!*/, oss.str().c_str());
 
-			NetworkingFeature::Instance()->AddOutgoingMessage(netMessage);
+			NetworkingFeature::Instance()->AddOutgoingClientMessage(netMessage);
 
 			mReplicationIterator++; // temp - TODO: check if we need to replicate
 		} 

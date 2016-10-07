@@ -119,10 +119,8 @@ void ScriptHelper::ServerCall(int arg_serverid, const char* arg_call)
 	}
 	else
 	{
-		// TODO: send message to server
-
-		//NetMessage netMessage(NetMessageType::LuaCall, strlen(arg_call) + 1, arg_call);
-		//NetworkingFeature::Instance()->AddOutgoingMessage(arg_call);
+		NetMessage netMessage(NetMessageType::LuaCall, strlen(arg_call) + 1, arg_call);
+		NetworkingFeature::Instance()->AddOutgoingServerMessage(netMessage, arg_serverid);
 	}
 }
 
@@ -132,7 +130,7 @@ void ScriptHelper::MulticastCall(const char* arg_call)
 	{
 		//LuaScriptManager::Instance()->ExectureLine(arg_call);
 		NetMessage netMessage(NetMessageType::LuaCall, strlen(arg_call) + 1, arg_call);
-		NetworkingFeature::Instance()->AddOutgoingMessage(netMessage);
+		NetworkingFeature::Instance()->AddOutgoingClientMessage(netMessage);
 	}
 	else
 	{

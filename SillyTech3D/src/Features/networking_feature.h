@@ -30,6 +30,7 @@ private:
 	std::vector<NetMessage>				mIncomingClientMessages; // Messages from clients
 	std::unordered_map<int, std::vector<NetMessage>> mIncomingServerMessages; // Messages from server
 	std::unordered_map<int, std::vector<NetMessage>> mOutgoingClientMessages; // Messages to clients
+	std::unordered_map<int, std::vector<NetMessage>> mOutgoingServerMessages; // Messages to servers
 
 	bool mIsServer = false;
 	int mPort;
@@ -39,6 +40,7 @@ private:
 
 	void handleIncomingServerMessage(int arg_Server, const char* arg_message, int arg_bytes);
 	void handleIncomingClientMessage(int arg_client, const char* arg_message, int arg_bytes);
+	NetMessage processMessage(const char* arg_message);
 
 	NetMessage mIncompleteMessage;
 	int mRemainingMessageParts = 0;
@@ -52,7 +54,8 @@ public:
 
 	bool IsServer();
 
-	void AddOutgoingMessage(NetMessage arg_message, int arg_socket = -1);
+	void AddOutgoingClientMessage(NetMessage arg_message, int arg_socket = -1);
+	void AddOutgoingServerMessage(NetMessage arg_message, int arg_serverid = 0);
 
 };
 
